@@ -1,0 +1,530 @@
+09-28-22 05:06:05 INFO   Starting
+09-28-22 05:06:05 INFO   Using Board 10
+09-28-22 05:06:06 INFO   Power: On, Voltage: 1.2000 V, Current: 0.2605 A, Temp: -13.7173 C, Res.: 947.19 Ohms
+09-28-22 05:06:06 DEBUG  Sending 28 bit PRBS w headers
+09-28-22 05:06:06 DEBUG  Test vector settings {'output_select': 2, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 4026531840, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:06:06 INFO   Configuring ASIC
+09-28-22 05:06:09 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:06:09 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:06:09 INFO    phaseSelect: 00, prbs_chk_err_cnt: [255, 255, 32, 213, 40, 0, 0, 0, 255, 0, 25, 2]
+09-28-22 05:06:09 INFO    phaseSelect: 01, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 122, 255, 131, 255, 255, 255, 255]
+09-28-22 05:06:09 INFO    phaseSelect: 02, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 05:06:10 INFO    phaseSelect: 03, prbs_chk_err_cnt: [255, 65, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 05:06:10 INFO    phaseSelect: 04, prbs_chk_err_cnt: [73, 0, 255, 255, 255, 255, 255, 255, 57, 255, 255, 255]
+09-28-22 05:06:10 INFO    phaseSelect: 05, prbs_chk_err_cnt: [0, 0, 0, 0, 0, 255, 24, 30, 0, 14, 1, 0]
+09-28-22 05:06:10 INFO    phaseSelect: 06, prbs_chk_err_cnt: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-28-22 05:06:10 INFO    phaseSelect: 07, prbs_chk_err_cnt: [0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-28-22 05:06:11 INFO    phaseSelect: 08, prbs_chk_err_cnt: [255, 255, 2, 25, 28, 0, 0, 0, 26, 0, 3, 18]
+09-28-22 05:06:11 INFO    phaseSelect: 09, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 2, 178, 242, 255, 22, 255, 255]
+09-28-22 05:06:11 INFO    phaseSelect: 10, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 05:06:11 INFO    phaseSelect: 11, prbs_chk_err_cnt: [255, 17, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 05:06:11 INFO    phaseSelect: 12, prbs_chk_err_cnt: [1, 0, 255, 255, 255, 255, 255, 255, 34, 255, 255, 59]
+09-28-22 05:06:11 INFO    phaseSelect: 13, prbs_chk_err_cnt: [0, 0, 0, 1, 0, 255, 255, 7, 0, 121, 7, 0]
+09-28-22 05:06:12 INFO    phaseSelect: 14, prbs_chk_err_cnt: [0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-28-22 05:06:12 INFO   Error Array:
+array([[255, 255,  32, 213,  40,   0,   0,   0, 255,   0,  25,   2],
+       [255, 255, 255, 255, 255, 122, 255, 131, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,  65, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [ 73,   0, 255, 255, 255, 255, 255, 255,  57, 255, 255, 255],
+       [  0,   0,   0,   0,   0, 255,  24,  30,   0,  14,   1,   0],
+       [  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [  0, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [255, 255,   2,  25,  28,   0,   0,   0,  26,   0,   3,  18],
+       [255, 255, 255, 255, 255,   2, 178, 242, 255,  22, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,  17, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [  1,   0, 255, 255, 255, 255, 255, 255,  34, 255, 255,  59],
+       [  0,   0,   0,   1,   0, 255, 255,   7,   0, 121,   7,   0],
+       [  0,   4,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]])
+09-28-22 05:06:12 INFO   Best phase settings: 6,5,6,6,6,7,7,7,6,7,6,6
+09-28-22 05:06:12 INFO   Best phase settings (5-setting window): 5,12,6,6,6,7,6,6,6,7,6,6
+09-28-22 05:06:12 DEBUG  Set fixed phase 5,12,6,6,6,7,6,6,6,7,6,6
+09-28-22 05:06:13 DEBUG  Sending 28 bit PRBS w headers
+09-28-22 05:06:13 DEBUG  Test vector settings {'output_select': 2, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 4026531840, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:06:14 INFO   FC status_locked: 1
+09-28-22 05:06:14 INFO   PUSM status: 9
+09-28-22 05:06:17 DEBUG  link_reset_roct: 3500
+09-28-22 05:06:17 INFO   Trying alignment with snapshot BX=2
+09-28-22 05:06:19 INFO   ASIC
+09-28-22 05:06:19 INFO   eRx 00:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 01:  status 6 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+09-28-22 05:06:19 INFO   eRx 02:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 03:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 04:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 05:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 06:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 07:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 08:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 09:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 10:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   eRx 11:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 05:06:19 INFO   Trying alignment with snapshot BX=3
+09-28-22 05:06:21 INFO   ASIC
+09-28-22 05:06:21 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 01:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+09-28-22 05:06:21 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   Good ASIC alignment
+09-28-22 05:06:21 INFO   Trying alignment with delay=4
+09-28-22 05:06:21 INFO   ASIC
+09-28-22 05:06:21 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 01:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+09-28-22 05:06:21 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 05:06:21 INFO   Emulator
+09-28-22 05:06:21 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 05:06:21 INFO   Good ASIC alignment
+09-28-22 05:06:21 INFO   Good emulator alignment
+09-28-22 05:06:21 INFO   Good input word alignment, snapshotBX 3 and delay 4
+09-28-22 05:06:23 INFO   Good hdr_mm_counters, not increasing: [107  54  55  55  57  54  95  85  54  54  59  55]
+09-28-22 05:06:23 DEBUG  Setting bypass switch output_select to 1
+09-28-22 05:06:26 DEBUG  Num links 13 13
+09-28-22 05:06:26 DEBUG  Aligning ASIC: Setting phase of enable to 0
+09-28-22 05:06:28 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:28 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 05:06:28 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 05:06:28 INFO   Links lc-ASIC are aligned
+09-28-22 05:06:30 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:06:31 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+09-28-22 05:06:31 DEBUG  Setting latency for lc-ASIC to 0
+09-28-22 05:06:31 DEBUG  Setting latency array [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:06:31 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:06:31 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:31 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 05:06:33 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:06:33 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 05:06:33 DEBUG  Compare BX0
+09-28-22 05:06:33 DEBUG  Reference position is same as target 103
+09-28-22 05:06:33 DEBUG  All links found BX0 in the same position as reference position 103
+09-28-22 05:06:33 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:06:33 INFO   Found BX0 word for ASIC 103
+09-28-22 05:06:33 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+09-28-22 05:06:33 DEBUG  Setting latency for lc-emulator to 0
+09-28-22 05:06:33 DEBUG  Setting latency array [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:06:33 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:06:33 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:33 DEBUG  Set acquire to 1 for ['lc-emulator']
+09-28-22 05:06:35 DEBUG  Length of captured data for lc-emulator: 4095
+09-28-22 05:06:35 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 05:06:35 DEBUG  Compare BX0
+09-28-22 05:06:35 DEBUG  Reference position is 103
+09-28-22 05:06:35 DEBUG  All links found BX0 in the same position as reference position 103
+09-28-22 05:06:35 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+09-28-22 05:06:35 INFO   Found BX0 word for emulator 103 
+09-28-22 05:06:35 DEBUG  Num links 13 13
+09-28-22 05:06:35 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:35 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+09-28-22 05:06:35 INFO   Word count 409107, error count 0
+09-28-22 05:06:36 INFO   Links are aligned between ASIC and emulator
+09-28-22 05:06:39 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 05:06:39 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 05:06:39 DEBUG  Stop continous acquire for lc-input
+09-28-22 05:06:39 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:39 INFO   l1a counter 167
+09-28-22 05:06:39 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+09-28-22 05:06:39 DEBUG  L1A counter 168
+09-28-22 05:06:39 INFO   l1a counter 168
+09-28-22 05:06:40 DEBUG  Length of captured data for lc-ASIC: 10
+09-28-22 05:06:40 DEBUG  Length of captured data for lc-emulator: 10
+09-28-22 05:06:40 DEBUG  Length of captured data for lc-input: 10
+09-28-22 05:06:40 INFO   Printing lc-ASIC
+09-28-22 05:06:40 INFO   149bffff,ffffffff,e5965d7e,5965d7e5,965d7e59,65d7e596,5d7e5965,d7e5965d,7e5965d7,e5965d7e,5965d7e5,965d7e59,65d71122
+09-28-22 05:06:40 INFO   1c9effff,ffffffff,5cf3ca25,cf3ca25c,f3ca25cf,3ca25cf3,ca25cf3c,a25cf3ca,25cf3ca2,5cf3ca25,cf3ca25c,f3ca25cf,3ca21922
+09-28-22 05:06:40 INFO   249beeee,eeeeeeee,8bcf3c5e,79e2f3cf,179e78bc,f3c5e79e,2f3cf179,e78bcf3c,5e79e2f3,cf179e70,21222122,21222122,21222122
+09-28-22 05:06:40 INFO   2c8effff,ffffffff,293cf682,93cf6829,3cf68293,cf68293c,f68293cf,68293cf6,8293cf68,293cf682,93cf6829,3cf68293,cf682922
+09-28-22 05:06:40 INFO   349fffff,ffffffff,a373cb2a,373cb2a3,73cb2a37,3cb2a373,cb2a373c,b2a373cb,2a373cb2,a373cb2a,373cb2a3,73cb2a37,3cb23122
+09-28-22 05:06:40 INFO   3c96ffff,ffffffff,8baf39e8,baf39e8b,af39e8ba,f39e8baf,39e8baf3,9e8baf39,e8baf39e,8baf39e8,baf39e8b,af39e8ba,f39e3922
+09-28-22 05:06:40 INFO   449effff,ffffffff,2944f792,944f7929,44f79294,4f792944,f792944f,792944f7,92944f79,2944f792,944f7929,44f79294,4f794122
+09-28-22 05:06:40 INFO   4c7affff,ffffffff,a315ca7a,315ca7a3,15ca7a31,5ca7a315,ca7a315c,a7a315ca,7a315ca7,a315ca7a,315ca7a3,15ca7a31,5ca74922
+09-28-22 05:06:40 INFO   549beeee,eeeeeeee,cbd0be5e,85f2f42f,97a17cbd,0be5e85f,2f42f97a,17cbd0be,5e85f2f4,2f97a170,51225122,51225122,51225122
+09-28-22 05:06:40 INFO   5c92dddd,dddddddd,392769c9,3b4e49da,724ed392,769c93b4,e49da724,ed392769,c93b4e49,da724ed0,59225922,59225922,59225922
+09-28-22 05:06:40 INFO   Printing lc-emulator
+09-28-22 05:06:40 INFO   149bffff,ffffffff,e5965d7e,5965d7e5,965d7e59,65d7e596,5d7e5965,d7e5965d,7e5965d7,e5965d7e,5965d7e5,965d7e59,65d71122
+09-28-22 05:06:40 INFO   1c9effff,ffffffff,5cf3ca25,cf3ca25c,f3ca25cf,3ca25cf3,ca25cf3c,a25cf3ca,25cf3ca2,5cf3ca25,cf3ca25c,f3ca25cf,3ca21922
+09-28-22 05:06:40 INFO   249beeee,eeeeeeee,8bcf3c5e,79e2f3cf,179e78bc,f3c5e79e,2f3cf179,e78bcf3c,5e79e2f3,cf179e70,21222122,21222122,21222122
+09-28-22 05:06:40 INFO   2c8effff,ffffffff,293cf682,93cf6829,3cf68293,cf68293c,f68293cf,68293cf6,8293cf68,293cf682,93cf6829,3cf68293,cf682922
+09-28-22 05:06:40 INFO   349fffff,ffffffff,a373cb2a,373cb2a3,73cb2a37,3cb2a373,cb2a373c,b2a373cb,2a373cb2,a373cb2a,373cb2a3,73cb2a37,3cb23122
+09-28-22 05:06:40 INFO   3c96ffff,ffffffff,8baf39e8,baf39e8b,af39e8ba,f39e8baf,39e8baf3,9e8baf39,e8baf39e,8baf39e8,baf39e8b,af39e8ba,f39e3922
+09-28-22 05:06:40 INFO   449effff,ffffffff,2944f792,944f7929,44f79294,4f792944,f792944f,792944f7,92944f79,2944f792,944f7929,44f79294,4f794122
+09-28-22 05:06:40 INFO   4c7affff,ffffffff,a315ca7a,315ca7a3,15ca7a31,5ca7a315,ca7a315c,a7a315ca,7a315ca7,a315ca7a,315ca7a3,15ca7a31,5ca74922
+09-28-22 05:06:40 INFO   549beeee,eeeeeeee,cbd0be5e,85f2f42f,97a17cbd,0be5e85f,2f42f97a,17cbd0be,5e85f2f4,2f97a170,51225122,51225122,51225122
+09-28-22 05:06:40 INFO   5c92dddd,dddddddd,392769c9,3b4e49da,724ed392,769c93b4,e49da724,ed392769,c93b4e49,da724ed0,59225922,59225922,59225922
+09-28-22 05:06:40 INFO   Printing lc-input
+09-28-22 05:06:40 INFO   adadaded,adadaded,adadaded,adadaded,adadaded,adadaded,adadaded,adadaded,adadaded,adadaded,adadaded,adadaded
+09-28-22 05:06:40 INFO   aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696,aec6c696
+09-28-22 05:06:40 INFO   a9777733,a9777733,a9777733,a9777733,a9777733,a9777733,a9777733,a9777733,a9777733,a9777733,a9777733,a9777733
+09-28-22 05:06:40 INFO   a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff,a32aaaff
+09-28-22 05:06:40 INFO   afe00040,afe00040,afe00040,afe00040,afe00040,afe00040,afe00040,afe00040,afe00040,afe00040,afe00040,afe00040
+09-28-22 05:06:40 INFO   a0180050,a0180050,a0180050,a0180050,a0180050,a0180050,a0180050,a0180050,a0180050,a0180050,a0180050,a0180050
+09-28-22 05:06:40 INFO   a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044,a01e0044
+09-28-22 05:06:40 INFO   a0198055,a0198055,a0198055,a0198055,a0198055,a0198055,a0198055,a0198055,a0198055,a0198055,a0198055,a0198055
+09-28-22 05:06:40 INFO   a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040,a01fe040
+09-28-22 05:06:40 INFO   a4181850,a4181850,a4181850,a4181850,a4181850,a4181850,a4181850,a4181850,a4181850,a4181850,a4181850,a4181850
+09-28-22 05:06:40 INFO   Configuring stream compare
+09-28-22 05:06:41 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:41 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:41 DEBUG  Stop continous acquire for lc-input
+09-28-22 05:06:41 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 05:06:41 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 05:06:41 DEBUG  Configure continous acquire
+09-28-22 05:06:41 INFO   Starting stream compare (CTRL-C to stop and do capture and I2C compare)
+09-28-22 05:06:41 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3282 A, Temp: -13.6801 C, Res.: 947.33 Ohms
+09-28-22 05:06:41 INFO   Word count 14383754, error count 0
+09-28-22 05:06:42 ERROR  RO Mismatches: {'ASIC': {'CH_ERR_12_ALL': {'error_data': (84, 86), 'error_data_err_dat': (20, 22)}}}
+09-28-22 05:06:42 DEBUG  RO Mismatches: {'ASIC': {}}
+09-28-22 05:06:42 INFO   RW Matches
+09-28-22 05:06:42 INFO   Word count 51675684, error count 2
+09-28-22 05:06:42 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 05:06:42 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 05:06:42 DEBUG  Stop continous acquire for lc-input
+09-28-22 05:06:42 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:42 INFO   l1a counter 168
+09-28-22 05:06:42 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+09-28-22 05:06:42 DEBUG  L1A counter 169
+09-28-22 05:06:42 INFO   l1a counter 169
+09-28-22 05:06:43 DEBUG  Length of captured data for lc-ASIC: 10
+09-28-22 05:06:43 DEBUG  Length of captured data for lc-emulator: 10
+09-28-22 05:06:43 DEBUG  Length of captured data for lc-input: 10
+09-28-22 05:06:43 INFO   Printing lc-ASIC
+09-28-22 05:06:43 INFO   1487ffff,ffffffff,7cc30a87,cc30a87c,c30a87cc,30a87cc3,0a87cc30,a87cc30a,87cc30a8,7cc30a87,cc30a87c,c30a87cc,30a81122
+09-28-22 05:06:43 INFO   1ca8eeee,eeeeeeee,a3f3cd1f,9e68fcf3,47e79a3f,3cd1f9e6,8fcf347e,79a3f3cd,1f9e68fc,f347e790,19221922,19221922,19221922
+09-28-22 05:06:43 INFO   248cffff,ffffffff,8b0f3a28,b0f3a28b,0f3a28b0,f3a28b0f,3a28b0f3,a28b0f3a,28b0f3a2,8b0f3a28,b0f3a28b,0f3a28b0,f3a22122
+09-28-22 05:06:43 INFO   2c98ffff,ffffffff,29ccf4a2,9ccf4a29,ccf4a29c,cf4a29cc,f4a29ccf,4a29ccf4,a29ccf4a,29ccf4a2,9ccf4a29,ccf4a29c,cf4a2922
+09-28-22 05:06:43 INFO   34a2ffff,ffffffff,a3bfc98a,3bfc98a3,bfc98a3b,fc98a3bf,c98a3bfc,98a3bfc9,8a3bfc98,a3bfc98a,3bfc98a3,bfc98a3b,fc983122
+09-28-22 05:06:43 INFO   3c7a5555,55555555,a8faa3ea,8faa3ea8,faa3ea8f,aa3ea8fa,a3ea8faa,3e003922,39223922,39223922,39223922,39223922,39223922
+09-28-22 05:06:43 INFO   44885555,55555555,c3470d1c,3470d1c3,470d1c34,70d1c347,0d1c3470,d1004122,41224122,41224122,41224122,41224122,41224122
+09-28-22 05:06:43 INFO   4c9eeeee,eeeeeeee,8be53c5f,29e2f94f,17ca78be,53c5f29e,2f94f17c,a78be53c,5f29e2f9,4f17ca70,49224922,49224922,49224922
+09-28-22 05:06:43 INFO   549bdddd,dddddddd,e91f2748,f93a47c9,d23e4e91,f2748f93,a47c9d23,e4e91f27,48f93a47,c9d23e40,51225122,51225122,51225122
+09-28-22 05:06:43 INFO   5c94ffff,ffffffff,935b6bd9,35b6bd93,5b6bd935,b6bd935b,6bd935b6,bd935b6b,d935b6bd,935b6bd9,35b6bd93,5b6bd935,b6bd5922
+09-28-22 05:06:43 INFO   Printing lc-emulator
+09-28-22 05:06:43 INFO   1487ffff,ffffffff,7cc30a87,cc30a87c,c30a87cc,30a87cc3,0a87cc30,a87cc30a,87cc30a8,7cc30a87,cc30a87c,c30a87cc,30a81122
+09-28-22 05:06:43 INFO   1ca8eeee,eeeeeeee,a3f3cd1f,9e68fcf3,47e79a3f,3cd1f9e6,8fcf347e,79a3f3cd,1f9e68fc,f347e790,19221922,19221922,19221922
+09-28-22 05:06:43 INFO   248cffff,ffffffff,8b0f3a28,b0f3a28b,0f3a28b0,f3a28b0f,3a28b0f3,a28b0f3a,28b0f3a2,8b0f3a28,b0f3a28b,0f3a28b0,f3a22122
+09-28-22 05:06:43 INFO   2c98ffff,ffffffff,29ccf4a2,9ccf4a29,ccf4a29c,cf4a29cc,f4a29ccf,4a29ccf4,a29ccf4a,29ccf4a2,9ccf4a29,ccf4a29c,cf4a2922
+09-28-22 05:06:43 INFO   34a2ffff,ffffffff,a3bfc98a,3bfc98a3,bfc98a3b,fc98a3bf,c98a3bfc,98a3bfc9,8a3bfc98,a3bfc98a,3bfc98a3,bfc98a3b,fc983122
+09-28-22 05:06:43 INFO   3c7a5555,55555555,a8faa3ea,8faa3ea8,faa3ea8f,aa3ea8fa,a3ea8faa,3e003922,39223922,39223922,39223922,39223922,39223922
+09-28-22 05:06:43 INFO   44885555,55555555,c3470d1c,3470d1c3,470d1c34,70d1c347,0d1c3470,d1004122,41224122,41224122,41224122,41224122,41224122
+09-28-22 05:06:43 INFO   4c9eeeee,eeeeeeee,8be53c5f,29e2f94f,17ca78be,53c5f29e,2f94f17c,a78be53c,5f29e2f9,4f17ca70,49224922,49224922,49224922
+09-28-22 05:06:43 INFO   549bdddd,dddddddd,e91f2748,f93a47c9,d23e4e91,f2748f93,a47c9d23,e4e91f27,48f93a47,c9d23e40,51225122,51225122,51225122
+09-28-22 05:06:43 INFO   5c94ffff,ffffffff,935b6bd9,35b6bd93,5b6bd935,b6bd935b,6bd935b6,bd935b6b,d935b6bd,935b6bd9,35b6bd93,5b6bd935,b6bd5922
+09-28-22 05:06:43 INFO   Printing lc-input
+09-28-22 05:06:43 INFO   a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9,a0a3a3c9
+09-28-22 05:06:43 INFO   ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b,ac8b4b3b
+09-28-22 05:06:43 INFO   aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5,aba999f5
+09-28-22 05:06:43 INFO   a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88,a543ff88
+09-28-22 05:06:43 INFO   a013006a,a013006a,a013006a,a013006a,a013006a,a013006a,a013006a,a013006a,a013006a,a013006a,a013006a,a013006a
+09-28-22 05:06:43 INFO   a017c070,a017c070,a017c070,a017c070,a017c070,a017c070,a017c070,a017c070,a017c070,a017c070,a017c070,a017c070
+09-28-22 05:06:43 INFO   a812306c,a812306c,a812306c,a812306c,a812306c,a812306c,a812306c,a812306c,a812306c,a812306c,a812306c,a812306c
+09-28-22 05:06:43 INFO   aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77,aa16bc77
+09-28-22 05:06:43 INFO   a893136a,a893136a,a893136a,a893136a,a893136a,a893136a,a893136a,a893136a,a893136a,a893136a,a893136a,a893136a
+09-28-22 05:06:43 INFO   a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0,a6b7d7b0
+09-28-22 05:06:43 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:43 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:06:43 DEBUG  Stop continous acquire for lc-input
+09-28-22 05:06:43 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 05:06:43 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 05:06:43 DEBUG  Configure continous acquire
+09-28-22 05:06:43 INFO   Word count 23783, error count 0
+09-28-22 05:06:43 INFO   Starting Power Scans ( timestamp 28Sep_050643 )
+09-28-22 05:06:43 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:06:43 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:06:43 INFO   Setting to 1.08 V
+09-28-22 05:06:45 INFO   Power: On, Voltage: 1.0800 V, Current: 0.2822 A, Temp: -13.6592 C, Res.: 947.41 Ohms
+09-28-22 05:06:59 INFO   Good PLL settings V=1.08: [27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121, 122, 123]
+09-28-22 05:06:59 INFO      CapSel=27, V=1.08, PUSM=9, V=1.08, I=0.2821
+09-28-22 05:07:00 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:00 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:05 INFO      CapSel=28, V=1.08, PUSM=9, V=1.07, I=0.2845
+09-28-22 05:07:05 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:05 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:10 INFO      CapSel=29, V=1.08, PUSM=9, V=1.08, I=0.2852
+09-28-22 05:07:10 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:10 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:15 INFO      CapSel=30, V=1.08, PUSM=9, V=1.08, I=0.2852
+09-28-22 05:07:16 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:16 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:21 INFO      CapSel=31, V=1.08, PUSM=9, V=1.07, I=0.2851
+09-28-22 05:07:21 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:21 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:26 INFO      CapSel=56, V=1.08, PUSM=9, V=1.08, I=0.2850
+09-28-22 05:07:26 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:26 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:31 INFO      CapSel=57, V=1.08, PUSM=9, V=1.07, I=0.2848
+09-28-22 05:07:32 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:32 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:37 INFO      CapSel=58, V=1.08, PUSM=9, V=1.08, I=0.2848
+09-28-22 05:07:37 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:37 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:42 INFO      CapSel=59, V=1.08, PUSM=9, V=1.08, I=0.2847
+09-28-22 05:07:42 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:42 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:47 INFO      CapSel=60, V=1.08, PUSM=9, V=1.08, I=0.2846
+09-28-22 05:07:48 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:48 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:53 INFO      CapSel=61, V=1.08, PUSM=9, V=1.08, I=0.2831
+09-28-22 05:07:53 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:53 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:07:58 INFO      CapSel=62, V=1.08, PUSM=9, V=1.07, I=0.2829
+09-28-22 05:07:58 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:07:58 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:04 INFO      CapSel=63, V=1.08, PUSM=9, V=1.08, I=0.2841
+09-28-22 05:08:04 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:04 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:09 INFO      CapSel=120, V=1.08, PUSM=9, V=1.08, I=0.2840
+09-28-22 05:08:09 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:09 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:14 INFO      CapSel=121, V=1.08, PUSM=9, V=1.07, I=0.2839
+09-28-22 05:08:14 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:14 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:20 INFO      CapSel=122, V=1.08, PUSM=9, V=1.08, I=0.2838
+09-28-22 05:08:20 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:20 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:25 INFO      CapSel=123, V=1.08, PUSM=9, V=1.08, I=0.2828
+09-28-22 05:08:25 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:25 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:30 INFO   Setting to 1.32 V
+09-28-22 05:08:31 INFO   Power: On, Voltage: 1.3100 V, Current: 0.3127 A, Temp: -13.6976 C, Res.: 947.26 Ohms
+09-28-22 05:08:45 INFO   Good PLL settings V=1.32: [24, 25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121]
+09-28-22 05:08:46 INFO      CapSel=24, V=1.32, PUSM=9, V=1.31, I=0.3814
+09-28-22 05:08:46 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:46 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:51 INFO      CapSel=25, V=1.32, PUSM=9, V=1.32, I=0.3825
+09-28-22 05:08:51 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:51 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:08:56 INFO      CapSel=26, V=1.32, PUSM=9, V=1.31, I=0.3838
+09-28-22 05:08:57 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:08:57 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:02 INFO      CapSel=27, V=1.32, PUSM=9, V=1.31, I=0.3817
+09-28-22 05:09:02 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:02 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:07 INFO      CapSel=28, V=1.32, PUSM=9, V=1.31, I=0.3815
+09-28-22 05:09:07 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:07 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:12 INFO      CapSel=29, V=1.32, PUSM=9, V=1.31, I=0.3812
+09-28-22 05:09:13 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:13 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:18 INFO      CapSel=30, V=1.32, PUSM=9, V=1.31, I=0.3811
+09-28-22 05:09:18 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:18 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:23 INFO      CapSel=31, V=1.32, PUSM=9, V=1.31, I=0.3810
+09-28-22 05:09:23 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:23 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:28 INFO      CapSel=56, V=1.32, PUSM=9, V=1.32, I=0.3808
+09-28-22 05:09:29 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:29 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:34 INFO      CapSel=57, V=1.32, PUSM=9, V=1.32, I=0.3804
+09-28-22 05:09:34 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:34 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:39 INFO      CapSel=58, V=1.32, PUSM=9, V=1.31, I=0.3822
+09-28-22 05:09:39 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:39 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:44 INFO      CapSel=59, V=1.32, PUSM=9, V=1.31, I=0.3823
+09-28-22 05:09:45 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:45 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:50 INFO      CapSel=60, V=1.32, PUSM=9, V=1.31, I=0.3813
+09-28-22 05:09:50 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:50 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:09:55 INFO      CapSel=61, V=1.32, PUSM=9, V=1.32, I=0.3816
+09-28-22 05:09:55 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:09:55 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:00 INFO      CapSel=62, V=1.32, PUSM=9, V=1.31, I=0.3801
+09-28-22 05:10:01 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:01 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:06 INFO      CapSel=63, V=1.32, PUSM=9, V=1.31, I=0.3801
+09-28-22 05:10:06 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:06 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:11 INFO      CapSel=120, V=1.32, PUSM=9, V=1.31, I=0.3799
+09-28-22 05:10:11 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:11 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:16 INFO      CapSel=121, V=1.32, PUSM=9, V=1.31, I=0.3801
+09-28-22 05:10:17 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:17 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:21 INFO   Setting to 1.2 V
+09-28-22 05:10:23 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3303 A, Temp: -13.4808 C, Res.: 948.10 Ohms
+09-28-22 05:10:37 INFO   Good PLL settings V=1.20: [25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121, 122]
+09-28-22 05:10:37 INFO      CapSel=25, V=1.20, PUSM=9, V=1.20, I=0.3321
+09-28-22 05:10:38 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:38 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:43 INFO      CapSel=26, V=1.20, PUSM=9, V=1.19, I=0.3324
+09-28-22 05:10:43 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:43 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:48 INFO      CapSel=27, V=1.20, PUSM=9, V=1.19, I=0.3332
+09-28-22 05:10:48 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:48 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:54 INFO      CapSel=28, V=1.20, PUSM=9, V=1.20, I=0.3321
+09-28-22 05:10:54 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:54 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:10:59 INFO      CapSel=29, V=1.20, PUSM=9, V=1.19, I=0.3319
+09-28-22 05:10:59 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:10:59 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:04 INFO      CapSel=30, V=1.20, PUSM=9, V=1.20, I=0.3318
+09-28-22 05:11:04 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:04 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:10 INFO      CapSel=31, V=1.20, PUSM=9, V=1.20, I=0.3317
+09-28-22 05:11:10 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:10 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:15 INFO      CapSel=56, V=1.20, PUSM=9, V=1.20, I=0.3316
+09-28-22 05:11:15 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:15 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:20 INFO      CapSel=57, V=1.20, PUSM=9, V=1.19, I=0.3315
+09-28-22 05:11:21 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:21 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:26 INFO      CapSel=58, V=1.20, PUSM=9, V=1.19, I=0.3314
+09-28-22 05:11:26 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:26 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:31 INFO      CapSel=59, V=1.20, PUSM=9, V=1.20, I=0.3299
+09-28-22 05:11:31 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:31 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:37 INFO      CapSel=60, V=1.20, PUSM=9, V=1.20, I=0.3316
+09-28-22 05:11:37 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:37 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:42 INFO      CapSel=61, V=1.20, PUSM=9, V=1.19, I=0.3314
+09-28-22 05:11:42 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:42 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:47 INFO      CapSel=62, V=1.20, PUSM=9, V=1.20, I=0.3314
+09-28-22 05:11:47 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:47 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:53 INFO      CapSel=63, V=1.20, PUSM=9, V=1.19, I=0.3304
+09-28-22 05:11:53 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:53 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:11:58 INFO      CapSel=120, V=1.20, PUSM=9, V=1.20, I=0.3302
+09-28-22 05:11:58 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:11:58 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:12:03 INFO      CapSel=121, V=1.20, PUSM=9, V=1.20, I=0.3300
+09-28-22 05:12:04 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:12:04 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:12:09 INFO      CapSel=122, V=1.20, PUSM=9, V=1.20, I=0.3302
+09-28-22 05:12:09 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 05:12:09 DEBUG  Test vector settings {'output_select': 1, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 0, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:12:14 INFO   Setting PLL VCO CapSelect to 31 with phaseSelect settings of 5,5,6,6,6,7,7,7,6,7,6,6
+09-28-22 05:12:15 DEBUG  Set fixed phase 5,5,6,6,6,7,7,7,6,7,6,6
+09-28-22 05:12:17 DEBUG  Sending 28 bit PRBS w headers
+09-28-22 05:12:17 DEBUG  Test vector settings {'output_select': 2, 'n_idle_words': 255, 'idle_word': 2899102924, 'idle_word_BX0': 2630667468, 'header_mask': 4026531840, 'header': 2684354560, 'header_BX0': 2415919104}
+09-28-22 05:12:17 DEBUG  Setting bypass switch output_select to 1
+09-28-22 05:12:20 DEBUG  Num links 13 13
+09-28-22 05:12:20 DEBUG  Aligning ASIC: Setting phase of enable to 0
+09-28-22 05:12:22 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:12:22 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 05:12:22 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 05:12:22 INFO   Links lc-ASIC are aligned
+09-28-22 05:12:24 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:12:24 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+09-28-22 05:12:24 DEBUG  Setting latency for lc-ASIC to 0
+09-28-22 05:12:24 DEBUG  Setting latency array [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:24 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:24 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:12:24 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 05:12:26 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:12:26 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, -1, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666]
+09-28-22 05:12:26 DEBUG  Compare BX0
+09-28-22 05:12:26 DEBUG  Reference position is same as target 102
+09-28-22 05:12:26 DEBUG  All links found BX0 in the same position as reference position 102
+09-28-22 05:12:26 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:26 INFO   Found BX0 word for ASIC 102
+09-28-22 05:12:26 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 102
+09-28-22 05:12:26 DEBUG  Setting latency for lc-emulator to 0
+09-28-22 05:12:26 DEBUG  Setting latency array [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:26 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:26 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:12:26 DEBUG  Set acquire to 1 for ['lc-emulator']
+09-28-22 05:12:28 DEBUG  Length of captured data for lc-emulator: 4095
+09-28-22 05:12:28 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 05:12:28 DEBUG  Compare BX0
+09-28-22 05:12:28 DEBUG  Reference position is 102
+09-28-22 05:12:28 DEBUG  All links found BX0 in a same position earlier than the reference position
+09-28-22 05:12:28 INFO   Trying to find ASIC latency again
+09-28-22 05:12:28 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position 103
+09-28-22 05:12:28 DEBUG  Setting latency for lc-ASIC to 0
+09-28-22 05:12:28 DEBUG  Setting latency array [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:28 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 05:12:28 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:12:28 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 05:12:30 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:12:30 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, -1, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666]
+09-28-22 05:12:30 DEBUG  Compare BX0
+09-28-22 05:12:30 DEBUG  Reference position is 103
+09-28-22 05:12:30 WARNING No links found BX0 in same position as reference position 103 for orbit 0
+09-28-22 05:12:30 DEBUG  Reference position is 103
+09-28-22 05:12:30 WARNING No links found BX0 in same position as reference position 103 for orbit 1
+09-28-22 05:12:30 DEBUG  Setting latency for lc-ASIC to 1
+09-28-22 05:12:30 DEBUG  Setting latency array [1 1 1 1 1 1 1 1 1 1 1 1 1]
+09-28-22 05:12:30 DEBUG  Written latencies in lc-ASIC: [1 1 1 1 1 1 1 1 1 1 1 1 1]
+09-28-22 05:12:30 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 0, 'orbitSync': 0, 'linkreset_ECONt': 1, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:12:30 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 05:12:32 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:12:33 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 05:12:33 DEBUG  Compare BX0
+09-28-22 05:12:33 DEBUG  Reference position is same as target 103
+09-28-22 05:12:33 DEBUG  All links found BX0 in the same position as reference position 103
+09-28-22 05:12:33 DEBUG  Num links 13 13
+09-28-22 05:12:33 DEBUG  Configure acquire with bx 0 and  {'mode_in': 2, 'L1A': 1, 'orbitSync': 0, 'linkreset_ECONt': 0, 'linkreset_ECONd': 0, 'linkreset_ROCt': 0, 'linkreset_ROCd': 0}
+09-28-22 05:12:33 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+09-28-22 05:12:33 INFO   Word count 409147, error count 404080
+09-28-22 05:12:33 WARNING eTx error count after alignment: 404080
+09-28-22 05:12:35 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:12:36 DEBUG  Length of captured data for lc-emulator: 4095
+09-28-22 05:12:49 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3284 A, Temp: -13.5578 C, Res.: 947.80 Ohms
+09-28-22 05:12:49 INFO   Word count 414869601, error count 414869601
+09-28-22 05:12:49 INFO   Word count 414918549, error count 414918549
+09-28-22 05:12:51 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:12:52 DEBUG  Length of captured data for lc-emulator: 4095
+09-28-22 05:12:53 DEBUG  Length of captured data for lc-input: 511
+09-28-22 05:12:57 ERROR  Errors in 1 consecutive comparisons
+09-28-22 05:13:07 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3284 A, Temp: -13.5707 C, Res.: 947.75 Ohms
+09-28-22 05:13:07 INFO   Word count 414747825, error count 414747825
+09-28-22 05:13:07 INFO   Word count 414798040, error count 414798040
+09-28-22 05:13:10 DEBUG  Length of captured data for lc-ASIC: 4095
+09-28-22 05:13:11 DEBUG  Length of captured data for lc-emulator: 4095
+09-28-22 05:13:12 DEBUG  Length of captured data for lc-input: 511
