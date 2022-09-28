@@ -1,0 +1,478 @@
+09-28-22 14:43:48 INFO   Starting
+09-28-22 14:43:48 INFO   Using Board 10
+09-28-22 14:43:49 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3267 A, Temp: -13.5592 C, Res.: 947.80 Ohms
+09-28-22 14:43:49 DEBUG  Sending 28 bit PRBS w headers
+09-28-22 14:43:49 INFO   Configuring ASIC
+09-28-22 14:43:51 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:43:52 INFO    phaseSelect: 00, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 228, 255, 255, 255, 255]
+09-28-22 14:43:52 INFO    phaseSelect: 01, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:52 INFO    phaseSelect: 02, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:52 INFO    phaseSelect: 03, prbs_chk_err_cnt: [255, 153, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:53 INFO    phaseSelect: 04, prbs_chk_err_cnt: [100, 0, 255, 255, 255, 255, 255, 255, 96, 255, 255, 255]
+09-28-22 14:43:53 INFO    phaseSelect: 05, prbs_chk_err_cnt: [0, 0, 2, 1, 6, 255, 80, 101, 0, 33, 12, 3]
+09-28-22 14:43:53 INFO    phaseSelect: 06, prbs_chk_err_cnt: [3, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-28-22 14:43:53 INFO    phaseSelect: 07, prbs_chk_err_cnt: [255, 255, 6, 59, 28, 0, 0, 0, 45, 0, 3, 2]
+09-28-22 14:43:53 INFO    phaseSelect: 08, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:53 INFO    phaseSelect: 09, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:54 INFO    phaseSelect: 10, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:54 INFO    phaseSelect: 11, prbs_chk_err_cnt: [255, 54, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-28-22 14:43:54 INFO    phaseSelect: 12, prbs_chk_err_cnt: [13, 0, 255, 255, 255, 255, 255, 255, 125, 255, 255, 248]
+09-28-22 14:43:54 INFO    phaseSelect: 13, prbs_chk_err_cnt: [0, 1, 5, 17, 6, 255, 255, 58, 2, 255, 44, 2]
+09-28-22 14:43:54 INFO    phaseSelect: 14, prbs_chk_err_cnt: [94, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-28-22 14:43:54 INFO   Error Array:
+array([[255, 255, 255, 255, 255, 255, 255, 228, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 153, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [100,   0, 255, 255, 255, 255, 255, 255,  96, 255, 255, 255],
+       [  0,   0,   2,   1,   6, 255,  80, 101,   0,  33,  12,   3],
+       [  3, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [255, 255,   6,  59,  28,   0,   0,   0,  45,   0,   3,   2],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,  54, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [ 13,   0, 255, 255, 255, 255, 255, 255, 125, 255, 255, 248],
+       [  0,   1,   5,  17,   6, 255, 255,  58,   2, 255,  44,   2],
+       [ 94, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]])
+09-28-22 14:43:54 INFO   Best phase settings: 5,12,6,6,6,6,6,6,6,6,6,6
+09-28-22 14:43:54 INFO   Best phase settings (5-setting window): 5,12,6,6,6,6,6,6,6,6,6,6
+09-28-22 14:43:55 DEBUG  Set fixed phase 5,12,6,6,6,6,6,6,6,6,6,6
+09-28-22 14:43:56 DEBUG  Sending 28 bit PRBS w headers
+09-28-22 14:43:57 INFO   FC status_locked: 1
+09-28-22 14:43:57 INFO   PUSM status: 9
+09-28-22 14:44:00 INFO   Trying alignment with snapshot BX=2
+09-28-22 14:44:02 INFO   ASIC
+09-28-22 14:44:02 INFO   eRx 00:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 01:  status 2 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+09-28-22 14:44:02 INFO   eRx 02:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 03:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 04:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 05:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 06:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 07:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 08:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 09:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 10:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   eRx 11:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-28-22 14:44:02 INFO   Trying alignment with snapshot BX=3
+09-28-22 14:44:04 INFO   ASIC
+09-28-22 14:44:04 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 01:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+09-28-22 14:44:04 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   Good ASIC alignment
+09-28-22 14:44:04 INFO   Trying alignment with delay=4
+09-28-22 14:44:04 INFO   ASIC
+09-28-22 14:44:04 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 01:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+09-28-22 14:44:04 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-28-22 14:44:04 INFO   Emulator
+09-28-22 14:44:04 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-28-22 14:44:04 INFO   Good ASIC alignment
+09-28-22 14:44:04 INFO   Good emulator alignment
+09-28-22 14:44:04 INFO   Good input word alignment, snapshotBX 3 and delay 4
+09-28-22 14:44:06 ERROR  Increase in channels [0 5]: [5 0 0 0 0 1 0 0 0 0 0 0]
+09-28-22 14:44:06 ERROR            previous values [174 120 122 122 128 170 157 151  90 143 128 123]
+09-28-22 14:44:06 ERROR            current values [179 120 122 122 128 171 157 151  90 143 128 123]
+09-28-22 14:44:09 DEBUG  Aligning ASIC: Setting phase of enable to 0
+09-28-22 14:44:10 DEBUG  Links from-IO are aligned
+09-28-22 14:44:10 DEBUG  P-side delay setting: {0: 212, 1: 222, 2: 246, 3: 215, 4: 279, 5: 243, 6: 288, 7: 261, 8: 298, 9: 212, 10: 256, 11: 243, 12: 232}, Eye width: {0: 136, 1: 144, 2: 144, 3: 144, 4: 136, 5: 144, 6: 144, 7: 144, 8: 144, 9: 136, 10: 144, 11: 144, 12: 144}
+09-28-22 14:44:11 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 14:44:11 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-28-22 14:44:11 INFO   Links lc-ASIC are aligned
+09-28-22 14:44:14 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+09-28-22 14:44:14 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:44:14 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 14:44:17 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 14:44:17 DEBUG  Compare BX0
+09-28-22 14:44:17 DEBUG  Reference position is same as target 103
+09-28-22 14:44:17 DEBUG  All links found BX0 in the same position as reference position 103
+09-28-22 14:44:17 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:44:17 INFO   Found BX0 word for ASIC 103
+09-28-22 14:44:17 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+09-28-22 14:44:17 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:44:17 DEBUG  Set acquire to 1 for ['lc-emulator']
+09-28-22 14:44:19 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 14:44:19 DEBUG  Compare BX0
+09-28-22 14:44:19 DEBUG  Reference position is 103
+09-28-22 14:44:19 DEBUG  All links found BX0 in the same position as reference position 103
+09-28-22 14:44:19 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+09-28-22 14:44:19 INFO   Found BX0 word for emulator 103 
+09-28-22 14:44:19 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+09-28-22 14:44:19 INFO   Word count 409512, error count 0
+09-28-22 14:44:19 INFO   Links are aligned between ASIC and emulator
+09-28-22 14:44:22 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 14:44:22 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 14:44:22 DEBUG  Stop continous acquire for lc-input
+09-28-22 14:44:22 INFO   l1a counter 208
+09-28-22 14:44:22 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+09-28-22 14:44:22 DEBUG  L1A counter 209
+09-28-22 14:44:22 INFO   l1a counter 209
+09-28-22 14:44:23 INFO   Printing lc-ASIC
+09-28-22 14:44:23 INFO   14635555,55555555,7c85f217,c85f217c,85f217c8,5f217c85,f217c85f,21001122,11221122,11221122,11221122,11221122,11221122
+09-28-22 14:44:23 INFO   1c697777,77777777,63014b18,0a58c052,c6029630,14b180a5,8c052c60,2963014b,180a58c0,52c60290,19221922,19221922,19221922
+09-28-22 14:44:23 INFO   2494ffff,ffffffff,40f78234,0f782340,f782340f,782340f7,82340f78,2340f782,340f7823,40f78234,0f782340,f782340f,78232122
+09-28-22 14:44:23 INFO   2c727777,77777777,65315b29,8ad94c56,ca62b653,15b298ad,94c56ca6,2b65315b,298ad94c,56ca62b0,29222922,29222922,29222922
+09-28-22 14:44:23 INFO   3490ffff,ffffffff,d4f8fa1d,4f8fa1d4,f8fa1d4f,8fa1d4f8,fa1d4f8f,a1d4f8fa,1d4f8fa1,d4f8fa1d,4f8fa1d4,f8fa1d4f,8fa13122
+09-28-22 14:44:23 INFO   3c987777,77777777,e3624f1b,1278d893,c6c49e36,24f1b127,8d893c6c,49e3624f,1b1278d8,93c6c490,39223922,39223922,39223922
+09-28-22 14:44:23 INFO   449bffff,ffffffff,69b775b6,9b775b69,b775b69b,775b69b7,75b69b77,5b69b775,b69b775b,69b775b6,9b775b69,b775b69b,775b4122
+09-28-22 14:44:23 INFO   4c9beeee,eeeeeeee,33daa99e,d54cf6aa,67b5533d,aa99ed54,cf6aa67b,5533daa9,9ed54cf6,aa67b550,49224922,49224922,49224922
+09-28-22 14:44:23 INFO   54a3dddd,dddddddd,ff2d77f9,6bbfcb5d,fe5aeff2,d77f96bb,fcb5dfe5,aeff2d77,f96bbfcb,5dfe5ae0,51225122,51225122,51225122
+09-28-22 14:44:23 INFO   5c86ffff,ffffffff,80e70258,0e702580,e702580e,702580e7,02580e70,2580e702,580e7025,80e70258,0e702580,e702580e,70255922
+09-28-22 14:44:23 INFO   Printing lc-emulator
+09-28-22 14:44:23 INFO   14635555,55555555,7c85f217,c85f217c,85f217c8,5f217c85,f217c85f,21001122,11221122,11221122,11221122,11221122,11221122
+09-28-22 14:44:23 INFO   1c697777,77777777,63014b18,0a58c052,c6029630,14b180a5,8c052c60,2963014b,180a58c0,52c60290,19221922,19221922,19221922
+09-28-22 14:44:23 INFO   2494ffff,ffffffff,40f78234,0f782340,f782340f,782340f7,82340f78,2340f782,340f7823,40f78234,0f782340,f782340f,78232122
+09-28-22 14:44:23 INFO   2c727777,77777777,65315b29,8ad94c56,ca62b653,15b298ad,94c56ca6,2b65315b,298ad94c,56ca62b0,29222922,29222922,29222922
+09-28-22 14:44:23 INFO   3490ffff,ffffffff,d4f8fa1d,4f8fa1d4,f8fa1d4f,8fa1d4f8,fa1d4f8f,a1d4f8fa,1d4f8fa1,d4f8fa1d,4f8fa1d4,f8fa1d4f,8fa13122
+09-28-22 14:44:23 INFO   3c987777,77777777,e3624f1b,1278d893,c6c49e36,24f1b127,8d893c6c,49e3624f,1b1278d8,93c6c490,39223922,39223922,39223922
+09-28-22 14:44:23 INFO   449bffff,ffffffff,69b775b6,9b775b69,b775b69b,775b69b7,75b69b77,5b69b775,b69b775b,69b775b6,9b775b69,b775b69b,775b4122
+09-28-22 14:44:23 INFO   4c9beeee,eeeeeeee,33daa99e,d54cf6aa,67b5533d,aa99ed54,cf6aa67b,5533daa9,9ed54cf6,aa67b550,49224922,49224922,49224922
+09-28-22 14:44:23 INFO   54a3dddd,dddddddd,ff2d77f9,6bbfcb5d,fe5aeff2,d77f96bb,fcb5dfe5,aeff2d77,f96bbfcb,5dfe5ae0,51225122,51225122,51225122
+09-28-22 14:44:23 INFO   5c86ffff,ffffffff,80e70258,0e702580,e702580e,702580e7,02580e70,2580e702,580e7025,80e70258,0e702580,e702580e,70255922
+09-28-22 14:44:23 INFO   Printing lc-input
+09-28-22 14:44:23 INFO   a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0,a05fe1c0
+09-28-22 14:44:23 INFO   a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0,a44819b0
+09-28-22 14:44:23 INFO   a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc,a55a1fdc
+09-28-22 14:44:23 INFO   a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b,a40c982b
+09-28-22 14:44:23 INFO   a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21,a50fbe21
+09-28-22 14:44:23 INFO   a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9,a84c51a9
+09-28-22 14:44:23 INFO   ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3,ae5f45c3
+09-28-22 14:44:23 INFO   a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3,a9c894b3
+09-28-22 14:44:23 INFO   a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f,a7bab19f
+09-28-22 14:44:23 INFO   aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8,aa541df8
+09-28-22 14:44:23 INFO   Configuring stream compare
+09-28-22 14:44:24 DEBUG  Stop continous acquire for lc-input
+09-28-22 14:44:24 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 14:44:24 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 14:44:24 DEBUG  Configure continous acquire
+09-28-22 14:44:24 INFO   Starting stream compare (CTRL-C to stop and do capture and I2C compare)
+09-28-22 14:44:25 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3267 A, Temp: -13.4941 C, Res.: 948.05 Ohms
+09-28-22 14:44:25 INFO   Word count 14291361, error count 0
+09-28-22 14:44:26 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'hdr_mm_cntr': (343, 570)}, 'CH_ALIGNER_5INPUT_ALL': {'hdr_mm_cntr': (229, 347)}, 'CH_ALIGNER_6INPUT_ALL': {'hdr_mm_cntr': (111, 119)}, 'CH_ALIGNER_7INPUT_ALL': {'hdr_mm_cntr': (93, 95)}, 'CH_ERR_12_ALL': {'error_data': (84, 86), 'error_data_err_dat': (20, 22)}}}
+09-28-22 14:44:26 DEBUG  RO Mismatches: {'ASIC': {}}
+09-28-22 14:44:26 INFO   RW Matches
+09-28-22 14:44:26 INFO   Word count 51505620, error count 2750
+09-28-22 14:44:27 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 14:44:27 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 14:44:27 DEBUG  Stop continous acquire for lc-input
+09-28-22 14:44:27 INFO   l1a counter 209
+09-28-22 14:44:27 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+09-28-22 14:44:27 DEBUG  L1A counter 210
+09-28-22 14:44:27 INFO   l1a counter 210
+09-28-22 14:44:28 INFO   Printing lc-ASIC
+09-28-22 14:44:28 INFO   14a2dddd,dddddddd,fc50f7e2,87bf143d,f8a1efc5,0f7e287b,f143df8a,1efc50f7,e287bf14,3df8a1e0,11221122,11221122,11221122
+09-28-22 14:44:28 INFO   1c785555,55555555,a2e68b9a,2e68b9a2,e68b9a2e,68b9a2e6,8b9a2e68,b9001922,19221922,19221922,19221922,19221922,19221922
+09-28-22 14:44:28 INFO   248affff,ffffffff,83950978,39509783,95097839,50978395,09783950,97839509,78395097,83950978,39509783,95097839,50972122
+09-28-22 14:44:28 INFO   2c98dddd,dddddddd,e371971b,8cb8dc65,c6e32e37,1971b8cb,8dc65c6e,32e37197,1b8cb8dc,65c6e320,29222922,29222922,29222922
+09-28-22 14:44:28 INFO   34905555,55555555,d67b59ed,67b59ed6,7b59ed67,b59ed67b,59ed67b5,9e003122,31223122,31223122,31223122,31223122,31223122
+09-28-22 14:44:28 INFO   3ca1ffff,ffffffff,9d474f99,d474f99d,474f99d4,74f99d47,4f99d474,f99d474f,99d474f9,9d474f99,d474f99d,474f99d4,74f93922
+09-28-22 14:44:28 INFO   447bbbbb,bbbbbbbb,3b4e39da,71ced38e,769c73b4,e39da71c,ed38e769,c73b4e39,da71ced3,8e769c70,41224122,41224122,41224122
+09-28-22 14:44:28 INFO   4c8cffff,ffffffff,74933b67,4933b674,933b6749,33b67493,3b674933,b674933b,674933b6,74933b67,4933b674,933b6749,33b64922
+09-28-22 14:44:28 INFO   54a6ffff,ffffffff,a9b7f5ba,9b7f5ba9,b7f5ba9b,7f5ba9b7,f5ba9b7f,5ba9b7f5,ba9b7f5b,a9b7f5ba,9b7f5ba9,b7f5ba9b,7f5b5122
+09-28-22 14:44:28 INFO   5c9a6666,66666666,ed07b41e,d07b41ed,07b41ed0,7b41ed07,b41ed07b,41005922,59225922,59225922,59225922,59225922,59225922
+09-28-22 14:44:28 INFO   Printing lc-emulator
+09-28-22 14:44:28 INFO   14a2dddd,dddddddd,fc50f7e2,87bf143d,f8a1efc5,0f7e287b,f143df8a,1efc50f7,e287bf14,3df8a1e0,11221122,11221122,11221122
+09-28-22 14:44:28 INFO   1c785555,55555555,a2e68b9a,2e68b9a2,e68b9a2e,68b9a2e6,8b9a2e68,b9001922,19221922,19221922,19221922,19221922,19221922
+09-28-22 14:44:28 INFO   248affff,ffffffff,83950978,39509783,95097839,50978395,09783950,97839509,78395097,83950978,39509783,95097839,50972122
+09-28-22 14:44:28 INFO   2c98dddd,dddddddd,e371971b,8cb8dc65,c6e32e37,1971b8cb,8dc65c6e,32e37197,1b8cb8dc,65c6e320,29222922,29222922,29222922
+09-28-22 14:44:28 INFO   34905555,55555555,d67b59ed,67b59ed6,7b59ed67,b59ed67b,59ed67b5,9e003122,31223122,31223122,31223122,31223122,31223122
+09-28-22 14:44:28 INFO   3ca1ffff,ffffffff,9d474f99,d474f99d,474f99d4,74f99d47,4f99d474,f99d474f,99d474f9,9d474f99,d474f99d,474f99d4,74f93922
+09-28-22 14:44:28 INFO   447bbbbb,bbbbbbbb,3b4e39da,71ced38e,769c73b4,e39da71c,ed38e769,c73b4e39,da71ced3,8e769c70,41224122,41224122,41224122
+09-28-22 14:44:28 INFO   4c8cffff,ffffffff,74933b67,4933b674,933b6749,33b67493,3b674933,b674933b,674933b6,74933b67,4933b674,933b6749,33b64922
+09-28-22 14:44:28 INFO   54a6ffff,ffffffff,a9b7f5ba,9b7f5ba9,b7f5ba9b,7f5ba9b7,f5ba9b7f,5ba9b7f5,ba9b7f5b,a9b7f5ba,9b7f5ba9,b7f5ba9b,7f5b5122
+09-28-22 14:44:28 INFO   5c9a6666,66666666,ed07b41e,d07b41ed,07b41ed0,7b41ed07,b41ed07b,41005922,59225922,59225922,59225922,59225922,59225922
+09-28-22 14:44:28 INFO   Printing lc-input
+09-28-22 14:44:28 INFO   a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66,a4eefa66
+09-28-22 14:44:28 INFO   a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff,a1d544ff
+09-28-22 14:44:28 INFO   a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0,a9a015c0
+09-28-22 14:44:28 INFO   a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0,a7c810b0
+09-28-22 14:44:28 INFO   a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c,a63a149c
+09-28-22 14:44:28 INFO   a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb,a7b491bb
+09-28-22 14:44:28 INFO   a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5,a659b5d5
+09-28-22 14:44:28 INFO   abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0,abcfd8a0
+09-28-22 14:44:28 INFO   ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88,ad3c2e88
+09-28-22 14:44:28 INFO   ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a,ae73252a
+09-28-22 14:44:28 DEBUG  Stop continous acquire for lc-input
+09-28-22 14:44:28 DEBUG  Stop continous acquire for lc-ASIC
+09-28-22 14:44:28 DEBUG  Stop continous acquire for lc-emulator
+09-28-22 14:44:28 DEBUG  Configure continous acquire
+09-28-22 14:44:28 INFO   Word count 23888, error count 0
+09-28-22 14:44:29 INFO   Starting Power Scans ( timestamp 28Sep_144428 )
+09-28-22 14:44:29 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:44:29 INFO   Setting to 1.08 V
+09-28-22 14:44:30 INFO   Power: On, Voltage: 1.0800 V, Current: 0.2812 A, Temp: -13.4673 C, Res.: 948.15 Ohms
+09-28-22 14:44:44 INFO   Good PLL settings V=1.08: [27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121, 122, 123]
+09-28-22 14:44:45 INFO      CapSel=27, V=1.08, PUSM=9, V=1.08, I=0.2812
+09-28-22 14:44:45 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:44:55 INFO      CapSel=28, V=1.08, PUSM=9, V=1.08, I=0.2812
+09-28-22 14:44:55 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:45:05 INFO      CapSel=29, V=1.08, PUSM=9, V=1.07, I=0.2808
+09-28-22 14:45:05 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:45:15 INFO      CapSel=30, V=1.08, PUSM=9, V=1.07, I=0.2808
+09-28-22 14:45:15 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:45:25 INFO      CapSel=31, V=1.08, PUSM=9, V=1.08, I=0.2807
+09-28-22 14:45:25 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:45:35 INFO      CapSel=56, V=1.08, PUSM=9, V=1.08, I=0.2806
+09-28-22 14:45:35 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:45:45 INFO      CapSel=57, V=1.08, PUSM=9, V=1.07, I=0.2805
+09-28-22 14:45:45 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:45:55 INFO      CapSel=58, V=1.08, PUSM=9, V=1.08, I=0.2804
+09-28-22 14:45:55 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:46:05 INFO      CapSel=59, V=1.08, PUSM=9, V=1.08, I=0.2803
+09-28-22 14:46:05 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:46:15 INFO      CapSel=60, V=1.08, PUSM=9, V=1.08, I=0.2803
+09-28-22 14:46:15 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:46:25 INFO      CapSel=61, V=1.08, PUSM=9, V=1.07, I=0.2802
+09-28-22 14:46:25 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:46:35 INFO      CapSel=62, V=1.08, PUSM=9, V=1.07, I=0.2799
+09-28-22 14:46:35 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:46:45 INFO      CapSel=63, V=1.08, PUSM=9, V=1.07, I=0.2791
+09-28-22 14:46:45 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:46:55 INFO      CapSel=120, V=1.08, PUSM=9, V=1.08, I=0.2798
+09-28-22 14:46:56 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:47:05 INFO      CapSel=121, V=1.08, PUSM=9, V=1.07, I=0.2795
+09-28-22 14:47:06 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:47:16 INFO      CapSel=122, V=1.08, PUSM=9, V=1.08, I=0.2794
+09-28-22 14:47:16 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:47:26 INFO      CapSel=123, V=1.08, PUSM=9, V=1.07, I=0.2796
+09-28-22 14:47:26 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:47:35 INFO   NOTE: ! Using 27 instead of 56
+09-28-22 14:47:35 INFO   Setting to 1.32 V
+09-28-22 14:47:36 INFO   Power: On, Voltage: 1.3100 V, Current: 0.3083 A, Temp: -13.6384 C, Res.: 947.49 Ohms
+09-28-22 14:47:51 INFO   Good PLL settings V=1.32: [24, 25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121]
+09-28-22 14:47:51 INFO      CapSel=24, V=1.32, PUSM=9, V=1.31, I=0.3762
+09-28-22 14:47:51 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:48:01 INFO      CapSel=25, V=1.32, PUSM=9, V=1.31, I=0.3766
+09-28-22 14:48:01 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:48:11 INFO      CapSel=26, V=1.32, PUSM=9, V=1.31, I=0.3764
+09-28-22 14:48:11 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:48:21 INFO      CapSel=27, V=1.32, PUSM=9, V=1.32, I=0.3764
+09-28-22 14:48:21 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:48:31 INFO      CapSel=28, V=1.32, PUSM=9, V=1.32, I=0.3762
+09-28-22 14:48:31 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:48:41 INFO      CapSel=29, V=1.32, PUSM=9, V=1.32, I=0.3760
+09-28-22 14:48:41 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:48:51 INFO      CapSel=30, V=1.32, PUSM=9, V=1.31, I=0.3760
+09-28-22 14:48:51 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:49:01 INFO      CapSel=31, V=1.32, PUSM=9, V=1.32, I=0.3759
+09-28-22 14:49:01 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:49:11 INFO      CapSel=56, V=1.32, PUSM=9, V=1.32, I=0.3758
+09-28-22 14:49:11 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:49:21 INFO      CapSel=57, V=1.32, PUSM=9, V=1.31, I=0.3756
+09-28-22 14:49:21 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:49:31 INFO      CapSel=58, V=1.32, PUSM=9, V=1.31, I=0.3753
+09-28-22 14:49:31 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:49:41 INFO      CapSel=59, V=1.32, PUSM=9, V=1.31, I=0.3752
+09-28-22 14:49:42 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:49:51 INFO      CapSel=60, V=1.32, PUSM=9, V=1.32, I=0.3750
+09-28-22 14:49:52 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:50:01 INFO      CapSel=61, V=1.32, PUSM=9, V=1.32, I=0.3748
+09-28-22 14:50:02 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:50:12 INFO      CapSel=62, V=1.32, PUSM=9, V=1.32, I=0.3745
+09-28-22 14:50:12 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:50:22 INFO      CapSel=63, V=1.32, PUSM=9, V=1.31, I=0.3742
+09-28-22 14:50:22 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:50:32 INFO      CapSel=120, V=1.32, PUSM=9, V=1.32, I=0.3740
+09-28-22 14:50:32 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:50:42 INFO      CapSel=121, V=1.32, PUSM=9, V=1.31, I=0.3741
+09-28-22 14:50:42 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:50:51 INFO   NOTE: ! Using 27 instead of 30
+09-28-22 14:50:51 INFO   Setting to 1.2 V
+09-28-22 14:50:53 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3251 A, Temp: -13.4475 C, Res.: 948.23 Ohms
+09-28-22 14:51:07 INFO   Good PLL settings V=1.20: [25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121, 122]
+09-28-22 14:51:07 INFO      CapSel=25, V=1.20, PUSM=9, V=1.19, I=0.3270
+09-28-22 14:51:07 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:51:17 INFO      CapSel=26, V=1.20, PUSM=9, V=1.20, I=0.3273
+09-28-22 14:51:17 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:51:27 INFO      CapSel=27, V=1.20, PUSM=9, V=1.20, I=0.3282
+09-28-22 14:51:27 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:51:37 INFO      CapSel=28, V=1.20, PUSM=9, V=1.20, I=0.3270
+09-28-22 14:51:37 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:51:47 INFO      CapSel=29, V=1.20, PUSM=9, V=1.19, I=0.3267
+09-28-22 14:51:47 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:51:57 INFO      CapSel=30, V=1.20, PUSM=9, V=1.20, I=0.3267
+09-28-22 14:51:57 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:52:07 INFO      CapSel=31, V=1.20, PUSM=9, V=1.19, I=0.3266
+09-28-22 14:52:08 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:52:17 INFO      CapSel=56, V=1.20, PUSM=9, V=1.19, I=0.3266
+09-28-22 14:52:18 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:52:27 INFO      CapSel=57, V=1.20, PUSM=9, V=1.20, I=0.3264
+09-28-22 14:52:28 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:52:37 INFO      CapSel=58, V=1.20, PUSM=9, V=1.20, I=0.3264
+09-28-22 14:52:38 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:52:48 INFO      CapSel=59, V=1.20, PUSM=9, V=1.20, I=0.3266
+09-28-22 14:52:48 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:52:58 INFO      CapSel=60, V=1.20, PUSM=9, V=1.19, I=0.3259
+09-28-22 14:52:58 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:53:08 INFO      CapSel=61, V=1.20, PUSM=9, V=1.20, I=0.3256
+09-28-22 14:53:08 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:53:18 INFO      CapSel=62, V=1.20, PUSM=9, V=1.20, I=0.3255
+09-28-22 14:53:18 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:53:28 INFO      CapSel=63, V=1.20, PUSM=9, V=1.20, I=0.3263
+09-28-22 14:53:28 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:53:38 INFO      CapSel=120, V=1.20, PUSM=9, V=1.20, I=0.3252
+09-28-22 14:53:38 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:53:48 INFO      CapSel=121, V=1.20, PUSM=9, V=1.20, I=0.3248
+09-28-22 14:53:48 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:53:58 INFO      CapSel=122, V=1.20, PUSM=9, V=1.19, I=0.3250
+09-28-22 14:53:58 DEBUG  Sending 32 bit PRBS w no header mask
+09-28-22 14:54:07 INFO   NOTE: ! Using 27 instead of 31
+09-28-22 14:54:07 INFO   Setting PLL VCO CapSelect to 27 with phaseSelect settings of 5,12,6,6,6,6,6,6,6,6,6,6
+09-28-22 14:54:09 DEBUG  Set fixed phase 5,12,6,6,6,6,6,6,6,6,6,6
+09-28-22 14:54:10 DEBUG  Sending 28 bit PRBS w headers
+09-28-22 14:54:14 DEBUG  Aligning ASIC: Setting phase of enable to 0
+09-28-22 14:54:15 DEBUG  Links from-IO are aligned
+09-28-22 14:54:15 DEBUG  P-side delay setting: {0: 215, 1: 225, 2: 245, 3: 219, 4: 275, 5: 245, 6: 288, 7: 260, 8: 296, 9: 218, 10: 252, 11: 244, 12: 228}, Eye width: {0: 144, 1: 152, 2: 152, 3: 160, 4: 152, 5: 152, 6: 152, 7: 152, 8: 152, 9: 152, 10: 152, 11: 152, 12: 152}
+09-28-22 14:54:16 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 14:54:16 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(1)
+09-28-22 14:54:16 INFO   Links lc-ASIC are aligned
+09-28-22 14:54:19 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+09-28-22 14:54:19 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:54:19 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 14:54:21 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, -1, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666]
+09-28-22 14:54:21 DEBUG  Compare BX0
+09-28-22 14:54:21 DEBUG  Reference position is same as target 102
+09-28-22 14:54:21 DEBUG  All links found BX0 in the same position as reference position 102
+09-28-22 14:54:21 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:54:21 INFO   Found BX0 word for ASIC 102
+09-28-22 14:54:21 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 102
+09-28-22 14:54:21 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:54:21 DEBUG  Set acquire to 1 for ['lc-emulator']
+09-28-22 14:54:23 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 14:54:23 DEBUG  Compare BX0
+09-28-22 14:54:23 DEBUG  Reference position is 102
+09-28-22 14:54:23 DEBUG  All links found BX0 in a same position earlier than the reference position
+09-28-22 14:54:23 INFO   Trying to find ASIC latency again
+09-28-22 14:54:23 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position 103
+09-28-22 14:54:23 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-28-22 14:54:23 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 14:54:25 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, -1, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666, 3666]
+09-28-22 14:54:25 DEBUG  Compare BX0
+09-28-22 14:54:25 DEBUG  Reference position is 103
+09-28-22 14:54:25 WARNING No links found BX0 in same position as reference position 103 for orbit 0
+09-28-22 14:54:25 DEBUG  Reference position is 103
+09-28-22 14:54:25 WARNING No links found BX0 in same position as reference position 103 for orbit 1
+09-28-22 14:54:25 DEBUG  Written latencies in lc-ASIC: [1 1 1 1 1 1 1 1 1 1 1 1 1]
+09-28-22 14:54:25 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-28-22 14:54:27 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-28-22 14:54:27 DEBUG  Compare BX0
+09-28-22 14:54:27 DEBUG  Reference position is same as target 103
+09-28-22 14:54:27 DEBUG  All links found BX0 in the same position as reference position 103
+09-28-22 14:54:27 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+09-28-22 14:54:27 INFO   Word count 409031, error count 403177
+09-28-22 14:54:27 WARNING eTx error count after alignment: 403177
+09-28-22 14:55:00 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3267 A, Temp: -1.0000 C, Res.: -1.00 Ohms
+09-28-22 14:55:00 INFO   Word count 1011650078, error count 0
+09-28-22 14:55:10 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.4400 C, Res.: 948.26 Ohms
+09-28-22 14:55:10 INFO   Word count 1426416052, error count 0
+09-28-22 14:55:20 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.5643 C, Res.: 947.78 Ohms
+09-28-22 14:55:20 INFO   Word count 1841208948, error count 0
+09-28-22 14:55:31 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.5263 C, Res.: 947.92 Ohms
+09-28-22 14:55:31 INFO   Word count 2255905271, error count 0
+09-28-22 14:55:41 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.4873 C, Res.: 948.07 Ohms
+09-28-22 14:55:41 INFO   Word count 2670711322, error count 0
+09-28-22 14:55:51 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.5176 C, Res.: 947.96 Ohms
+09-28-22 14:55:51 INFO   Word count 3085479549, error count 0
+09-28-22 14:55:52 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (570, 327)}, 'CH_ALIGNER_1INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (136029870018619485330172765565202359910, 0), 'snapshot2': (7374194029855401574, 0), 'hdr_mm_cntr': (68, 76)}, 'CH_ALIGNER_2INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (66, 76)}, 'CH_ALIGNER_3INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (67, 76)}, 'CH_ALIGNER_4INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (71, 80)}, 'CH_ALIGNER_5INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (347, 242)}, 'CH_ALIGNER_6INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (119, 107)}, 'CH_ALIGNER_7INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (95, 100)}, 'CH_ALIGNER_8INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (55, 58)}, 'CH_ALIGNER_9INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (84, 94)}, 'CH_ALIGNER_10INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (71, 79)}, 'CH_ALIGNER_11INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0), 'hdr_mm_cntr': (68, 76)}, 'ALIGNER_ALL': {'status': (255, 254), 'status_done': (1, 0)}, 'PLL_ALL': {'pll_read_bytes_2to0': (974878, 974862), 'pll_read_bytes_2to0_lfLossOfLockCount': (1, 0), 'pll_read_bytes_4to3': (8, 0), 'pll_read_bytes_4to3_pll_not_locked_timeout': (1, 0)}}}
+09-28-22 14:55:52 DEBUG  RO Mismatches: {'ASIC': {}}
+09-28-22 14:55:52 INFO   RW Matches
+09-28-22 14:56:03 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.4923 C, Res.: 948.05 Ohms
+09-28-22 14:56:03 INFO   Word count 3537425277, error count 4093
+09-28-22 14:56:03 INFO   Word count 3537475046, error count 4093
+09-28-22 14:56:12 ERROR  Errors in 1 consecutive comparisons
+09-28-22 14:56:22 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.4924 C, Res.: 948.05 Ohms
+09-28-22 14:56:22 INFO   Word count 414797369, error count 0
+09-28-22 14:56:32 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.5119 C, Res.: 947.98 Ohms
+09-28-22 14:56:32 INFO   Word count 829284993, error count 0
+09-28-22 14:56:43 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.5838 C, Res.: 947.70 Ohms
+09-28-22 14:56:43 INFO   Word count 1244008898, error count 0
+09-28-22 14:56:53 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.5017 C, Res.: 948.02 Ohms
+09-28-22 14:56:53 INFO   Word count 1658820892, error count 0
+09-28-22 14:57:04 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.5386 C, Res.: 947.88 Ohms
+09-28-22 14:57:04 INFO   Word count 2073136796, error count 0
+09-28-22 14:57:05 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'hdr_mm_cntr': (327, 560)}, 'CH_ALIGNER_5INPUT_ALL': {'hdr_mm_cntr': (242, 381)}, 'CH_ALIGNER_6INPUT_ALL': {'hdr_mm_cntr': (107, 119)}, 'CH_ALIGNER_7INPUT_ALL': {'hdr_mm_cntr': (100, 107)}, 'CH_ALIGNER_9INPUT_ALL': {'hdr_mm_cntr': (94, 97)}}}
+09-28-22 14:57:05 DEBUG  RO Mismatches: {'ASIC': {}}
+09-28-22 14:57:05 INFO   RW Matches
+09-28-22 14:57:15 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.4917 C, Res.: 948.06 Ohms
+09-28-22 14:57:15 INFO   Word count 2527348757, error count 3383
+09-28-22 14:57:15 INFO   Word count 2527397930, error count 3383
+09-28-22 14:57:24 ERROR  Errors in 1 consecutive comparisons
+09-28-22 14:57:34 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.5239 C, Res.: 947.93 Ohms
+09-28-22 14:57:34 INFO   Word count 414819493, error count 0
+09-28-22 14:57:45 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.5471 C, Res.: 947.84 Ohms
+09-28-22 14:57:45 INFO   Word count 829500846, error count 0
+09-28-22 14:57:55 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.5025 C, Res.: 948.02 Ohms
+09-28-22 14:57:55 INFO   Word count 1244305495, error count 0
+09-28-22 14:58:05 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.4712 C, Res.: 948.14 Ohms
+09-28-22 14:58:05 INFO   Word count 1659066518, error count 0
+09-28-22 14:58:16 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.4352 C, Res.: 948.27 Ohms
+09-28-22 14:58:16 INFO   Word count 2073597481, error count 0
+09-28-22 14:58:17 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'hdr_mm_cntr': (560, 773)}, 'CH_ALIGNER_5INPUT_ALL': {'hdr_mm_cntr': (381, 511)}, 'CH_ALIGNER_6INPUT_ALL': {'hdr_mm_cntr': (119, 131)}, 'CH_ALIGNER_7INPUT_ALL': {'hdr_mm_cntr': (107, 110)}}}
+09-28-22 14:58:17 DEBUG  RO Mismatches: {'ASIC': {}}
+09-28-22 14:58:17 INFO   RW Matches
+09-28-22 14:58:27 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.4789 C, Res.: 948.11 Ohms
+09-28-22 14:58:27 INFO   Word count 2525485473, error count 3012
+09-28-22 14:58:27 INFO   Word count 2525535205, error count 3012
+09-28-22 14:58:36 ERROR  Errors in 1 consecutive comparisons
+09-28-22 14:58:47 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.4044 C, Res.: 948.39 Ohms
+09-28-22 14:58:47 INFO   Word count 414754130, error count 0
+09-28-22 14:58:57 INFO   Power: On, Voltage: 1.1900 V, Current: 0.3266 A, Temp: -13.4138 C, Res.: 948.36 Ohms
+09-28-22 14:58:57 INFO   Word count 829606814, error count 0
+09-28-22 14:59:07 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.4167 C, Res.: 948.35 Ohms
+09-28-22 14:59:07 INFO   Word count 1244329669, error count 0
+09-28-22 14:59:18 INFO   Power: On, Voltage: 1.2000 V, Current: 0.3266 A, Temp: -13.3952 C, Res.: 948.43 Ohms
+09-28-22 14:59:18 INFO   Word count 1659174153, error count 0
