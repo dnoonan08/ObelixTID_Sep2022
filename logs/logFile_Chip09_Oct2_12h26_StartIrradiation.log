@@ -1,0 +1,1384 @@
+10-02-22 10:26:44 INFO   Starting
+10-02-22 10:26:44 INFO   Using Board 9
+10-02-22 10:26:45 INFO   Power: On, Voltage: 1.0800 V, Current: 0.329919 A, Temp: -22.1994 C, Res.: 914.53 Ohms
+10-02-22 10:26:45 DEBUG  Sending 28 bit PRBS w headers
+10-02-22 10:26:45 INFO   Configuring ASIC
+10-02-22 10:26:48 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:26:48 INFO    phaseSelect: 00, prbs_chk_err_cnt: [0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-02-22 10:26:48 INFO    phaseSelect: 01, prbs_chk_err_cnt: [255, 255, 106, 255, 46, 0, 4, 0, 209, 0, 4, 0]
+10-02-22 10:26:48 INFO    phaseSelect: 02, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 174, 255, 255, 255, 255]
+10-02-22 10:26:49 INFO    phaseSelect: 03, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:26:49 INFO    phaseSelect: 04, prbs_chk_err_cnt: [255, 11, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:26:49 INFO    phaseSelect: 05, prbs_chk_err_cnt: [255, 0, 255, 255, 255, 255, 255, 255, 10, 255, 255, 255]
+10-02-22 10:26:49 INFO    phaseSelect: 06, prbs_chk_err_cnt: [0, 0, 0, 0, 0, 19, 0, 21, 0, 16, 0, 0]
+10-02-22 10:26:49 INFO    phaseSelect: 07, prbs_chk_err_cnt: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-02-22 10:26:50 INFO    phaseSelect: 08, prbs_chk_err_cnt: [0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-02-22 10:26:50 INFO    phaseSelect: 09, prbs_chk_err_cnt: [85, 255, 33, 148, 5, 0, 5, 0, 21, 0, 0, 0]
+10-02-22 10:26:50 INFO    phaseSelect: 10, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 58, 255, 255, 255, 255]
+10-02-22 10:26:50 INFO    phaseSelect: 11, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:26:50 INFO    phaseSelect: 12, prbs_chk_err_cnt: [255, 1, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:26:51 INFO    phaseSelect: 13, prbs_chk_err_cnt: [255, 0, 255, 255, 255, 255, 255, 255, 18, 255, 255, 255]
+10-02-22 10:26:51 INFO    phaseSelect: 14, prbs_chk_err_cnt: [0, 0, 0, 0, 0, 8, 0, 42, 0, 87, 0, 0]
+10-02-22 10:26:51 INFO   Error Array:
+array([[  0, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [255, 255, 106, 255,  46,   0,   4,   0, 209,   0,   4,   0],
+       [255, 255, 255, 255, 255, 255, 255, 174, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,  11, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   0, 255, 255, 255, 255, 255, 255,  10, 255, 255, 255],
+       [  0,   0,   0,   0,   0,  19,   0,  21,   0,  16,   0,   0],
+       [  0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [  0, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [ 85, 255,  33, 148,   5,   0,   5,   0,  21,   0,   0,   0],
+       [255, 255, 255, 255, 255, 255, 255,  58, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   1, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   0, 255, 255, 255, 255, 255, 255,  18, 255, 255, 255],
+       [  0,   0,   0,   0,   0,   8,   0,  42,   0,  87,   0,   0]])
+10-02-22 10:26:51 INFO   Best phase settings: 7,6,7,7,7,8,7,8,7,8,7,0
+10-02-22 10:26:51 INFO   Best phase settings (5-setting window): 7,6,7,7,7,8,7,8,7,8,7,7
+10-02-22 10:26:51 DEBUG  Set fixed phase 7,6,7,7,7,8,7,8,7,8,7,7
+10-02-22 10:26:52 DEBUG  Sending 28 bit PRBS w headers
+10-02-22 10:26:53 INFO   FC status_locked: 1
+10-02-22 10:26:53 INFO   PUSM status: 9
+10-02-22 10:26:56 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:26:58 INFO   ASIC
+10-02-22 10:26:58 INFO   eRx 00:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 01:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 02:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 03:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 04:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 05:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 06:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 07:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 08:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 09:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 10:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   eRx 11:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:26:58 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:27:00 INFO   ASIC
+10-02-22 10:27:00 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   Good ASIC alignment
+10-02-22 10:27:00 INFO   Trying alignment with delay=4
+10-02-22 10:27:00 INFO   ASIC
+10-02-22 10:27:00 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:27:00 INFO   Emulator
+10-02-22 10:27:00 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:27:00 INFO   Good ASIC alignment
+10-02-22 10:27:00 INFO   Good emulator alignment
+10-02-22 10:27:00 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:27:02 INFO   Good hdr_mm_counters, not increasing: [55 55 55 55 55 55 55 55 55 55 55 55]
+10-02-22 10:27:05 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:27:07 DEBUG  Links from-IO are aligned
+10-02-22 10:27:07 DEBUG  P-side delay setting: {0: 180, 1: 190, 2: 212, 3: 184, 4: 242, 5: 211, 6: 262, 7: 235, 8: 267, 9: 408, 10: 219, 11: 210, 12: 422}, Eye width: {0: 136, 1: 152, 2: 144, 3: 152, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 152, 10: 144, 11: 136, 12: 144}
+10-02-22 10:27:07 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:27:07 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:27:07 INFO   Links lc-ASIC are aligned
+10-02-22 10:27:12 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:27:12 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:27:12 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:27:14 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:27:14 DEBUG  Compare BX0
+10-02-22 10:27:14 DEBUG  Reference position is same as target 103
+10-02-22 10:27:14 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:27:14 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:27:14 INFO   Found BX0 word for ASIC 103
+10-02-22 10:27:14 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:27:14 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:27:14 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:27:16 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:27:16 DEBUG  Compare BX0
+10-02-22 10:27:16 DEBUG  Reference position is 103
+10-02-22 10:27:16 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:27:16 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:27:16 INFO   Found BX0 word for emulator 103 
+10-02-22 10:27:17 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:27:17 INFO   Word count 409125, error count 0
+10-02-22 10:27:17 INFO   Links are aligned between ASIC and emulator
+10-02-22 10:27:20 DEBUG  Stop continous acquire for lc-ASIC
+10-02-22 10:27:20 DEBUG  Stop continous acquire for lc-emulator
+10-02-22 10:27:20 DEBUG  Stop continous acquire for lc-input
+10-02-22 10:27:21 INFO   l1a counter 290
+10-02-22 10:27:21 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+10-02-22 10:27:21 DEBUG  L1A counter 291
+10-02-22 10:27:21 INFO   l1a counter 291
+10-02-22 10:27:22 INFO   Printing lc-ASIC
+10-02-22 10:27:22 INFO   1492ffff,ffffffff,32deaec3,2deaec32,deaec32d,eaec32de,aec32dea,ec32deae,c32deaec,32deaec3,2deaec32,deaec32d,eaec1122
+10-02-22 10:27:22 INFO   1c7dffff,ffffffff,7e690577,e690577e,690577e6,90577e69,0577e690,577e6905,77e69057,7e690577,e690577e,690577e6,90571922
+10-02-22 10:27:22 INFO   24a3ffff,ffffffff,61f34426,1f344261,f344261f,344261f3,44261f34,4261f344,261f3442,61f34426,1f344261,f344261f,34422122
+10-02-22 10:27:22 INFO   2c9bffff,ffffffff,b98f952b,98f952b9,8f952b98,f952b98f,952b98f9,52b98f95,2b98f952,b98f952b,98f952b9,8f952b98,f9522922
+10-02-22 10:27:22 INFO   34a04444,44444444,f7efdfbf,7efdfbf7,efdfb000,31223122,31223122,31223122,31223122,31223122,31223122,31223122,31223122
+10-02-22 10:27:22 INFO   3c92bbbb,bbbbbbbb,93b63c9d,b1e4ed8f,276c793b,63c9db1e,4ed8f276,c793b63c,9db1e4ed,8f276c70,39223922,39223922,39223922
+10-02-22 10:27:22 INFO   449bffff,ffffffff,3692b763,692b7636,92b76369,2b763692,b763692b,763692b7,63692b76,3692b763,692b7636,92b76369,2b764122
+10-02-22 10:27:22 INFO   4ca2ffff,ffffffff,fb361abf,b361abfb,361abfb3,61abfb36,1abfb361,abfb361a,bfb361ab,fb361abf,b361abfb,361abfb3,61ab4922
+10-02-22 10:27:22 INFO   54a7ffff,ffffffff,45fb9c14,5fb9c145,fb9c145f,b9c145fb,9c145fb9,c145fb9c,145fb9c1,45fb9c14,5fb9c145,fb9c145f,b9c15122
+10-02-22 10:27:22 INFO   5c71ffff,ffffffff,94857b19,4857b194,857b1948,57b19485,7b194857,b194857b,194857b1,94857b19,4857b194,857b1948,57b15922
+10-02-22 10:27:22 INFO   Printing lc-emulator
+10-02-22 10:27:22 INFO   1492ffff,ffffffff,32deaec3,2deaec32,deaec32d,eaec32de,aec32dea,ec32deae,c32deaec,32deaec3,2deaec32,deaec32d,eaec1122
+10-02-22 10:27:22 INFO   1c7dffff,ffffffff,7e690577,e690577e,690577e6,90577e69,0577e690,577e6905,77e69057,7e690577,e690577e,690577e6,90571922
+10-02-22 10:27:22 INFO   24a3ffff,ffffffff,61f34426,1f344261,f344261f,344261f3,44261f34,4261f344,261f3442,61f34426,1f344261,f344261f,34422122
+10-02-22 10:27:22 INFO   2c9bffff,ffffffff,b98f952b,98f952b9,8f952b98,f952b98f,952b98f9,52b98f95,2b98f952,b98f952b,98f952b9,8f952b98,f9522922
+10-02-22 10:27:22 INFO   34a04444,44444444,f7efdfbf,7efdfbf7,efdfb000,31223122,31223122,31223122,31223122,31223122,31223122,31223122,31223122
+10-02-22 10:27:22 INFO   3c92bbbb,bbbbbbbb,93b63c9d,b1e4ed8f,276c793b,63c9db1e,4ed8f276,c793b63c,9db1e4ed,8f276c70,39223922,39223922,39223922
+10-02-22 10:27:22 INFO   449bffff,ffffffff,3692b763,692b7636,92b76369,2b763692,b763692b,763692b7,63692b76,3692b763,692b7636,92b76369,2b764122
+10-02-22 10:27:22 INFO   4ca2ffff,ffffffff,fb361abf,b361abfb,361abfb3,61abfb36,1abfb361,abfb361a,bfb361ab,fb361abf,b361abfb,361abfb3,61ab4922
+10-02-22 10:27:22 INFO   54a7ffff,ffffffff,45fb9c14,5fb9c145,fb9c145f,b9c145fb,9c145fb9,c145fb9c,145fb9c1,45fb9c14,5fb9c145,fb9c145f,b9c15122
+10-02-22 10:27:22 INFO   5c71ffff,ffffffff,94857b19,4857b194,857b1948,57b19485,7b194857,b194857b,194857b1,94857b19,4857b194,857b1948,57b15922
+10-02-22 10:27:22 INFO   Printing lc-input
+10-02-22 10:27:22 INFO   a405581f,a405581f,a405581f,a405581f,a405581f,a405581f,a405581f,a405581f,a405581f,a405581f,a405581f,a405581f
+10-02-22 10:27:22 INFO   ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18,ad040e18
+10-02-22 10:27:22 INFO   a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e,a2450d9e
+10-02-22 10:27:22 INFO   a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9,a2d44ef9
+10-02-22 10:27:22 INFO   aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47,aa615d47
+10-02-22 10:27:22 INFO   acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16,acf90a16
+10-02-22 10:27:22 INFO   a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893,a3c74893
+10-02-22 10:27:22 INFO   ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7,ab369ab7
+10-02-22 10:27:22 INFO   a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a,a5fb3c1a
+10-02-22 10:27:22 INFO   a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c,a885f31c
+10-02-22 10:27:22 INFO   Configuring stream compare
+10-02-22 10:27:23 DEBUG  Stop continous acquire for lc-input
+10-02-22 10:27:23 DEBUG  Stop continous acquire for lc-ASIC
+10-02-22 10:27:23 DEBUG  Stop continous acquire for lc-emulator
+10-02-22 10:27:23 DEBUG  Configure continous acquire
+10-02-22 10:27:23 INFO   Starting stream compare (CTRL-C to stop and do capture and I2C compare)
+10-02-22 10:27:23 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331333 A, Temp: -22.0149 C, Res.: 915.24 Ohms
+10-02-22 10:27:23 INFO   Word count 14285184, error count 0
+10-02-22 10:27:24 ERROR  RO Mismatches: {'ASIC': {'CH_ERR_12_ALL': {'error_data': (84, 86), 'error_data_err_dat': (20, 22)}}}
+10-02-22 10:27:24 DEBUG  RO Mismatches: {'ASIC': {}}
+10-02-22 10:27:24 INFO   RW Matches
+10-02-22 10:27:24 INFO   Word count 51466914, error count 0
+10-02-22 10:27:25 DEBUG  Stop continous acquire for lc-ASIC
+10-02-22 10:27:25 DEBUG  Stop continous acquire for lc-emulator
+10-02-22 10:27:25 DEBUG  Stop continous acquire for lc-input
+10-02-22 10:27:25 INFO   l1a counter 291
+10-02-22 10:27:25 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+10-02-22 10:27:25 DEBUG  L1A counter 292
+10-02-22 10:27:25 INFO   l1a counter 292
+10-02-22 10:27:26 INFO   Printing lc-ASIC
+10-02-22 10:27:26 INFO   1489ffff,ffffffff,70872317,08723170,87231708,72317087,23170872,31708723,17087231,70872317,08723170,87231708,72311122
+10-02-22 10:27:26 INFO   1c82ffff,ffffffff,2ca6ebd2,ca6ebd2c,a6ebd2ca,6ebd2ca6,ebd2ca6e,bd2ca6eb,d2ca6ebd,2ca6ebd2,ca6ebd2c,a6ebd2ca,6ebd1922
+10-02-22 10:27:26 INFO   2494eeee,eeeeeeee,678f533c,7a99e3d4,cf1ea678,f533c7a9,9e3d4cf1,ea678f53,3c7a99e3,d4cf1ea0,21222122,21222122,21222122
+10-02-22 10:27:26 INFO   2c7bdddd,dddddddd,3e6eb1f3,758f9bac,7cdd63e6,eb1f3758,f9bac7cd,d63e6eb1,f3758f9b,ac7cdd60,29222922,29222922,29222922
+10-02-22 10:27:26 INFO   34a7ffff,ffffffff,b1f7a43b,1f7a43b1,f7a43b1f,7a43b1f7,a43b1f7a,43b1f7a4,3b1f7a43,b1f7a43b,1f7a43b1,f7a43b1f,7a433122
+10-02-22 10:27:26 INFO   3c8a7777,77777777,c5269e29,34f149a7,8a4d3c52,69e2934f,149a78a4,d3c5269e,2934f149,a78a4d30,39223922,39223922,39223922
+10-02-22 10:27:26 INFO   4498ffff,ffffffff,dae8de7d,ae8de7da,e8de7dae,8de7dae8,de7dae8d,e7dae8de,7dae8de7,dae8de7d,ae8de7da,e8de7dae,8de74122
+10-02-22 10:27:26 INFO   4c82ffff,ffffffff,2c52e9e2,c52e9e2c,52e9e2c5,2e9e2c52,e9e2c52e,9e2c52e9,e2c52e9e,2c52e9e2,c52e9e2c,52e9e2c5,2e9e4922
+10-02-22 10:27:26 INFO   5499ffff,ffffffff,e746539e,746539e7,46539e74,6539e746,539e7465,39e74653,9e746539,e746539e,746539e7,46539e74,65395122
+10-02-22 10:27:26 INFO   5ca4ffff,ffffffff,5e97c775,e97c775e,97c775e9,7c775e97,c775e97c,775e97c7,75e97c77,5e97c775,e97c775e,97c775e9,7c775922
+10-02-22 10:27:26 INFO   Printing lc-emulator
+10-02-22 10:27:26 INFO   1489ffff,ffffffff,70872317,08723170,87231708,72317087,23170872,31708723,17087231,70872317,08723170,87231708,72311122
+10-02-22 10:27:26 INFO   1c82ffff,ffffffff,2ca6ebd2,ca6ebd2c,a6ebd2ca,6ebd2ca6,ebd2ca6e,bd2ca6eb,d2ca6ebd,2ca6ebd2,ca6ebd2c,a6ebd2ca,6ebd1922
+10-02-22 10:27:26 INFO   2494eeee,eeeeeeee,678f533c,7a99e3d4,cf1ea678,f533c7a9,9e3d4cf1,ea678f53,3c7a99e3,d4cf1ea0,21222122,21222122,21222122
+10-02-22 10:27:26 INFO   2c7bdddd,dddddddd,3e6eb1f3,758f9bac,7cdd63e6,eb1f3758,f9bac7cd,d63e6eb1,f3758f9b,ac7cdd60,29222922,29222922,29222922
+10-02-22 10:27:26 INFO   34a7ffff,ffffffff,b1f7a43b,1f7a43b1,f7a43b1f,7a43b1f7,a43b1f7a,43b1f7a4,3b1f7a43,b1f7a43b,1f7a43b1,f7a43b1f,7a433122
+10-02-22 10:27:26 INFO   3c8a7777,77777777,c5269e29,34f149a7,8a4d3c52,69e2934f,149a78a4,d3c5269e,2934f149,a78a4d30,39223922,39223922,39223922
+10-02-22 10:27:26 INFO   4498ffff,ffffffff,dae8de7d,ae8de7da,e8de7dae,8de7dae8,de7dae8d,e7dae8de,7dae8de7,dae8de7d,ae8de7da,e8de7dae,8de74122
+10-02-22 10:27:26 INFO   4c82ffff,ffffffff,2c52e9e2,c52e9e2c,52e9e2c5,2e9e2c52,e9e2c52e,9e2c52e9,e2c52e9e,2c52e9e2,c52e9e2c,52e9e2c5,2e9e4922
+10-02-22 10:27:26 INFO   5499ffff,ffffffff,e746539e,746539e7,46539e74,6539e746,539e7465,39e74653,9e746539,e746539e,746539e7,46539e74,65395122
+10-02-22 10:27:26 INFO   5ca4ffff,ffffffff,5e97c775,e97c775e,97c775e9,7c775e97,c775e97c,775e97c7,75e97c77,5e97c775,e97c775e,97c775e9,7c775922
+10-02-22 10:27:26 INFO   Printing lc-input
+10-02-22 10:27:26 INFO   a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049,a7e3b049
+10-02-22 10:27:26 INFO   aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b,aa1b5c5b
+10-02-22 10:27:26 INFO   ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d,ac9d8b4d
+10-02-22 10:27:26 INFO   a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e,a3bae99e
+10-02-22 10:27:26 INFO   a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9,a75453f9
+10-02-22 10:27:26 INFO   ae814707,ae814707,ae814707,ae814707,ae814707,ae814707,ae814707,ae814707,ae814707,ae814707,ae814707,ae814707
+10-02-22 10:27:26 INFO   a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6,a92116c6
+10-02-22 10:27:26 INFO   a7695377,a7695377,a7695377,a7695377,a7695377,a7695377,a7695377,a7695377,a7695377,a7695377,a7695377,a7695377
+10-02-22 10:27:26 INFO   aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa,aeb307aa
+10-02-22 10:27:26 INFO   a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640,a11fc640
+10-02-22 10:27:26 DEBUG  Stop continous acquire for lc-input
+10-02-22 10:27:26 DEBUG  Stop continous acquire for lc-ASIC
+10-02-22 10:27:26 DEBUG  Stop continous acquire for lc-emulator
+10-02-22 10:27:26 DEBUG  Configure continous acquire
+10-02-22 10:27:26 INFO   Word count 23820, error count 0
+10-02-22 10:27:27 INFO   Starting Power Scans ( timestamp 02Oct_102726 )
+10-02-22 10:27:27 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:27:27 INFO   Setting to 1.2 V
+10-02-22 10:27:29 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331647 A, Temp: -22.0015 C, Res.: 915.29 Ohms
+10-02-22 10:27:43 INFO   Good PLL settings V=1.20: [15, 24, 25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120]
+10-02-22 10:27:43 INFO      CapSel=15, V=1.20, PUSM=9, V=1.20, I=0.331629
+10-02-22 10:27:43 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:27:53 DEBUG  P-side delay setting: {0: 145, 1: 386, 2: 187, 3: 157, 4: 222, 5: 421, 6: 237, 7: 208, 8: 243, 9: 161, 10: 428, 11: 190, 12: 401}, Eye width: {0: 152, 1: 152, 2: 144, 3: 144, 4: 144, 5: 160, 6: 152, 7: 136, 8: 136, 9: 144, 10: 136, 11: 152, 12: 144}
+10-02-22 10:27:53 INFO      CapSel=24, V=1.20, PUSM=9, V=1.20, I=0.332131
+10-02-22 10:27:53 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:28:03 DEBUG  P-side delay setting: {0: 393, 1: 172, 2: 426, 3: 169, 4: 231, 5: 431, 6: 250, 7: 219, 8: 253, 9: 396, 10: 206, 11: 195, 12: 408}, Eye width: {0: 136, 1: 144, 2: 128, 3: 136, 4: 136, 5: 144, 6: 136, 7: 128, 8: 136, 9: 128, 10: 136, 11: 136, 12: 136}
+10-02-22 10:28:03 INFO      CapSel=25, V=1.20, PUSM=9, V=1.19, I=0.332005
+10-02-22 10:28:03 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:28:13 DEBUG  P-side delay setting: {0: 201, 1: 208, 2: 232, 3: 203, 4: 266, 5: 234, 6: 281, 7: 253, 8: 287, 9: 202, 10: 242, 11: 229, 12: 215}, Eye width: {0: 136, 1: 152, 2: 136, 3: 128, 4: 136, 5: 136, 6: 128, 7: 128, 8: 136, 9: 136, 10: 136, 11: 136, 12: 144}
+10-02-22 10:28:13 INFO      CapSel=26, V=1.20, PUSM=9, V=1.20, I=0.331882
+10-02-22 10:28:13 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:28:23 DEBUG  P-side delay setting: {0: 190, 1: 200, 2: 221, 3: 425, 4: 253, 5: 224, 6: 270, 7: 242, 8: 275, 9: 191, 10: 230, 11: 220, 12: 434}, Eye width: {0: 136, 1: 152, 2: 136, 3: 144, 4: 136, 5: 128, 6: 136, 7: 136, 8: 136, 9: 120, 10: 136, 11: 136, 12: 144}
+10-02-22 10:28:23 INFO      CapSel=27, V=1.20, PUSM=9, V=1.20, I=0.331737
+10-02-22 10:28:23 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:28:33 DEBUG  P-side delay setting: {0: 190, 1: 425, 2: 219, 3: 422, 4: 251, 5: 223, 6: 267, 7: 239, 8: 274, 9: 190, 10: 229, 11: 219, 12: 430}, Eye width: {0: 136, 1: 144, 2: 136, 3: 144, 4: 136, 5: 136, 6: 136, 7: 136, 8: 128, 9: 136, 10: 136, 11: 136, 12: 136}
+10-02-22 10:28:33 INFO      CapSel=28, V=1.20, PUSM=9, V=1.20, I=0.331648
+10-02-22 10:28:33 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:28:43 DEBUG  P-side delay setting: {0: 184, 1: 198, 2: 218, 3: 192, 4: 251, 5: 221, 6: 267, 7: 239, 8: 274, 9: 189, 10: 227, 11: 216, 12: 201}, Eye width: {0: 136, 1: 144, 2: 136, 3: 144, 4: 128, 5: 136, 6: 136, 7: 136, 8: 136, 9: 136, 10: 136, 11: 128, 12: 144}
+10-02-22 10:28:43 INFO      CapSel=29, V=1.20, PUSM=9, V=1.20, I=0.331454
+10-02-22 10:28:43 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:28:53 DEBUG  P-side delay setting: {0: 415, 1: 198, 2: 217, 3: 420, 4: 247, 5: 219, 6: 264, 7: 237, 8: 272, 9: 188, 10: 227, 11: 215, 12: 199}, Eye width: {0: 144, 1: 152, 2: 136, 3: 144, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 128, 10: 136, 11: 128, 12: 136}
+10-02-22 10:28:53 INFO      CapSel=30, V=1.20, PUSM=9, V=1.19, I=0.331393
+10-02-22 10:28:53 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:29:03 DEBUG  P-side delay setting: {0: 182, 1: 418, 2: 217, 3: 189, 4: 249, 5: 218, 6: 266, 7: 238, 8: 270, 9: 414, 10: 224, 11: 213, 12: 430}, Eye width: {0: 136, 1: 152, 2: 136, 3: 136, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 136, 10: 136, 11: 136, 12: 144}
+10-02-22 10:29:03 INFO      CapSel=31, V=1.20, PUSM=9, V=1.20, I=0.331331
+10-02-22 10:29:03 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:29:13 DEBUG  P-side delay setting: {0: 183, 1: 422, 2: 214, 3: 186, 4: 247, 5: 215, 6: 265, 7: 237, 8: 270, 9: 186, 10: 223, 11: 215, 12: 426}, Eye width: {0: 136, 1: 152, 2: 128, 3: 136, 4: 136, 5: 136, 6: 136, 7: 144, 8: 136, 9: 128, 10: 136, 11: 136, 12: 144}
+10-02-22 10:29:13 INFO      CapSel=56, V=1.20, PUSM=9, V=1.20, I=0.331182
+10-02-22 10:29:14 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:29:23 DEBUG  P-side delay setting: {0: 234, 1: 242, 2: 267, 3: 237, 4: 299, 5: 269, 6: 86, 7: 286, 8: 320, 9: 235, 10: 272, 11: 262, 12: 248}, Eye width: {0: 136, 1: 144, 2: 136, 3: 136, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 136, 10: 128, 11: 128, 12: 136}
+10-02-22 10:29:23 INFO      CapSel=57, V=1.20, PUSM=9, V=1.19, I=0.330880
+10-02-22 10:29:24 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:29:33 DEBUG  P-side delay setting: {0: 245, 1: 252, 2: 276, 3: 247, 4: 79, 5: 278, 6: 94, 7: 299, 8: 329, 9: 248, 10: 284, 11: 271, 12: 256}, Eye width: {0: 136, 1: 144, 2: 136, 3: 136, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 128, 10: 128, 11: 128, 12: 136}
+10-02-22 10:29:33 INFO      CapSel=58, V=1.20, PUSM=9, V=1.20, I=0.330721
+10-02-22 10:29:34 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:29:43 DEBUG  P-side delay setting: {0: 163, 1: 171, 2: 424, 3: 165, 4: 227, 5: 196, 6: 243, 7: 215, 8: 249, 9: 391, 10: 203, 11: 420, 12: 177}, Eye width: {0: 128, 1: 144, 2: 136, 3: 136, 4: 128, 5: 136, 6: 128, 7: 136, 8: 136, 9: 128, 10: 136, 11: 136, 12: 136}
+10-02-22 10:29:43 INFO      CapSel=59, V=1.20, PUSM=9, V=1.20, I=0.330586
+10-02-22 10:29:44 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:29:53 DEBUG  P-side delay setting: {0: 157, 1: 392, 2: 187, 3: 391, 4: 220, 5: 189, 6: 237, 7: 209, 8: 242, 9: 156, 10: 425, 11: 413, 12: 168}, Eye width: {0: 136, 1: 144, 2: 128, 3: 136, 4: 136, 5: 136, 6: 128, 7: 136, 8: 136, 9: 128, 10: 128, 11: 128, 12: 136}
+10-02-22 10:29:54 INFO      CapSel=60, V=1.20, PUSM=9, V=1.19, I=0.330561
+10-02-22 10:29:54 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:30:03 DEBUG  P-side delay setting: {0: 254, 1: 267, 2: 285, 3: 257, 4: 317, 5: 289, 6: 336, 7: 308, 8: 116, 9: 257, 10: 292, 11: 282, 12: 267}, Eye width: {0: 136, 1: 144, 2: 120, 3: 136, 4: 136, 5: 136, 6: 128, 7: 136, 8: 128, 9: 128, 10: 128, 11: 136, 12: 136}
+10-02-22 10:30:04 INFO      CapSel=61, V=1.20, PUSM=9, V=1.20, I=0.330162
+10-02-22 10:30:04 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:30:13 DEBUG  P-side delay setting: {0: 130, 1: 136, 2: 388, 3: 132, 4: 425, 5: 392, 6: 209, 7: 182, 8: 215, 9: 360, 10: 399, 11: 389, 12: 373}, Eye width: {0: 136, 1: 144, 2: 136, 3: 136, 4: 136, 5: 136, 6: 136, 7: 136, 8: 128, 9: 136, 10: 136, 11: 128, 12: 136}
+10-02-22 10:30:14 INFO      CapSel=62, V=1.20, PUSM=9, V=1.20, I=0.329943
+10-02-22 10:30:14 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:30:23 DEBUG  P-side delay setting: {0: 267, 1: 278, 2: 301, 3: 272, 4: 99, 5: 303, 6: 119, 7: 92, 8: 124, 9: 270, 10: 307, 11: 299, 12: 279}, Eye width: {0: 144, 1: 152, 2: 136, 3: 144, 4: 136, 5: 144, 6: 144, 7: 144, 8: 136, 9: 136, 10: 136, 11: 144, 12: 144}
+10-02-22 10:30:24 INFO      CapSel=63, V=1.20, PUSM=9, V=1.20, I=0.329990
+10-02-22 10:30:24 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:30:33 DEBUG  P-side delay setting: {0: 304, 1: 314, 2: 339, 3: 308, 4: 370, 5: 340, 6: 158, 7: 129, 8: 163, 9: 79, 10: 117, 11: 105, 12: 89}, Eye width: {0: 144, 1: 152, 2: 144, 3: 152, 4: 144, 5: 144, 6: 136, 7: 144, 8: 136, 9: 136, 10: 136, 11: 144, 12: 144}
+10-02-22 10:30:34 INFO      CapSel=120, V=1.20, PUSM=9, V=1.20, I=0.330302
+10-02-22 10:30:34 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:30:43 DEBUG  P-side delay setting: {0: 229, 1: 239, 2: 262, 3: 234, 4: 295, 5: 263, 6: 82, 7: 281, 8: 316, 9: 232, 10: 271, 11: 259, 12: 247}, Eye width: {0: 152, 1: 160, 2: 152, 3: 152, 4: 144, 5: 152, 6: 152, 7: 144, 8: 152, 9: 144, 10: 152, 11: 152, 12: 152}
+10-02-22 10:30:43 INFO   Setting PLL VCO CapSelect to 29 at V=1.2 with phaseSelect settings of 7,6,7,7,7,8,7,8,7,8,7,8
+10-02-22 10:30:45 DEBUG  Set fixed phase 7,6,7,7,7,8,7,8,7,8,7,8
+10-02-22 10:30:46 DEBUG  Sending 28 bit PRBS w headers
+10-02-22 10:30:50 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:30:53 INFO   ASIC
+10-02-22 10:30:53 INFO   eRx 00:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 01:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 02:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 03:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 04:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 05:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 06:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 07:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 08:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 09:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 10:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   eRx 11:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:30:53 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:30:55 INFO   ASIC
+10-02-22 10:30:55 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:55 INFO   Good ASIC alignment
+10-02-22 10:30:55 INFO   Trying alignment with delay=4
+10-02-22 10:30:56 INFO   ASIC
+10-02-22 10:30:56 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:30:56 INFO   Emulator
+10-02-22 10:30:56 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:30:56 INFO   Good ASIC alignment
+10-02-22 10:30:56 INFO   Good emulator alignment
+10-02-22 10:30:56 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:30:58 INFO   Good hdr_mm_counters, not increasing: [55 55 55 55 55 55 55 55 55 55 55 55]
+10-02-22 10:31:01 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:31:02 DEBUG  Links from-IO are aligned
+10-02-22 10:31:02 DEBUG  P-side delay setting: {0: 183, 1: 195, 2: 213, 3: 417, 4: 242, 5: 214, 6: 261, 7: 233, 8: 266, 9: 183, 10: 219, 11: 211, 12: 421}, Eye width: {0: 136, 1: 152, 2: 144, 3: 160, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 144, 10: 144, 11: 144, 12: 152}
+10-02-22 10:31:02 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:31:02 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:31:02 INFO   Links lc-ASIC are aligned
+10-02-22 10:31:06 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:31:06 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:31:06 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:31:09 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:31:09 DEBUG  Compare BX0
+10-02-22 10:31:09 DEBUG  Reference position is same as target 103
+10-02-22 10:31:09 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:31:09 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:31:09 INFO   Found BX0 word for ASIC 103
+10-02-22 10:31:09 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:31:09 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:31:09 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:31:11 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:31:11 DEBUG  Compare BX0
+10-02-22 10:31:11 DEBUG  Reference position is 103
+10-02-22 10:31:11 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:31:11 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:31:11 INFO   Found BX0 word for emulator 103 
+10-02-22 10:31:12 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:31:12 INFO   Word count 409118, error count 0
+10-02-22 10:31:12 INFO   Links are aligned between ASIC and emulator
+10-02-22 10:31:24 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331125 A, Temp: -22.0668 C, Res.: 915.04 Ohms
+10-02-22 10:31:24 INFO   Word count 414809586, error count 0
+10-02-22 10:31:35 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331141 A, Temp: -22.0879 C, Res.: 914.96 Ohms
+10-02-22 10:31:35 INFO   Word count 829613331, error count 0
+10-02-22 10:31:45 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331135 A, Temp: -21.9629 C, Res.: 915.44 Ohms
+10-02-22 10:31:45 INFO   Word count 1244368408, error count 0
+10-02-22 10:31:55 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331138 A, Temp: -21.9590 C, Res.: 915.46 Ohms
+10-02-22 10:31:55 INFO   Word count 1659173376, error count 0
+10-02-22 10:32:06 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331130 A, Temp: -21.9486 C, Res.: 915.50 Ohms
+10-02-22 10:32:06 INFO   Word count 2074018697, error count 0
+10-02-22 10:32:16 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331121 A, Temp: -21.9184 C, Res.: 915.61 Ohms
+10-02-22 10:32:16 INFO   Word count 2488785144, error count 0
+10-02-22 10:32:17 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_1INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_2INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_3INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_4INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_5INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_6INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_7INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_8INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_9INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_10INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_11INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_EPRXGRP_11INPUT_ALL': {'status': (222, 226), 'status_phaseSelect': (7, 8)}, 'ALIGNER_ALL': {'status': (255, 254), 'status_done': (1, 0)}, 'PLL_ALL': {'pll_read_bytes_2to0': (974862, 974894), 'pll_read_bytes_2to0_lfLossOfLockCount': (0, 2), 'pll_read_bytes_4to3': (8, 0), 'pll_read_bytes_4to3_pll_not_locked_timeout': (1, 0)}}}
+10-02-22 10:32:17 DEBUG  RO Mismatches: {'ASIC': {}}
+10-02-22 10:32:17 ERROR  RW Mismatches: {'CH_EPRXGRP_11INPUT_ALL': {'config': ('0x38', '0x40'), 'config_phaseSelect': ('0x7', '0x8')}, 'PLL_ALL': {'pll_bytes_17to13': ('0xd90d82998', '0xe90d82998'), 'pll_bytes_17to13_fromMemToLJCDR_CBOvcoCapSelect': ('0x1b', '0x1d')}}
+10-02-22 10:32:27 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331133 A, Temp: -21.8625 C, Res.: 915.83 Ohms
+10-02-22 10:32:27 INFO   Word count 2940832473, error count 0
+10-02-22 10:32:38 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331129 A, Temp: -21.8924 C, Res.: 915.71 Ohms
+10-02-22 10:32:38 INFO   Word count 3355593938, error count 0
+10-02-22 10:32:48 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331143 A, Temp: -21.8743 C, Res.: 915.78 Ohms
+10-02-22 10:32:48 INFO   Word count 3770075755, error count 0
+10-02-22 10:32:58 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331128 A, Temp: -21.9548 C, Res.: 915.47 Ohms
+10-02-22 10:32:58 INFO   Word count 4184842748, error count 0
+10-02-22 10:33:09 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331143 A, Temp: -21.9590 C, Res.: 915.46 Ohms
+10-02-22 10:33:09 INFO   Word count 304645334, error count 0
+10-02-22 10:33:19 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331132 A, Temp: -21.8974 C, Res.: 915.70 Ohms
+10-02-22 10:33:19 INFO   Word count 719207452, error count 0
+10-02-22 10:33:20 INFO   RO Matches
+10-02-22 10:33:20 INFO   RW Matches
+10-02-22 10:33:30 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331136 A, Temp: -21.9470 C, Res.: 915.50 Ohms
+10-02-22 10:33:30 INFO   Word count 1171005801, error count 0
+10-02-22 10:33:41 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331123 A, Temp: -21.8993 C, Res.: 915.69 Ohms
+10-02-22 10:33:41 INFO   Word count 1585892662, error count 0
+10-02-22 10:33:51 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331117 A, Temp: -21.9436 C, Res.: 915.52 Ohms
+10-02-22 10:33:51 INFO   Word count 2000707226, error count 0
+10-02-22 10:34:02 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331118 A, Temp: -21.9737 C, Res.: 915.40 Ohms
+10-02-22 10:34:02 INFO   Word count 2415554516, error count 0
+10-02-22 10:34:12 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331118 A, Temp: -22.0693 C, Res.: 915.03 Ohms
+10-02-22 10:34:12 INFO   Word count 2830232220, error count 0
+10-02-22 10:34:22 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331119 A, Temp: -21.9839 C, Res.: 915.36 Ohms
+10-02-22 10:34:22 INFO   Word count 3245032143, error count 0
+10-02-22 10:34:23 INFO   RO Matches
+10-02-22 10:34:23 INFO   RW Matches
+10-02-22 10:34:34 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331116 A, Temp: -22.0245 C, Res.: 915.21 Ohms
+10-02-22 10:34:34 INFO   Word count 3698872042, error count 0
+10-02-22 10:34:44 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331111 A, Temp: -22.0096 C, Res.: 915.26 Ohms
+10-02-22 10:34:44 INFO   Word count 4113675217, error count 0
+10-02-22 10:34:54 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331116 A, Temp: -22.0081 C, Res.: 915.27 Ohms
+10-02-22 10:34:54 INFO   Word count 233612731, error count 0
+10-02-22 10:35:05 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331120 A, Temp: -21.9234 C, Res.: 915.60 Ohms
+10-02-22 10:35:05 INFO   Word count 648323939, error count 0
+10-02-22 10:35:15 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331125 A, Temp: -21.7750 C, Res.: 916.17 Ohms
+10-02-22 10:35:15 INFO   Word count 1063178240, error count 0
+10-02-22 10:35:25 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331126 A, Temp: -21.7219 C, Res.: 916.37 Ohms
+10-02-22 10:35:25 INFO   Word count 1477738812, error count 0
+10-02-22 10:35:26 INFO   RO Matches
+10-02-22 10:35:26 INFO   RW Matches
+10-02-22 10:35:37 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331116 A, Temp: -21.6413 C, Res.: 916.68 Ohms
+10-02-22 10:35:37 INFO   Word count 1929738041, error count 0
+10-02-22 10:35:47 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331122 A, Temp: -21.7245 C, Res.: 916.36 Ohms
+10-02-22 10:35:47 INFO   Word count 2344543140, error count 0
+10-02-22 10:35:58 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331110 A, Temp: -21.7581 C, Res.: 916.23 Ohms
+10-02-22 10:35:58 INFO   Word count 2759343582, error count 0
+10-02-22 10:36:08 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331110 A, Temp: -21.7575 C, Res.: 916.23 Ohms
+10-02-22 10:36:08 INFO   Word count 3174231810, error count 0
+10-02-22 10:36:18 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331120 A, Temp: -21.7952 C, Res.: 916.09 Ohms
+10-02-22 10:36:18 INFO   Word count 3589034497, error count 0
+10-02-22 10:36:29 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331114 A, Temp: -21.7646 C, Res.: 916.21 Ohms
+10-02-22 10:36:29 INFO   Word count 4003800247, error count 0
+10-02-22 10:36:30 INFO   RO Matches
+10-02-22 10:36:30 INFO   RW Matches
+10-02-22 10:36:40 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331107 A, Temp: -21.8373 C, Res.: 915.93 Ohms
+10-02-22 10:36:40 INFO   Word count 160794874, error count 0
+10-02-22 10:36:50 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331098 A, Temp: -21.8822 C, Res.: 915.75 Ohms
+10-02-22 10:36:50 INFO   Word count 575645115, error count 0
+10-02-22 10:37:01 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331110 A, Temp: -21.8291 C, Res.: 915.96 Ohms
+10-02-22 10:37:01 INFO   Word count 990482271, error count 0
+10-02-22 10:37:11 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331105 A, Temp: -21.6630 C, Res.: 916.60 Ohms
+10-02-22 10:37:11 INFO   Word count 1405286572, error count 0
+10-02-22 10:37:21 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331107 A, Temp: -21.7665 C, Res.: 916.20 Ohms
+10-02-22 10:37:21 INFO   Word count 1820095351, error count 0
+10-02-22 10:37:32 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331106 A, Temp: -21.8625 C, Res.: 915.83 Ohms
+10-02-22 10:37:32 INFO   Word count 2234863934, error count 0
+10-02-22 10:37:33 INFO   RO Matches
+10-02-22 10:37:33 INFO   RW Matches
+10-02-22 10:37:43 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331097 A, Temp: -21.9743 C, Res.: 915.40 Ohms
+10-02-22 10:37:43 INFO   Word count 2686741379, error count 0
+10-02-22 10:37:53 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331091 A, Temp: -21.9591 C, Res.: 915.46 Ohms
+10-02-22 10:37:53 INFO   Word count 3101581340, error count 0
+10-02-22 10:38:04 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331081 A, Temp: -21.9286 C, Res.: 915.57 Ohms
+10-02-22 10:38:04 INFO   Word count 3516392806, error count 0
+10-02-22 10:38:14 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331079 A, Temp: -21.9918 C, Res.: 915.33 Ohms
+10-02-22 10:38:14 INFO   Word count 3931162776, error count 0
+10-02-22 10:38:25 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331077 A, Temp: -21.9007 C, Res.: 915.68 Ohms
+10-02-22 10:38:25 INFO   Word count 50992537, error count 0
+10-02-22 10:38:35 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331084 A, Temp: -21.8513 C, Res.: 915.87 Ohms
+10-02-22 10:38:35 INFO   Word count 465757667, error count 0
+10-02-22 10:38:36 INFO   RO Matches
+10-02-22 10:38:36 INFO   RW Matches
+10-02-22 10:38:46 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331096 A, Temp: -21.8212 C, Res.: 915.99 Ohms
+10-02-22 10:38:46 INFO   Word count 917363366, error count 0
+10-02-22 10:38:57 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331085 A, Temp: -21.8525 C, Res.: 915.87 Ohms
+10-02-22 10:38:57 INFO   Word count 1332091698, error count 0
+10-02-22 10:39:07 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331093 A, Temp: -21.9315 C, Res.: 915.56 Ohms
+10-02-22 10:39:07 INFO   Word count 1746655180, error count 0
+10-02-22 10:39:17 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331102 A, Temp: -21.8484 C, Res.: 915.88 Ohms
+10-02-22 10:39:17 INFO   Word count 2161412277, error count 0
+10-02-22 10:39:28 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331090 A, Temp: -21.8635 C, Res.: 915.83 Ohms
+10-02-22 10:39:28 INFO   Word count 2576183355, error count 0
+10-02-22 10:39:38 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331089 A, Temp: -22.0102 C, Res.: 915.26 Ohms
+10-02-22 10:39:38 INFO   Word count 2990745784, error count 0
+10-02-22 10:39:39 INFO   RO Matches
+10-02-22 10:39:39 INFO   RW Matches
+10-02-22 10:39:49 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331086 A, Temp: -22.0909 C, Res.: 914.95 Ohms
+10-02-22 10:39:49 INFO   Word count 3442696884, error count 0
+10-02-22 10:40:00 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331085 A, Temp: -22.0236 C, Res.: 915.21 Ohms
+10-02-22 10:40:00 INFO   Word count 3857558146, error count 0
+10-02-22 10:40:10 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331087 A, Temp: -21.9910 C, Res.: 915.33 Ohms
+10-02-22 10:40:10 INFO   Word count 4272317147, error count 0
+10-02-22 10:40:20 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331073 A, Temp: -22.0324 C, Res.: 915.18 Ohms
+10-02-22 10:40:20 INFO   Word count 392201209, error count 0
+10-02-22 10:40:31 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331096 A, Temp: -21.9655 C, Res.: 915.43 Ohms
+10-02-22 10:40:31 INFO   Word count 806924596, error count 0
+10-02-22 10:40:41 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331084 A, Temp: -21.9652 C, Res.: 915.43 Ohms
+10-02-22 10:40:41 INFO   Word count 1221719030, error count 0
+10-02-22 10:40:42 INFO   RO Matches
+10-02-22 10:40:42 INFO   RW Matches
+10-02-22 10:40:53 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331091 A, Temp: -21.9635 C, Res.: 915.44 Ohms
+10-02-22 10:40:53 INFO   Word count 1675963972, error count 0
+10-02-22 10:41:03 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331089 A, Temp: -22.0513 C, Res.: 915.10 Ohms
+10-02-22 10:41:03 INFO   Word count 2090771370, error count 0
+10-02-22 10:41:13 INFO   Power: On, Voltage: 1.1900 V, Current: 0.331089 A, Temp: -22.0498 C, Res.: 915.11 Ohms
+10-02-22 10:41:13 INFO   Word count 2505372112, error count 0
+10-02-22 10:41:24 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331069 A, Temp: -22.0918 C, Res.: 914.95 Ohms
+10-02-22 10:41:24 INFO   Word count 2920226144, error count 0
+10-02-22 10:41:34 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331084 A, Temp: -22.0396 C, Res.: 915.15 Ohms
+10-02-22 10:41:34 INFO   Word count 3335035813, error count 0
+10-02-22 10:41:44 INFO   Power: On, Voltage: 1.2000 V, Current: 0.331083 A, Temp: -21.9754 C, Res.: 915.39 Ohms
+10-02-22 10:41:44 INFO   Word count 3749879460, error count 0
+10-02-22 10:41:45 INFO   RO Matches
+10-02-22 10:41:45 INFO   RW Matches
+10-02-22 10:41:45 INFO   Word count 3786919120, error count 0
+10-02-22 10:41:46 DEBUG  Stop continous acquire for lc-ASIC
+10-02-22 10:41:46 DEBUG  Stop continous acquire for lc-emulator
+10-02-22 10:41:46 DEBUG  Stop continous acquire for lc-input
+10-02-22 10:41:46 INFO   l1a counter 292
+10-02-22 10:41:46 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+10-02-22 10:41:46 DEBUG  L1A counter 293
+10-02-22 10:41:46 INFO   l1a counter 293
+10-02-22 10:41:48 INFO   Printing lc-ASIC
+10-02-22 10:41:48 INFO   14a1ffff,ffffffff,5b77db35,b77db35b,77db35b7,7db35b77,db35b77d,b35b77db,35b77db3,5b77db35,b77db35b,77db35b7,7db31122
+10-02-22 10:41:48 INFO   1c937777,77777777,d516fea8,b7f545bf,aa2dfd51,6fea8b7f,545bfaa2,dfd516fe,a8b7f545,bfaa2df0,19221922,19221922,19221922
+10-02-22 10:41:48 INFO   2494ffff,ffffffff,cec0a68c,ec0a68ce,c0a68cec,0a68cec0,a68cec0a,68cec0a6,8cec0a68,cec0a68c,ec0a68ce,c0a68cec,0a682122
+10-02-22 10:41:48 INFO   2c99dddd,dddddddd,3d7391eb,9c8f5ce4,7ae723d7,391eb9c8,f5ce47ae,723d7391,eb9c8f5c,e47ae720,29222922,29222922,29222922
+10-02-22 10:41:48 INFO   3473bbbb,bbbbbbbb,32567192,b38c959c,64ace325,67192b38,c959c64a,ce325671,92b38c95,9c64ace0,31223122,31223122,31223122
+10-02-22 10:41:48 INFO   3ca6ffff,ffffffff,bea787db,ea787dbe,a787dbea,787dbea7,87dbea78,7dbea787,dbea787d,bea787db,ea787dbe,a787dbea,787d3922
+10-02-22 10:41:48 INFO   44897777,77777777,87331439,98a1ccc5,0e662873,3143998a,1ccc50e6,62873314,3998a1cc,c50e6620,41224122,41224122,41224122
+10-02-22 10:41:48 INFO   4ca0ffff,ffffffff,554dffa5,54dffa55,4dffa554,dffa554d,ffa554df,fa554dff,a554dffa,554dffa5,54dffa55,4dffa554,dffa4922
+10-02-22 10:41:48 INFO   5487aaaa,aaaaaaaa,c143050c,143050c1,43050c14,3050c143,050c1430,50005122,51225122,51225122,51225122,51225122,51225122
+10-02-22 10:41:48 INFO   5c5faaaa,aaaaaaaa,7091c247,091c2470,91c24709,1c247091,c247091c,24005922,59225922,59225922,59225922,59225922,59225922
+10-02-22 10:41:48 INFO   Printing lc-emulator
+10-02-22 10:41:48 INFO   14a1ffff,ffffffff,5b77db35,b77db35b,77db35b7,7db35b77,db35b77d,b35b77db,35b77db3,5b77db35,b77db35b,77db35b7,7db31122
+10-02-22 10:41:48 INFO   1c937777,77777777,d516fea8,b7f545bf,aa2dfd51,6fea8b7f,545bfaa2,dfd516fe,a8b7f545,bfaa2df0,19221922,19221922,19221922
+10-02-22 10:41:48 INFO   2494ffff,ffffffff,cec0a68c,ec0a68ce,c0a68cec,0a68cec0,a68cec0a,68cec0a6,8cec0a68,cec0a68c,ec0a68ce,c0a68cec,0a682122
+10-02-22 10:41:48 INFO   2c99dddd,dddddddd,3d7391eb,9c8f5ce4,7ae723d7,391eb9c8,f5ce47ae,723d7391,eb9c8f5c,e47ae720,29222922,29222922,29222922
+10-02-22 10:41:48 INFO   3473bbbb,bbbbbbbb,32567192,b38c959c,64ace325,67192b38,c959c64a,ce325671,92b38c95,9c64ace0,31223122,31223122,31223122
+10-02-22 10:41:48 INFO   3ca6ffff,ffffffff,bea787db,ea787dbe,a787dbea,787dbea7,87dbea78,7dbea787,dbea787d,bea787db,ea787dbe,a787dbea,787d3922
+10-02-22 10:41:48 INFO   44897777,77777777,87331439,98a1ccc5,0e662873,3143998a,1ccc50e6,62873314,3998a1cc,c50e6620,41224122,41224122,41224122
+10-02-22 10:41:48 INFO   4ca0ffff,ffffffff,554dffa5,54dffa55,4dffa554,dffa554d,ffa554df,fa554dff,a554dffa,554dffa5,54dffa55,4dffa554,dffa4922
+10-02-22 10:41:48 INFO   5487aaaa,aaaaaaaa,c143050c,143050c1,43050c14,3050c143,050c1430,50005122,51225122,51225122,51225122,51225122,51225122
+10-02-22 10:41:48 INFO   5c5faaaa,aaaaaaaa,7091c247,091c2470,91c24709,1c247091,c247091c,24005922,59225922,59225922,59225922,59225922,59225922
+10-02-22 10:41:48 INFO   Printing lc-input
+10-02-22 10:41:48 INFO   a6973772,a6973772,a6973772,a6973772,a6973772,a6973772,a6973772,a6973772,a6973772,a6973772,a6973772,a6973772
+10-02-22 10:41:48 INFO   ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae,ab32faae
+10-02-22 10:41:48 INFO   a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405,a1fe4405
+10-02-22 10:41:48 INFO   a981d504,a981d504,a981d504,a981d504,a981d504,a981d504,a981d504,a981d504,a981d504,a981d504,a981d504,a981d504
+10-02-22 10:41:48 INFO   afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045,afe1a045
+10-02-22 10:41:48 INFO   ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854,ac19c854
+10-02-22 10:41:48 INFO   ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41,ab1fba41
+10-02-22 10:41:48 INFO   a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1,a9d854d1
+10-02-22 10:41:48 INFO   afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5,afae41e5
+10-02-22 10:41:48 INFO   a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c,a845d19c
+10-02-22 10:41:48 DEBUG  Stop continous acquire for lc-input
+10-02-22 10:41:48 DEBUG  Stop continous acquire for lc-ASIC
+10-02-22 10:41:48 DEBUG  Stop continous acquire for lc-emulator
+10-02-22 10:41:48 DEBUG  Configure continous acquire
+10-02-22 10:41:48 INFO   Word count 25630, error count 0
+10-02-22 10:41:49 INFO   Starting Power Scans ( timestamp 02Oct_104148 )
+10-02-22 10:41:49 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:41:49 INFO   Setting to 1.32 V
+10-02-22 10:41:50 INFO   Power: On, Voltage: 1.3100 V, Current: 0.382382 A, Temp: -21.8767 C, Res.: 915.77 Ohms
+10-02-22 10:42:04 INFO   Good PLL settings V=1.32: [14, 15, 24, 25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63]
+10-02-22 10:42:05 INFO      CapSel=14, V=1.32, PUSM=9, V=1.32, I=0.382610
+10-02-22 10:42:05 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:42:14 DEBUG  P-side delay setting: {0: 274, 1: 288, 2: 79, 3: 279, 4: 111, 5: 307, 6: 124, 7: 97, 8: 129, 9: 278, 10: 91, 11: 300, 12: 284}, Eye width: {0: 136, 1: 152, 2: 128, 3: 136, 4: 136, 5: 152, 6: 136, 7: 136, 8: 128, 9: 128, 10: 120, 11: 136, 12: 136}
+10-02-22 10:42:15 INFO      CapSel=15, V=1.32, PUSM=9, V=1.31, I=0.382126
+10-02-22 10:42:15 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:42:24 DEBUG  P-side delay setting: {0: 96, 1: 107, 2: 130, 3: 333, 4: 158, 5: 129, 6: 173, 7: 378, 8: 179, 9: 104, 10: 373, 11: 129, 12: 116}, Eye width: {0: 136, 1: 160, 2: 144, 3: 136, 4: 144, 5: 152, 6: 144, 7: 136, 8: 144, 9: 128, 10: 128, 11: 144, 12: 152}
+10-02-22 10:42:25 INFO      CapSel=24, V=1.32, PUSM=9, V=1.32, I=0.382019
+10-02-22 10:42:25 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:42:34 DEBUG  P-side delay setting: {0: 160, 1: 169, 2: 419, 3: 391, 4: 224, 5: 421, 6: 239, 7: 210, 8: 244, 9: 169, 10: 208, 11: 192, 12: 407}, Eye width: {0: 144, 1: 152, 2: 144, 3: 144, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 144, 10: 136, 11: 144, 12: 144}
+10-02-22 10:42:35 INFO      CapSel=25, V=1.32, PUSM=9, V=1.32, I=0.382775
+10-02-22 10:42:35 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:42:44 DEBUG  P-side delay setting: {0: 389, 1: 168, 2: 416, 3: 391, 4: 223, 5: 189, 6: 236, 7: 209, 8: 243, 9: 168, 10: 206, 11: 192, 12: 176}, Eye width: {0: 144, 1: 152, 2: 144, 3: 144, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 136, 10: 136, 11: 144, 12: 144}
+10-02-22 10:42:45 INFO      CapSel=26, V=1.32, PUSM=9, V=1.31, I=0.382735
+10-02-22 10:42:45 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:42:54 DEBUG  P-side delay setting: {0: 159, 1: 167, 2: 188, 3: 159, 4: 221, 5: 416, 6: 235, 7: 206, 8: 241, 9: 163, 10: 432, 11: 191, 12: 404}, Eye width: {0: 144, 1: 152, 2: 136, 3: 144, 4: 144, 5: 144, 6: 136, 7: 144, 8: 144, 9: 144, 10: 136, 11: 144, 12: 152}
+10-02-22 10:42:55 INFO      CapSel=27, V=1.32, PUSM=9, V=1.32, I=0.382655
+10-02-22 10:42:55 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:43:04 DEBUG  P-side delay setting: {0: 157, 1: 165, 2: 189, 3: 390, 4: 223, 5: 187, 6: 236, 7: 205, 8: 241, 9: 162, 10: 204, 11: 188, 12: 402}, Eye width: {0: 144, 1: 152, 2: 144, 3: 152, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 136, 10: 144, 11: 144, 12: 152}
+10-02-22 10:43:05 INFO      CapSel=28, V=1.32, PUSM=9, V=1.31, I=0.382646
+10-02-22 10:43:05 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:43:14 DEBUG  P-side delay setting: {0: 385, 1: 163, 2: 188, 3: 159, 4: 218, 5: 187, 6: 233, 7: 205, 8: 237, 9: 162, 10: 201, 11: 188, 12: 173}, Eye width: {0: 144, 1: 152, 2: 136, 3: 152, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 144, 10: 136, 11: 144, 12: 144}
+10-02-22 10:43:15 INFO      CapSel=29, V=1.32, PUSM=9, V=1.32, I=0.382510
+10-02-22 10:43:15 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:43:24 DEBUG  P-side delay setting: {0: 156, 1: 392, 2: 412, 3: 157, 4: 218, 5: 188, 6: 233, 7: 205, 8: 238, 9: 163, 10: 430, 11: 188, 12: 402}, Eye width: {0: 144, 1: 152, 2: 136, 3: 152, 4: 144, 5: 144, 6: 144, 7: 144, 8: 136, 9: 136, 10: 144, 11: 144, 12: 152}
+10-02-22 10:43:25 INFO      CapSel=30, V=1.32, PUSM=9, V=1.31, I=0.382440
+10-02-22 10:43:25 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:43:34 DEBUG  P-side delay setting: {0: 154, 1: 390, 2: 186, 3: 387, 4: 218, 5: 183, 6: 231, 7: 204, 8: 236, 9: 160, 10: 199, 11: 413, 12: 399}, Eye width: {0: 144, 1: 152, 2: 136, 3: 144, 4: 136, 5: 144, 6: 144, 7: 144, 8: 144, 9: 136, 10: 144, 11: 144, 12: 152}
+10-02-22 10:43:35 INFO      CapSel=31, V=1.32, PUSM=9, V=1.31, I=0.382235
+10-02-22 10:43:35 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:43:44 DEBUG  P-side delay setting: {0: 230, 1: 243, 2: 264, 3: 234, 4: 297, 5: 264, 6: 82, 7: 283, 8: 317, 9: 242, 10: 280, 11: 265, 12: 252}, Eye width: {0: 144, 1: 160, 2: 136, 3: 152, 4: 152, 5: 136, 6: 144, 7: 144, 8: 144, 9: 144, 10: 144, 11: 144, 12: 144}
+10-02-22 10:43:45 INFO      CapSel=56, V=1.32, PUSM=9, V=1.32, I=0.380918
+10-02-22 10:43:45 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:43:55 DEBUG  P-side delay setting: {0: 337, 1: 117, 2: 140, 3: 108, 4: 171, 5: 368, 6: 414, 7: 156, 8: 418, 9: 343, 10: 381, 11: 137, 12: 354}, Eye width: {0: 136, 1: 152, 2: 136, 3: 144, 4: 144, 5: 136, 6: 136, 7: 144, 8: 144, 9: 136, 10: 136, 11: 136, 12: 144}
+10-02-22 10:43:55 INFO      CapSel=57, V=1.32, PUSM=9, V=1.32, I=0.380730
+10-02-22 10:43:55 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:44:05 DEBUG  P-side delay setting: {0: 346, 1: 354, 2: 148, 3: 352, 4: 412, 5: 148, 6: 195, 7: 166, 8: 199, 9: 124, 10: 162, 11: 149, 12: 365}, Eye width: {0: 136, 1: 144, 2: 136, 3: 144, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 136, 10: 128, 11: 144, 12: 144}
+10-02-22 10:44:05 INFO      CapSel=58, V=1.32, PUSM=9, V=1.31, I=0.380679
+10-02-22 10:44:05 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:44:15 DEBUG  P-side delay setting: {0: 255, 1: 262, 2: 283, 3: 258, 4: 86, 5: 282, 6: 101, 7: 73, 8: 104, 9: 261, 10: 299, 11: 284, 12: 268}, Eye width: {0: 136, 1: 152, 2: 128, 3: 136, 4: 136, 5: 136, 6: 144, 7: 136, 8: 144, 9: 136, 10: 136, 11: 136, 12: 136}
+10-02-22 10:44:15 INFO      CapSel=59, V=1.32, PUSM=9, V=1.32, I=0.380270
+10-02-22 10:44:15 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:44:25 DEBUG  P-side delay setting: {0: 218, 1: 228, 2: 250, 3: 225, 4: 283, 5: 251, 6: 297, 7: 269, 8: 300, 9: 227, 10: 266, 11: 248, 12: 237}, Eye width: {0: 136, 1: 144, 2: 136, 3: 136, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 128, 10: 136, 11: 136, 12: 136}
+10-02-22 10:44:25 INFO      CapSel=60, V=1.32, PUSM=9, V=1.31, I=0.380092
+10-02-22 10:44:25 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:44:35 DEBUG  P-side delay setting: {0: 196, 1: 204, 2: 224, 3: 197, 4: 259, 5: 224, 6: 273, 7: 243, 8: 276, 9: 201, 10: 240, 11: 223, 12: 210}, Eye width: {0: 136, 1: 144, 2: 136, 3: 144, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 128, 10: 128, 11: 136, 12: 136}
+10-02-22 10:44:35 INFO      CapSel=61, V=1.32, PUSM=9, V=1.32, I=0.380040
+10-02-22 10:44:35 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:44:45 DEBUG  P-side delay setting: {0: 261, 1: 266, 2: 292, 3: 260, 4: 323, 5: 290, 6: 110, 7: 308, 8: 115, 9: 266, 10: 304, 11: 289, 12: 277}, Eye width: {0: 136, 1: 152, 2: 136, 3: 144, 4: 144, 5: 136, 6: 136, 7: 136, 8: 136, 9: 136, 10: 136, 11: 136, 12: 144}
+10-02-22 10:44:45 INFO      CapSel=62, V=1.32, PUSM=9, V=1.32, I=0.379729
+10-02-22 10:44:45 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:44:55 DEBUG  P-side delay setting: {0: 156, 1: 164, 2: 185, 3: 154, 4: 218, 5: 185, 6: 233, 7: 204, 8: 237, 9: 163, 10: 200, 11: 187, 12: 172}, Eye width: {0: 144, 1: 152, 2: 136, 3: 144, 4: 144, 5: 144, 6: 144, 7: 144, 8: 144, 9: 144, 10: 144, 11: 144, 12: 152}
+10-02-22 10:44:55 INFO      CapSel=63, V=1.32, PUSM=9, V=1.32, I=0.380964
+10-02-22 10:44:55 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:45:05 DEBUG  P-side delay setting: {0: 189, 1: 198, 2: 221, 3: 420, 4: 250, 5: 221, 6: 268, 7: 238, 8: 273, 9: 424, 10: 236, 11: 222, 12: 210}, Eye width: {0: 144, 1: 152, 2: 136, 3: 144, 4: 152, 5: 144, 6: 144, 7: 144, 8: 136, 9: 144, 10: 144, 11: 144, 12: 152}
+10-02-22 10:45:05 INFO   Setting PLL VCO CapSelect to 28 at V=1.08 with phaseSelect settings of 3,2,11,3,11,12,3,4,3,4,3,11
+10-02-22 10:45:06 DEBUG  Set fixed phase 3,2,11,3,11,12,3,4,3,4,3,11
+10-02-22 10:45:08 DEBUG  Sending 28 bit PRBS w headers
+10-02-22 10:45:12 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:45:14 INFO   ASIC
+10-02-22 10:45:14 INFO   eRx 00:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 01:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 02:  status 2 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+10-02-22 10:45:14 INFO   eRx 03:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 04:  status 2 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+10-02-22 10:45:14 INFO   eRx 05:  status 6 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+10-02-22 10:45:14 INFO   eRx 06:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 07:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 08:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 09:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 10:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+10-02-22 10:45:14 INFO   eRx 11:  status 6 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+10-02-22 10:45:14 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:45:17 INFO   ASIC
+10-02-22 10:45:17 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 02:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 04:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   eRx 05:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 11:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   Good ASIC alignment
+10-02-22 10:45:17 INFO   Trying alignment with delay=4
+10-02-22 10:45:17 INFO   ASIC
+10-02-22 10:45:17 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 02:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 04:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   eRx 05:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   eRx 06:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+10-02-22 10:45:17 INFO   eRx 11:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+10-02-22 10:45:17 INFO   Emulator
+10-02-22 10:45:17 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:45:17 INFO   Good ASIC alignment
+10-02-22 10:45:17 INFO   Good emulator alignment
+10-02-22 10:45:17 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:45:19 INFO   Good hdr_mm_counters, not increasing: [55 55 54 55 54 54 55 55 55 55 55 54]
+10-02-22 10:45:22 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:45:24 DEBUG  Links from-IO are aligned
+10-02-22 10:45:24 DEBUG  P-side delay setting: {0: 150, 1: 159, 2: 180, 3: 149, 4: 208, 5: 177, 6: 222, 7: 194, 8: 232, 9: 151, 10: 189, 11: 177, 12: 163}, Eye width: {0: 144, 1: 152, 2: 144, 3: 160, 4: 152, 5: 152, 6: 152, 7: 160, 8: 152, 9: 152, 10: 152, 11: 152, 12: 160}
+10-02-22 10:45:24 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:45:24 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:45:24 INFO   Links lc-ASIC are aligned
+10-02-22 10:45:28 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:45:28 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:45:28 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:45:30 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:45:30 DEBUG  Compare BX0
+10-02-22 10:45:30 DEBUG  Reference position is same as target 103
+10-02-22 10:45:30 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:45:30 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:45:30 INFO   Found BX0 word for ASIC 103
+10-02-22 10:45:30 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:45:30 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:45:30 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:45:32 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:45:32 DEBUG  Compare BX0
+10-02-22 10:45:32 DEBUG  Reference position is 103
+10-02-22 10:45:32 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:45:32 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:45:32 INFO   Found BX0 word for emulator 103 
+10-02-22 10:45:33 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:45:33 INFO   Word count 409184, error count 0
+10-02-22 10:45:33 INFO   Links are aligned between ASIC and emulator
+10-02-22 10:45:46 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380369 A, Temp: -21.9679 C, Res.: 915.42 Ohms
+10-02-22 10:45:46 INFO   Word count 414925407, error count 0
+10-02-22 10:45:56 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380350 A, Temp: -21.9089 C, Res.: 915.65 Ohms
+10-02-22 10:45:56 INFO   Word count 829771264, error count 0
+10-02-22 10:46:06 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380343 A, Temp: -21.9143 C, Res.: 915.63 Ohms
+10-02-22 10:46:06 INFO   Word count 1244528053, error count 0
+10-02-22 10:46:17 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380344 A, Temp: -21.9352 C, Res.: 915.55 Ohms
+10-02-22 10:46:17 INFO   Word count 1659132368, error count 0
+10-02-22 10:46:27 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380355 A, Temp: -21.8191 C, Res.: 916.00 Ohms
+10-02-22 10:46:27 INFO   Word count 2073908752, error count 0
+10-02-22 10:46:38 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380356 A, Temp: -21.8229 C, Res.: 915.98 Ohms
+10-02-22 10:46:38 INFO   Word count 2488846002, error count 0
+10-02-22 10:46:38 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_1INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_2INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'select': (56, 55), 'snapshot': (0, 136029870018619485330172765565202359910), 'snapshot2': (0, 7374194029855401574)}, 'CH_ALIGNER_3INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_4INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'select': (56, 55), 'snapshot': (0, 136029870018619485330172765565202359910), 'snapshot2': (0, 7374194029855401574)}, 'CH_ALIGNER_5INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'select': (56, 55), 'snapshot': (0, 136029870018619485330172765565202359910), 'snapshot2': (0, 7374194029855401574)}, 'CH_ALIGNER_6INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_7INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_8INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_9INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_10INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'snapshot': (0, 272059740037238970660345531130404719820), 'snapshot2': (0, 14748388059710803148)}, 'CH_ALIGNER_11INPUT_ALL': {'status': (0, 1), 'status_pattern_match': (0, 1), 'select': (56, 55), 'snapshot': (0, 136029870018619485330172765565202359910), 'snapshot2': (0, 7374194029855401574)}, 'CH_EPRXGRP_0INPUT_ALL': {'status': (222, 206), 'status_phaseSelect': (7, 3)}, 'CH_EPRXGRP_1INPUT_ALL': {'status': (218, 202), 'status_phaseSelect': (6, 2)}, 'CH_EPRXGRP_2INPUT_ALL': {'status': (222, 238), 'status_phaseSelect': (7, 11)}, 'CH_EPRXGRP_3INPUT_ALL': {'status': (222, 206), 'status_phaseSelect': (7, 3)}, 'CH_EPRXGRP_4INPUT_ALL': {'status': (222, 238), 'status_phaseSelect': (7, 11)}, 'CH_EPRXGRP_5INPUT_ALL': {'status': (226, 242), 'status_phaseSelect': (8, 12)}, 'CH_EPRXGRP_6INPUT_ALL': {'status': (222, 206), 'status_phaseSelect': (7, 3)}, 'CH_EPRXGRP_7INPUT_ALL': {'status': (226, 210), 'status_phaseSelect': (8, 4)}, 'CH_EPRXGRP_8INPUT_ALL': {'status': (222, 206), 'status_phaseSelect': (7, 3)}, 'CH_EPRXGRP_9INPUT_ALL': {'status': (226, 210), 'status_phaseSelect': (8, 4)}, 'CH_EPRXGRP_10INPUT_ALL': {'status': (222, 206), 'status_phaseSelect': (7, 3)}, 'CH_EPRXGRP_11INPUT_ALL': {'status': (226, 238), 'status_phaseSelect': (8, 11)}, 'ALIGNER_ALL': {'status': (254, 255), 'status_done': (0, 1)}, 'PLL_ALL': {'pll_read_bytes_2to0': (974894, 974862), 'pll_read_bytes_2to0_lfLossOfLockCount': (2, 0)}}}
+10-02-22 10:46:38 DEBUG  RO Mismatches: {'ASIC': {}}
+10-02-22 10:46:38 ERROR  RW Mismatches: {'CH_ALIGNER_2INPUT_ALL': {'sel_override_val': ('0x38', '0x37')}, 'CH_ALIGNER_4INPUT_ALL': {'sel_override_val': ('0x38', '0x37')}, 'CH_ALIGNER_5INPUT_ALL': {'sel_override_val': ('0x38', '0x37')}, 'CH_ALIGNER_11INPUT_ALL': {'sel_override_val': ('0x38', '0x37')}, 'CH_EPRXGRP_0INPUT_ALL': {'config': ('0x38', '0x18'), 'config_phaseSelect': ('0x7', '0x3')}, 'CH_EPRXGRP_1INPUT_ALL': {'config': ('0x30', '0x10'), 'config_phaseSelect': ('0x6', '0x2')}, 'CH_EPRXGRP_2INPUT_ALL': {'config': ('0x38', '0x58'), 'config_phaseSelect': ('0x7', '0xb')}, 'CH_EPRXGRP_3INPUT_ALL': {'config': ('0x38', '0x18'), 'config_phaseSelect': ('0x7', '0x3')}, 'CH_EPRXGRP_4INPUT_ALL': {'config': ('0x38', '0x58'), 'config_phaseSelect': ('0x7', '0xb')}, 'CH_EPRXGRP_5INPUT_ALL': {'config': ('0x40', '0x60'), 'config_phaseSelect': ('0x8', '0xc')}, 'CH_EPRXGRP_6INPUT_ALL': {'config': ('0x38', '0x18'), 'config_phaseSelect': ('0x7', '0x3')}, 'CH_EPRXGRP_7INPUT_ALL': {'config': ('0x40', '0x20'), 'config_phaseSelect': ('0x8', '0x4')}, 'CH_EPRXGRP_8INPUT_ALL': {'config': ('0x38', '0x18'), 'config_phaseSelect': ('0x7', '0x3')}, 'CH_EPRXGRP_9INPUT_ALL': {'config': ('0x40', '0x20'), 'config_phaseSelect': ('0x8', '0x4')}, 'CH_EPRXGRP_10INPUT_ALL': {'config': ('0x38', '0x18'), 'config_phaseSelect': ('0x7', '0x3')}, 'CH_EPRXGRP_11INPUT_ALL': {'config': ('0x40', '0x58'), 'config_phaseSelect': ('0x8', '0xb')}, 'PLL_ALL': {'pll_bytes_17to13': ('0xe90d82998', '0xe10d82998'), 'pll_bytes_17to13_fromMemToLJCDR_CBOvcoCapSelect': ('0x1d', '0x1c')}}
+10-02-22 10:46:49 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380347 A, Temp: -21.8362 C, Res.: 915.93 Ohms
+10-02-22 10:46:49 INFO   Word count 2940627344, error count 0
+10-02-22 10:46:59 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380357 A, Temp: -21.7883 C, Res.: 916.11 Ohms
+10-02-22 10:46:59 INFO   Word count 3355467272, error count 0
+10-02-22 10:47:10 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380349 A, Temp: -21.8486 C, Res.: 915.88 Ohms
+10-02-22 10:47:10 INFO   Word count 3770274551, error count 0
+10-02-22 10:47:20 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380354 A, Temp: -21.7800 C, Res.: 916.15 Ohms
+10-02-22 10:47:20 INFO   Word count 4185156740, error count 0
+10-02-22 10:47:30 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380342 A, Temp: -21.8963 C, Res.: 915.70 Ohms
+10-02-22 10:47:30 INFO   Word count 304996802, error count 0
+10-02-22 10:47:41 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380361 A, Temp: -21.8607 C, Res.: 915.84 Ohms
+10-02-22 10:47:41 INFO   Word count 719848580, error count 0
+10-02-22 10:47:42 INFO   RO Matches
+10-02-22 10:47:42 INFO   RW Matches
+10-02-22 10:47:52 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380339 A, Temp: -21.9652 C, Res.: 915.43 Ohms
+10-02-22 10:47:52 INFO   Word count 1171934973, error count 0
+10-02-22 10:48:02 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380355 A, Temp: -21.9205 C, Res.: 915.61 Ohms
+10-02-22 10:48:02 INFO   Word count 1586816515, error count 0
+10-02-22 10:48:13 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380348 A, Temp: -21.8572 C, Res.: 915.85 Ohms
+10-02-22 10:48:13 INFO   Word count 2001702353, error count 0
+10-02-22 10:48:23 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380358 A, Temp: -21.8377 C, Res.: 915.92 Ohms
+10-02-22 10:48:23 INFO   Word count 2416500500, error count 0
+10-02-22 10:48:34 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380346 A, Temp: -21.8340 C, Res.: 915.94 Ohms
+10-02-22 10:48:34 INFO   Word count 2831356302, error count 0
+10-02-22 10:48:44 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380351 A, Temp: -21.9765 C, Res.: 915.39 Ohms
+10-02-22 10:48:44 INFO   Word count 3246158304, error count 0
+10-02-22 10:48:45 INFO   RO Matches
+10-02-22 10:48:45 INFO   RW Matches
+10-02-22 10:48:55 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380346 A, Temp: -21.9514 C, Res.: 915.49 Ohms
+10-02-22 10:48:55 INFO   Word count 3698072335, error count 0
+10-02-22 10:49:06 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380345 A, Temp: -21.8189 C, Res.: 916.00 Ohms
+10-02-22 10:49:06 INFO   Word count 4112958806, error count 0
+10-02-22 10:49:16 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380333 A, Temp: -21.7220 C, Res.: 916.37 Ohms
+10-02-22 10:49:16 INFO   Word count 232790248, error count 0
+10-02-22 10:49:26 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380335 A, Temp: -21.7484 C, Res.: 916.27 Ohms
+10-02-22 10:49:26 INFO   Word count 647634398, error count 0
+10-02-22 10:49:37 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380340 A, Temp: -21.7581 C, Res.: 916.23 Ohms
+10-02-22 10:49:37 INFO   Word count 1062401489, error count 0
+10-02-22 10:49:47 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380330 A, Temp: -21.8072 C, Res.: 916.04 Ohms
+10-02-22 10:49:47 INFO   Word count 1477214152, error count 0
+10-02-22 10:49:48 INFO   RO Matches
+10-02-22 10:49:48 INFO   RW Matches
+10-02-22 10:49:58 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380346 A, Temp: -21.8836 C, Res.: 915.75 Ohms
+10-02-22 10:49:58 INFO   Word count 1931170424, error count 0
+10-02-22 10:50:09 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380343 A, Temp: -21.8251 C, Res.: 915.97 Ohms
+10-02-22 10:50:09 INFO   Word count 2345897577, error count 0
+10-02-22 10:50:19 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380325 A, Temp: -21.9245 C, Res.: 915.59 Ohms
+10-02-22 10:50:19 INFO   Word count 2760746381, error count 0
+10-02-22 10:50:29 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380323 A, Temp: -21.7747 C, Res.: 916.17 Ohms
+10-02-22 10:50:29 INFO   Word count 3175389626, error count 0
+10-02-22 10:50:40 INFO   Power: On, Voltage: 1.3200 V, Current: 0.380311 A, Temp: -21.8921 C, Res.: 915.72 Ohms
+10-02-22 10:50:40 INFO   Word count 3590107477, error count 0
+10-02-22 10:50:50 INFO   Power: On, Voltage: 1.3100 V, Current: 0.380327 A, Temp: -21.9069 C, Res.: 915.66 Ohms
+10-02-22 10:50:50 INFO   Word count 4004913164, error count 0
+10-02-22 10:50:51 INFO   RO Matches
+10-02-22 10:50:51 INFO   RW Matches
+10-02-22 10:50:51 INFO   Word count 4042229208, error count 0
+10-02-22 10:50:52 INFO   Starting Power Scans ( timestamp 02Oct_105051 )
+10-02-22 10:50:52 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:50:52 INFO   Setting to 1.08 V
+10-02-22 10:50:54 INFO   Power: On, Voltage: 1.0800 V, Current: 0.284335 A, Temp: -21.8824 C, Res.: 915.75 Ohms
+10-02-22 10:51:08 INFO   Good PLL settings V=1.08: [25, 26, 27, 28, 29, 30, 31, 56, 57, 58, 59, 60, 61, 62, 63, 120, 121]
+10-02-22 10:51:08 INFO      CapSel=25, V=1.08, PUSM=9, V=1.08, I=0.284961
+10-02-22 10:51:08 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:51:18 DEBUG  P-side delay setting: {0: 136, 1: 376, 2: 169, 3: 377, 4: 428, 5: 168, 6: 214, 7: 179, 8: 215, 9: 348, 10: 155, 11: 148, 12: 127}, Eye width: {0: 112, 1: 128, 2: 120, 3: 120, 4: 112, 5: 120, 6: 128, 7: 120, 8: 104, 9: 128, 10: 120, 11: 112, 12: 128}
+10-02-22 10:51:18 INFO      CapSel=26, V=1.08, PUSM=9, V=1.08, I=0.284898
+10-02-22 10:51:18 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:51:28 DEBUG  P-side delay setting: {0: 392, 1: 173, 2: 200, 3: 403, 4: 233, 5: 210, 6: 255, 7: 224, 8: 256, 9: 389, 10: 427, 11: 192, 12: 402}, Eye width: {0: 128, 1: 136, 2: 120, 3: 128, 4: 120, 5: 136, 6: 120, 7: 120, 8: 112, 9: 120, 10: 128, 11: 120, 12: 128}
+10-02-22 10:51:28 INFO      CapSel=27, V=1.08, PUSM=9, V=1.08, I=0.284755
+10-02-22 10:51:28 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:51:38 DEBUG  P-side delay setting: {0: 311, 1: 86, 2: 342, 3: 318, 4: 147, 5: 350, 6: 398, 7: 139, 8: 173, 9: 305, 10: 115, 11: 338, 12: 86}, Eye width: {0: 128, 1: 136, 2: 120, 3: 120, 4: 120, 5: 128, 6: 120, 7: 128, 8: 120, 9: 128, 10: 120, 11: 128, 12: 128}
+10-02-22 10:51:38 INFO      CapSel=28, V=1.08, PUSM=9, V=1.08, I=0.284959
+10-02-22 10:51:38 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:51:48 DEBUG  P-side delay setting: {0: 71, 1: 84, 2: 333, 3: 309, 4: 139, 5: 341, 6: 158, 7: 359, 8: 395, 9: 297, 10: 105, 11: 101, 12: 310}, Eye width: {0: 128, 1: 136, 2: 128, 3: 120, 4: 120, 5: 128, 6: 128, 7: 120, 8: 128, 9: 120, 10: 120, 11: 120, 12: 112}
+10-02-22 10:51:48 INFO      CapSel=29, V=1.08, PUSM=9, V=1.08, I=0.284312
+10-02-22 10:51:48 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:51:58 DEBUG  P-side delay setting: {0: 297, 1: 82, 2: 105, 3: 75, 4: 366, 5: 110, 6: 387, 7: 130, 8: 393, 9: 296, 10: 104, 11: 103, 12: 310}, Eye width: {0: 128, 1: 136, 2: 128, 3: 120, 4: 120, 5: 128, 6: 120, 7: 120, 8: 128, 9: 120, 10: 120, 11: 120, 12: 120}
+10-02-22 10:51:58 INFO      CapSel=30, V=1.08, PUSM=9, V=1.08, I=0.284119
+10-02-22 10:51:58 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:52:08 DEBUG  P-side delay setting: {0: 300, 1: 80, 2: 331, 3: 76, 4: 135, 5: 110, 6: 159, 7: 358, 8: 393, 9: 70, 10: 102, 11: 97, 12: 76}, Eye width: {0: 112, 1: 136, 2: 128, 3: 128, 4: 120, 5: 136, 6: 128, 7: 120, 8: 128, 9: 120, 10: 120, 11: 128, 12: 128}
+10-02-22 10:52:08 INFO      CapSel=31, V=1.08, PUSM=9, V=1.08, I=0.283966
+10-02-22 10:52:08 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:52:18 DEBUG  P-side delay setting: {0: 297, 1: 75, 2: 102, 3: 72, 4: 367, 5: 110, 6: 157, 7: 131, 8: 394, 9: 294, 10: 102, 11: 97, 12: 305}, Eye width: {0: 120, 1: 136, 2: 128, 3: 128, 4: 120, 5: 128, 6: 120, 7: 128, 8: 128, 9: 128, 10: 120, 11: 128, 12: 128}
+10-02-22 10:52:18 INFO      CapSel=56, V=1.08, PUSM=9, V=1.07, I=0.283826
+10-02-22 10:52:18 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:52:28 DEBUG  P-side delay setting: {0: 300, 1: 305, 2: 329, 3: 72, 4: 135, 5: 109, 6: 155, 7: 354, 8: 158, 9: 293, 10: 330, 11: 323, 12: 71}, Eye width: {0: 128, 1: 136, 2: 128, 3: 120, 4: 128, 5: 136, 6: 128, 7: 128, 8: 128, 9: 128, 10: 120, 11: 120, 12: 128}
+10-02-22 10:52:28 INFO      CapSel=57, V=1.08, PUSM=9, V=1.08, I=0.283533
+10-02-22 10:52:29 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:52:38 DEBUG  P-side delay setting: {0: 282, 1: 287, 2: 85, 3: 286, 4: 347, 5: 91, 6: 140, 7: 338, 8: 145, 9: 274, 10: 313, 11: 78, 12: 283}, Eye width: {0: 128, 1: 144, 2: 120, 3: 128, 4: 128, 5: 128, 6: 128, 7: 128, 8: 128, 9: 128, 10: 120, 11: 128, 12: 128}
+10-02-22 10:52:38 INFO      CapSel=58, V=1.08, PUSM=9, V=1.08, I=0.282711
+10-02-22 10:52:39 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:52:48 DEBUG  P-side delay setting: {0: 427, 1: 204, 2: 228, 3: 202, 4: 264, 5: 236, 6: 283, 7: 256, 8: 288, 9: 193, 10: 229, 11: 221, 12: 431}, Eye width: {0: 136, 1: 136, 2: 120, 3: 128, 4: 128, 5: 128, 6: 120, 7: 128, 8: 128, 9: 128, 10: 120, 11: 128, 12: 128}
+10-02-22 10:52:48 INFO      CapSel=59, V=1.08, PUSM=9, V=1.08, I=0.283804
+10-02-22 10:52:49 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:52:58 DEBUG  P-side delay setting: {0: 193, 1: 202, 2: 225, 3: 430, 4: 258, 5: 234, 6: 278, 7: 252, 8: 284, 9: 189, 10: 224, 11: 220, 12: 198}, Eye width: {0: 136, 1: 144, 2: 128, 3: 128, 4: 128, 5: 128, 6: 128, 7: 128, 8: 128, 9: 120, 10: 128, 11: 128, 12: 120}
+10-02-22 10:52:58 INFO      CapSel=60, V=1.08, PUSM=9, V=1.08, I=0.283667
+10-02-22 10:52:59 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:53:08 DEBUG  P-side delay setting: {0: 123, 1: 133, 2: 155, 3: 128, 4: 189, 5: 162, 6: 441, 7: 182, 8: 215, 9: 119, 10: 156, 11: 149, 12: 128}, Eye width: {0: 128, 1: 144, 2: 128, 3: 128, 4: 120, 5: 128, 6: 128, 7: 128, 8: 128, 9: 128, 10: 120, 11: 128, 12: 128}
+10-02-22 10:53:08 INFO      CapSel=61, V=1.08, PUSM=9, V=1.08, I=0.283440
+10-02-22 10:53:09 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:53:18 DEBUG  P-side delay setting: {0: 298, 1: 309, 2: 331, 3: 74, 4: 138, 5: 109, 6: 386, 7: 130, 8: 163, 9: 295, 10: 102, 11: 97, 12: 74}, Eye width: {0: 136, 1: 136, 2: 136, 3: 128, 4: 128, 5: 128, 6: 128, 7: 120, 8: 128, 9: 128, 10: 120, 11: 128, 12: 136}
+10-02-22 10:53:19 INFO      CapSel=62, V=1.08, PUSM=9, V=1.08, I=0.282967
+10-02-22 10:53:19 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:53:28 DEBUG  P-side delay setting: {0: 284, 1: 297, 2: 91, 3: 291, 4: 352, 5: 327, 6: 143, 7: 347, 8: 149, 9: 281, 10: 319, 11: 83, 12: 289}, Eye width: {0: 144, 1: 144, 2: 136, 3: 136, 4: 128, 5: 128, 6: 136, 7: 136, 8: 136, 9: 136, 10: 128, 11: 128, 12: 128}
+10-02-22 10:53:29 INFO      CapSel=63, V=1.08, PUSM=9, V=1.08, I=0.281769
+10-02-22 10:53:29 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:53:38 DEBUG  P-side delay setting: {0: 120, 1: 358, 2: 154, 3: 123, 4: 414, 5: 158, 6: 205, 7: 177, 8: 213, 9: 118, 10: 153, 11: 376, 12: 122}, Eye width: {0: 136, 1: 152, 2: 136, 3: 136, 4: 136, 5: 136, 6: 136, 7: 136, 8: 128, 9: 136, 10: 136, 11: 136, 12: 136}
+10-02-22 10:53:39 INFO      CapSel=120, V=1.08, PUSM=9, V=1.08, I=0.283224
+10-02-22 10:53:39 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:53:48 DEBUG  P-side delay setting: {0: 272, 1: 281, 2: 305, 3: 278, 4: 107, 5: 313, 6: 360, 7: 106, 8: 137, 9: 271, 10: 309, 11: 301, 12: 284}, Eye width: {0: 144, 1: 160, 2: 152, 3: 152, 4: 144, 5: 152, 6: 152, 7: 144, 8: 144, 9: 152, 10: 152, 11: 144, 12: 144}
+10-02-22 10:53:49 INFO      CapSel=121, V=1.08, PUSM=9, V=1.07, I=0.283159
+10-02-22 10:53:49 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:53:58 DEBUG  P-side delay setting: {0: 284, 1: 293, 2: 88, 3: 293, 4: 353, 5: 96, 6: 148, 7: 116, 8: 151, 9: 284, 10: 320, 11: 87, 12: 295}, Eye width: {0: 160, 1: 160, 2: 160, 3: 152, 4: 152, 5: 152, 6: 152, 7: 152, 8: 136, 9: 160, 10: 152, 11: 152, 12: 152}
+10-02-22 10:53:58 INFO   Setting PLL VCO CapSelect to 30 at V=1.08 with phaseSelect settings of 6,5,7,7,7,7,7,7,7,7,7,7
+10-02-22 10:54:00 DEBUG  Set fixed phase 6,5,7,7,7,7,7,7,7,7,7,7
+10-02-22 10:54:01 DEBUG  Sending 28 bit PRBS w headers
+10-02-22 10:54:05 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:54:08 INFO   ASIC
+10-02-22 10:54:08 INFO   eRx 00:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 01:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 02:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 03:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 04:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 05:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 06:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 07:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 08:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 09:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 10:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   eRx 11:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:54:08 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:54:10 INFO   ASIC
+10-02-22 10:54:10 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:10 INFO   Good ASIC alignment
+10-02-22 10:54:10 INFO   Trying alignment with delay=4
+10-02-22 10:54:11 INFO   ASIC
+10-02-22 10:54:11 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:54:11 INFO   Emulator
+10-02-22 10:54:11 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:54:11 INFO   Good ASIC alignment
+10-02-22 10:54:11 INFO   Good emulator alignment
+10-02-22 10:54:11 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:54:13 INFO   Good hdr_mm_counters, not increasing: [57 56 56 56 56 57 56 57 56 56 56 56]
+10-02-22 10:54:16 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:54:17 DEBUG  Links from-IO are aligned
+10-02-22 10:54:17 DEBUG  P-side delay setting: {0: 304, 1: 87, 2: 107, 3: 80, 4: 138, 5: 340, 6: 158, 7: 127, 8: 165, 9: 297, 10: 107, 11: 100, 12: 307}, Eye width: {0: 136, 1: 136, 2: 136, 3: 152, 4: 136, 5: 136, 6: 136, 7: 136, 8: 136, 9: 136, 10: 128, 11: 128, 12: 136}
+10-02-22 10:54:17 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:54:17 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:54:17 INFO   Links lc-ASIC are aligned
+10-02-22 10:54:21 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:54:21 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:54:21 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:54:24 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:54:24 DEBUG  Compare BX0
+10-02-22 10:54:24 DEBUG  Reference position is same as target 103
+10-02-22 10:54:24 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:54:24 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:54:24 INFO   Found BX0 word for ASIC 103
+10-02-22 10:54:24 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:54:24 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:54:24 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:54:26 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:54:26 DEBUG  Compare BX0
+10-02-22 10:54:26 DEBUG  Reference position is 103
+10-02-22 10:54:26 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:54:26 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:54:26 INFO   Found BX0 word for emulator 103 
+10-02-22 10:54:27 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:54:27 INFO   Word count 409217, error count 403098
+10-02-22 10:54:27 WARNING eTx error count after alignment: 403098
+10-02-22 10:54:44 INFO   Power: On, Voltage: 1.0800 V, Current: 0.284264 A, Temp: -21.9695 C, Res.: 915.42 Ohms
+10-02-22 10:54:44 INFO   Word count 414747493, error count 414747493
+10-02-22 10:54:44 INFO   Word count 414796402, error count 414796402
+10-02-22 10:54:53 ERROR  Errors in 1 consecutive comparisons
+10-02-22 10:55:04 INFO   Power: On, Voltage: 1.0700 V, Current: 0.284260 A, Temp: -21.9527 C, Res.: 915.48 Ohms
+10-02-22 10:55:04 INFO   Word count 414545068, error count 414545068
+10-02-22 10:55:04 INFO   Word count 414595322, error count 414595322
+10-02-22 10:55:13 ERROR  Errors in 2 consecutive comparisons
+10-02-22 10:55:23 INFO   Power: On, Voltage: 1.0800 V, Current: 0.284254 A, Temp: -22.0114 C, Res.: 915.26 Ohms
+10-02-22 10:55:23 INFO   Word count 414745859, error count 414745859
+10-02-22 10:55:23 INFO   Word count 414802444, error count 414802444
+10-02-22 10:55:32 ERROR  Errors in 3 consecutive comparisons
+10-02-22 10:55:32 WARNING Starting Reset Process
+10-02-22 10:55:32 INFO   Word count 88482, error count 88482
+10-02-22 10:55:33 WARNING     Step 1 - Realign Output
+10-02-22 10:55:36 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:55:38 DEBUG  Links from-IO are aligned
+10-02-22 10:55:38 DEBUG  P-side delay setting: {0: 74, 1: 84, 2: 335, 3: 79, 4: 137, 5: 112, 6: 390, 7: 129, 8: 166, 9: 71, 10: 106, 11: 101, 12: 79}, Eye width: {0: 136, 1: 136, 2: 136, 3: 152, 4: 136, 5: 144, 6: 136, 7: 136, 8: 128, 9: 136, 10: 128, 11: 136, 12: 128}
+10-02-22 10:55:38 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:55:38 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:55:38 INFO   Links lc-ASIC are aligned
+10-02-22 10:55:42 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:55:42 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:55:42 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:55:44 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:55:44 DEBUG  Compare BX0
+10-02-22 10:55:44 DEBUG  Reference position is same as target 103
+10-02-22 10:55:44 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:55:44 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:55:44 INFO   Found BX0 word for ASIC 103
+10-02-22 10:55:44 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:55:44 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:55:44 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:55:46 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:55:46 DEBUG  Compare BX0
+10-02-22 10:55:46 DEBUG  Reference position is 103
+10-02-22 10:55:46 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:55:46 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:55:46 INFO   Found BX0 word for emulator 103 
+10-02-22 10:55:47 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:55:47 INFO   Word count 409159, error count 403044
+10-02-22 10:55:47 WARNING eTx error count after alignment: 403044
+10-02-22 10:55:55 INFO   Word count 40070857, error count 40070857
+10-02-22 10:55:56 WARNING     Errors Persisted, Step 2 - Realign Input
+10-02-22 10:56:00 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:56:03 INFO   ASIC
+10-02-22 10:56:03 INFO   eRx 00:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 01:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 02:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 03:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 04:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 05:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 06:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 07:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 08:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 09:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 10:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   eRx 11:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:03 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:56:05 INFO   ASIC
+10-02-22 10:56:05 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   Good ASIC alignment
+10-02-22 10:56:05 INFO   Trying alignment with delay=4
+10-02-22 10:56:05 INFO   ASIC
+10-02-22 10:56:05 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:05 INFO   Emulator
+10-02-22 10:56:05 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:05 INFO   Good ASIC alignment
+10-02-22 10:56:05 INFO   Good emulator alignment
+10-02-22 10:56:05 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:56:07 INFO   Good hdr_mm_counters, not increasing: [58 57 56 56 56 58 56 57 56 57 56 56]
+10-02-22 10:56:11 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:56:12 DEBUG  Links from-IO are aligned
+10-02-22 10:56:12 DEBUG  P-side delay setting: {0: 303, 1: 86, 2: 105, 3: 312, 4: 366, 5: 113, 6: 160, 7: 129, 8: 395, 9: 297, 10: 107, 11: 101, 12: 78}, Eye width: {0: 128, 1: 136, 2: 136, 3: 144, 4: 128, 5: 144, 6: 144, 7: 136, 8: 136, 9: 136, 10: 136, 11: 128, 12: 136}
+10-02-22 10:56:12 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:56:12 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:12 INFO   Links lc-ASIC are aligned
+10-02-22 10:56:16 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:56:16 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:56:16 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:56:18 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:56:18 DEBUG  Compare BX0
+10-02-22 10:56:18 DEBUG  Reference position is same as target 103
+10-02-22 10:56:18 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:56:18 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:56:18 INFO   Found BX0 word for ASIC 103
+10-02-22 10:56:18 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:56:18 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:56:18 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:56:20 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:56:20 DEBUG  Compare BX0
+10-02-22 10:56:20 DEBUG  Reference position is 103
+10-02-22 10:56:20 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:56:20 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:56:20 INFO   Found BX0 word for emulator 103 
+10-02-22 10:56:22 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:56:22 INFO   Word count 409089, error count 402970
+10-02-22 10:56:22 WARNING eTx error count after alignment: 402970
+10-02-22 10:56:30 INFO   Word count 40070994, error count 40070994
+10-02-22 10:56:31 WARNING     Errors Persisted, Step 3 - Soft Reset
+10-02-22 10:56:35 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:56:37 INFO   ASIC
+10-02-22 10:56:37 INFO   eRx 00:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 01:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 02:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 03:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 04:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 05:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 06:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 07:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 08:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 09:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 10:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   eRx 11:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:56:37 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:56:40 INFO   ASIC
+10-02-22 10:56:40 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   Good ASIC alignment
+10-02-22 10:56:40 INFO   Trying alignment with delay=4
+10-02-22 10:56:40 INFO   ASIC
+10-02-22 10:56:40 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:56:40 INFO   Emulator
+10-02-22 10:56:40 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:56:40 INFO   Good ASIC alignment
+10-02-22 10:56:40 INFO   Good emulator alignment
+10-02-22 10:56:40 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:56:42 INFO   Good hdr_mm_counters, not increasing: [57 56 56 56 56 56 56 56 56 56 56 56]
+10-02-22 10:56:45 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:56:47 DEBUG  Links from-IO are aligned
+10-02-22 10:56:47 DEBUG  P-side delay setting: {0: 304, 1: 316, 2: 107, 3: 308, 4: 136, 5: 341, 6: 160, 7: 129, 8: 166, 9: 70, 10: 108, 11: 330, 12: 308}, Eye width: {0: 128, 1: 136, 2: 136, 3: 144, 4: 128, 5: 136, 6: 144, 7: 136, 8: 128, 9: 136, 10: 128, 11: 128, 12: 136}
+10-02-22 10:56:47 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:56:47 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:56:47 INFO   Links lc-ASIC are aligned
+10-02-22 10:56:51 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:56:51 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:56:51 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:56:53 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:56:53 DEBUG  Compare BX0
+10-02-22 10:56:53 DEBUG  Reference position is same as target 103
+10-02-22 10:56:53 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:56:53 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:56:53 INFO   Found BX0 word for ASIC 103
+10-02-22 10:56:53 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:56:53 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:56:53 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:56:55 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:56:55 DEBUG  Compare BX0
+10-02-22 10:56:55 DEBUG  Reference position is 103
+10-02-22 10:56:55 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:56:55 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:56:55 INFO   Found BX0 word for emulator 103 
+10-02-22 10:56:56 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:56:56 INFO   Word count 409146, error count 403031
+10-02-22 10:56:56 WARNING eTx error count after alignment: 403031
+10-02-22 10:57:04 INFO   Word count 40070969, error count 40070969
+10-02-22 10:57:05 WARNING     Errors Persisted, Step 4 - Hard Reset
+10-02-22 10:57:10 DEBUG  Sending 32 bit PRBS w no header mask
+10-02-22 10:57:10 INFO    phaseSelect: 00, prbs_chk_err_cnt: [255, 255, 25, 255, 21, 0, 0, 0, 4, 0, 0, 0]
+10-02-22 10:57:10 INFO    phaseSelect: 01, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 125, 255, 29, 255, 255, 255, 255]
+10-02-22 10:57:10 INFO    phaseSelect: 02, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:57:11 INFO    phaseSelect: 03, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:57:11 INFO    phaseSelect: 04, prbs_chk_err_cnt: [255, 0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:57:11 INFO    phaseSelect: 05, prbs_chk_err_cnt: [0, 0, 3, 0, 1, 255, 255, 255, 0, 255, 0, 11]
+10-02-22 10:57:11 INFO    phaseSelect: 06, prbs_chk_err_cnt: [0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-02-22 10:57:11 INFO    phaseSelect: 07, prbs_chk_err_cnt: [0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-02-22 10:57:12 INFO    phaseSelect: 08, prbs_chk_err_cnt: [255, 255, 255, 255, 243, 0, 48, 0, 42, 0, 0, 3]
+10-02-22 10:57:12 INFO    phaseSelect: 09, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 163, 255, 0, 255, 255, 255, 255]
+10-02-22 10:57:12 INFO    phaseSelect: 10, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:57:12 INFO    phaseSelect: 11, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:57:12 INFO    phaseSelect: 12, prbs_chk_err_cnt: [255, 0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+10-02-22 10:57:13 INFO    phaseSelect: 13, prbs_chk_err_cnt: [125, 0, 131, 181, 255, 255, 255, 255, 0, 255, 1, 54]
+10-02-22 10:57:13 INFO    phaseSelect: 14, prbs_chk_err_cnt: [0, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-02-22 10:57:13 INFO   Error Array:
+array([[255, 255,  25, 255,  21,   0,   0,   0,   4,   0,   0,   0],
+       [255, 255, 255, 255, 255, 125, 255,  29, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [  0,   0,   3,   0,   1, 255, 255, 255,   0, 255,   0,  11],
+       [  0,  39,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [  0, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [255, 255, 255, 255, 243,   0,  48,   0,  42,   0,   0,   3],
+       [255, 255, 255, 255, 255, 163, 255,   0, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [125,   0, 131, 181, 255, 255, 255, 255,   0, 255,   1,  54],
+       [  0, 102,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]])
+10-02-22 10:57:13 INFO   Best phase settings: 6,5,6,6,6,7,7,7,6,7,6,7
+10-02-22 10:57:13 INFO   Best phase settings (5-setting window): 6,5,6,6,6,7,7,7,6,7,6,7
+10-02-22 10:57:14 DEBUG  Set fixed phase 6,5,6,6,6,7,7,7,6,7,6,7
+10-02-22 10:57:16 DEBUG  Sending 28 bit PRBS w headers
+10-02-22 10:57:17 INFO   FC status_locked: 1
+10-02-22 10:57:17 INFO   PUSM status: 9
+10-02-22 10:57:21 INFO   Trying alignment with snapshot BX=2
+10-02-22 10:57:23 INFO   ASIC
+10-02-22 10:57:23 INFO   eRx 00:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 01:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 02:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 03:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 04:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 05:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 06:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 07:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 08:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 09:  status 6 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 10:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   eRx 11:  status 2 / select 160 / snapshot 995999999959999999599999995999999959999999399999
+10-02-22 10:57:23 INFO   Trying alignment with snapshot BX=3
+10-02-22 10:57:26 INFO   ASIC
+10-02-22 10:57:26 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   Good ASIC alignment
+10-02-22 10:57:26 INFO   Trying alignment with delay=4
+10-02-22 10:57:26 INFO   ASIC
+10-02-22 10:57:26 INFO   eRx 00:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 01:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 02:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 03:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 04:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 05:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 06:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 07:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 08:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 09:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 10:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   eRx 11:  status 3 / select 057 / snapshot 995999999959999999599999995999999939999999599999
+10-02-22 10:57:26 INFO   Emulator
+10-02-22 10:57:26 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+10-02-22 10:57:26 INFO   Good ASIC alignment
+10-02-22 10:57:26 INFO   Good emulator alignment
+10-02-22 10:57:26 INFO   Good input word alignment, snapshotBX 3 and delay 4
+10-02-22 10:57:28 INFO   Good hdr_mm_counters, not increasing: [56 56 75 65 68 56 56 56 56 56 56 56]
+10-02-22 10:57:31 DEBUG  Aligning ASIC: Setting phase of enable to 0
+10-02-22 10:57:33 DEBUG  Links from-IO are aligned
+10-02-22 10:57:33 DEBUG  P-side delay setting: {0: 305, 1: 316, 2: 105, 3: 79, 4: 133, 5: 110, 6: 159, 7: 356, 8: 165, 9: 296, 10: 105, 11: 328, 12: 78}, Eye width: {0: 136, 1: 128, 2: 136, 3: 144, 4: 136, 5: 144, 6: 136, 7: 136, 8: 128, 9: 136, 10: 136, 11: 128, 12: 136}
+10-02-22 10:57:33 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:57:33 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+10-02-22 10:57:33 INFO   Links lc-ASIC are aligned
+10-02-22 10:57:37 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+10-02-22 10:57:37 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:57:37 DEBUG  Set acquire to 1 for ['lc-ASIC']
+10-02-22 10:57:39 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:57:39 DEBUG  Compare BX0
+10-02-22 10:57:39 DEBUG  Reference position is same as target 103
+10-02-22 10:57:39 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:57:39 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:57:39 INFO   Found BX0 word for ASIC 103
+10-02-22 10:57:39 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+10-02-22 10:57:39 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+10-02-22 10:57:39 DEBUG  Set acquire to 1 for ['lc-emulator']
+10-02-22 10:57:41 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+10-02-22 10:57:41 DEBUG  Compare BX0
+10-02-22 10:57:41 DEBUG  Reference position is 103
+10-02-22 10:57:41 DEBUG  All links found BX0 in the same position as reference position 103
+10-02-22 10:57:41 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+10-02-22 10:57:41 INFO   Found BX0 word for emulator 103 
+10-02-22 10:57:42 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+10-02-22 10:57:42 INFO   Word count 409103, error count 402988
+10-02-22 10:57:42 WARNING eTx error count after alignment: 402988
+10-02-22 10:57:50 INFO   Word count 40071234, error count 40071234
+10-02-22 10:57:51 WARNING     Errors Persisted after Hard Reset
+10-02-22 10:58:02 INFO   Power: On, Voltage: 1.0800 V, Current: 0.284128 A, Temp: -22.0595 C, Res.: 915.07 Ohms
+10-02-22 10:58:02 ERROR  TOO MANY FAILED RESET ATTEMPTS, STOPPING DAQ COMPARISON
+10-02-22 10:58:12 INFO   Power: On, Voltage: 1.0800 V, Current: 0.284132 A, Temp: -22.0304 C, Res.: 915.18 Ohms
+10-02-22 10:58:22 INFO   Power: On, Voltage: 1.0800 V, Current: 0.284130 A, Temp: -22.0474 C, Res.: 915.12 Ohms
+10-02-22 10:58:23 ERROR  RO Mismatches: {'ASIC': {'CH_ALIGNER_0INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_1INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_2INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (55, 57), 'snapshot': (136029870018619485330172765565202359910, 0), 'snapshot2': (7374194029855401574, 0)}, 'CH_ALIGNER_3INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_4INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (55, 57), 'snapshot': (136029870018619485330172765565202359910, 0), 'snapshot2': (7374194029855401574, 0)}, 'CH_ALIGNER_5INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (55, 57), 'snapshot': (136029870018619485330172765565202359910, 0), 'snapshot2': (7374194029855401574, 0)}, 'CH_ALIGNER_6INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_7INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_8INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_9INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_10INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (56, 57), 'snapshot': (272059740037238970660345531130404719820, 0), 'snapshot2': (14748388059710803148, 0)}, 'CH_ALIGNER_11INPUT_ALL': {'status': (1, 0), 'status_pattern_match': (1, 0), 'select': (55, 57), 'snapshot': (136029870018619485330172765565202359910, 0), 'snapshot2': (7374194029855401574, 0)}, 'CH_ERR_12_ALL': {'error_data': (86, 84), 'error_data_err_dat': (22, 20)}, 'CH_EPRXGRP_0INPUT_ALL': {'status': (206, 218), 'status_phaseSelect': (3, 6)}, 'CH_EPRXGRP_1INPUT_ALL': {'status': (202, 214), 'status_phaseSelect': (2, 5)}, 'CH_EPRXGRP_2INPUT_ALL': {'status': (238, 218), 'status_phaseSelect': (11, 6)}, 'CH_EPRXGRP_3INPUT_ALL': {'status': (206, 218), 'status_phaseSelect': (3, 6)}, 'CH_EPRXGRP_4INPUT_ALL': {'status': (238, 218), 'status_phaseSelect': (11, 6)}, 'CH_EPRXGRP_5INPUT_ALL': {'status': (242, 222), 'status_phaseSelect': (12, 7)}, 'CH_EPRXGRP_6INPUT_ALL': {'status': (206, 222), 'status_phaseSelect': (3, 7)}, 'CH_EPRXGRP_7INPUT_ALL': {'status': (210, 222), 'status_phaseSelect': (4, 7)}, 'CH_EPRXGRP_8INPUT_ALL': {'status': (206, 218), 'status_phaseSelect': (3, 6)}, 'CH_EPRXGRP_9INPUT_ALL': {'status': (210, 222), 'status_phaseSelect': (4, 7)}, 'CH_EPRXGRP_10INPUT_ALL': {'status': (206, 218), 'status_phaseSelect': (3, 6)}, 'CH_EPRXGRP_11INPUT_ALL': {'status': (238, 222), 'status_phaseSelect': (11, 7)}, 'ALIGNER_ALL': {'status': (255, 254), 'status_done': (1, 0)}, 'PLL_ALL': {'pll_read_bytes_2to0': (974862, 975006), 'pll_read_bytes_2to0_lfLossOfLockCount': (0, 9), 'pll_read_bytes_4to3': (0, 8), 'pll_read_bytes_4to3_pll_not_locked_timeout': (0, 1)}}}
+10-02-22 10:58:23 DEBUG  RO Mismatches: {'ASIC': {}}
+10-02-22 10:58:23 ERROR  RW Mismatches: {'CH_ALIGNER_0INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_1INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_2INPUT_ALL': {'sel_override_val': ('0x37', '0x39')}, 'CH_ALIGNER_3INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_4INPUT_ALL': {'sel_override_val': ('0x37', '0x39')}, 'CH_ALIGNER_5INPUT_ALL': {'sel_override_val': ('0x37', '0x39')}, 'CH_ALIGNER_6INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_7INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_8INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_9INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_10INPUT_ALL': {'sel_override_val': ('0x38', '0x39')}, 'CH_ALIGNER_11INPUT_ALL': {'sel_override_val': ('0x37', '0x39')}, 'CH_EPRXGRP_0INPUT_ALL': {'config': ('0x18', '0x30'), 'config_phaseSelect': ('0x3', '0x6')}, 'CH_EPRXGRP_1INPUT_ALL': {'config': ('0x10', '0x28'), 'config_phaseSelect': ('0x2', '0x5')}, 'CH_EPRXGRP_2INPUT_ALL': {'config': ('0x58', '0x30'), 'config_phaseSelect': ('0xb', '0x6')}, 'CH_EPRXGRP_3INPUT_ALL': {'config': ('0x18', '0x30'), 'config_phaseSelect': ('0x3', '0x6')}, 'CH_EPRXGRP_4INPUT_ALL': {'config': ('0x58', '0x30'), 'config_phaseSelect': ('0xb', '0x6')}, 'CH_EPRXGRP_5INPUT_ALL': {'config': ('0x60', '0x38'), 'config_phaseSelect': ('0xc', '0x7')}, 'CH_EPRXGRP_6INPUT_ALL': {'config': ('0x18', '0x38'), 'config_phaseSelect': ('0x3', '0x7')}, 'CH_EPRXGRP_7INPUT_ALL': {'config': ('0x20', '0x38'), 'config_phaseSelect': ('0x4', '0x7')}, 'CH_EPRXGRP_8INPUT_ALL': {'config': ('0x18', '0x30'), 'config_phaseSelect': ('0x3', '0x6')}, 'CH_EPRXGRP_9INPUT_ALL': {'config': ('0x20', '0x38'), 'config_phaseSelect': ('0x4', '0x7')}, 'CH_EPRXGRP_10INPUT_ALL': {'config': ('0x18', '0x30'), 'config_phaseSelect': ('0x3', '0x6')}, 'CH_EPRXGRP_11INPUT_ALL': {'config': ('0x58', '0x38'), 'config_phaseSelect': ('0xb', '0x7')}, 'PLL_ALL': {'pll_bytes_17to13': ('0xe10d82998', '0xf10d82998'), 'pll_bytes_17to13_fromMemToLJCDR_CBOvcoCapSelect': ('0x1c', '0x1e')}}
+10-02-22 10:58:34 INFO   Power: On, Voltage: 1.0700 V, Current: 0.284128 A, Temp: -22.0631 C, Res.: 915.06 Ohms
+10-02-22 10:58:44 INFO   Power: On, Voltage: 1.0700 V, Current: 0.284115 A, Temp: -22.1123 C, Res.: 914.87 Ohms

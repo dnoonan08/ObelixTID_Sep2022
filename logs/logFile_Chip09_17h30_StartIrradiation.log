@@ -1,0 +1,255 @@
+09-30-22 15:30:59 INFO   Starting
+09-30-22 15:30:59 INFO   Using Board 9
+09-30-22 15:31:00 INFO   Power: On, Voltage: -1.0000 V, Current: -1.000000 A, Temp: -22.2348 C, Res.: 914.40 Ohms
+09-30-22 15:31:00 DEBUG  Sending 28 bit PRBS w headers
+09-30-22 15:31:00 INFO   Configuring ASIC
+09-30-22 15:31:02 DEBUG  Sending 32 bit PRBS w no header mask
+09-30-22 15:31:03 INFO    phaseSelect: 00, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-30-22 15:31:03 INFO    phaseSelect: 01, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-30-22 15:31:03 INFO    phaseSelect: 02, prbs_chk_err_cnt: [255, 9, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-30-22 15:31:04 INFO    phaseSelect: 03, prbs_chk_err_cnt: [21, 0, 38, 20, 13, 255, 255, 255, 2, 255, 13, 206]
+09-30-22 15:31:04 INFO    phaseSelect: 04, prbs_chk_err_cnt: [0, 0, 0, 0, 0, 5, 0, 4, 0, 1, 0, 0]
+09-30-22 15:31:04 INFO    phaseSelect: 05, prbs_chk_err_cnt: [0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-30-22 15:31:04 INFO    phaseSelect: 06, prbs_chk_err_cnt: [6, 255, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0]
+09-30-22 15:31:04 INFO    phaseSelect: 07, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 0, 255, 0, 255, 3, 255, 255]
+09-30-22 15:31:04 INFO    phaseSelect: 08, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-30-22 15:31:05 INFO    phaseSelect: 09, prbs_chk_err_cnt: [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-30-22 15:31:05 INFO    phaseSelect: 10, prbs_chk_err_cnt: [255, 0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+09-30-22 15:31:05 INFO    phaseSelect: 11, prbs_chk_err_cnt: [255, 0, 21, 93, 11, 255, 32, 255, 13, 255, 28, 105]
+09-30-22 15:31:05 INFO    phaseSelect: 12, prbs_chk_err_cnt: [0, 1, 0, 0, 0, 8, 0, 8, 0, 1, 0, 0]
+09-30-22 15:31:05 INFO    phaseSelect: 13, prbs_chk_err_cnt: [0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-30-22 15:31:06 INFO    phaseSelect: 14, prbs_chk_err_cnt: [13, 255, 27, 46, 164, 0, 35, 0, 0, 0, 0, 0]
+09-30-22 15:31:06 INFO   Error Array:
+array([[255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   9, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [ 21,   0,  38,  20,  13, 255, 255, 255,   2, 255,  13, 206],
+       [  0,   0,   0,   0,   0,   5,   0,   4,   0,   1,   0,   0],
+       [  0,  15,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [  6, 255,   0,   1,   1,   0,   0,   0,   1,   0,   0,   0],
+       [255, 255, 255, 255, 255,   0, 255,   0, 255,   3, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255],
+       [255,   0,  21,  93,  11, 255,  32, 255,  13, 255,  28, 105],
+       [  0,   1,   0,   0,   0,   8,   0,   8,   0,   1,   0,   0],
+       [  0, 255,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
+       [ 13, 255,  27,  46, 164,   0,  35,   0,   0,   0,   0,   0]])
+09-30-22 15:31:06 INFO   Best phase settings: 5,11,5,5,5,6,5,6,13,5,5,5
+09-30-22 15:31:06 INFO   Best phase settings (5-setting window): 5,3,5,5,5,6,12,6,5,5,5,5
+09-30-22 15:31:06 DEBUG  Set fixed phase 5,3,5,5,5,6,12,6,5,5,5,5
+09-30-22 15:31:07 DEBUG  Sending 28 bit PRBS w headers
+09-30-22 15:31:08 INFO   FC status_locked: 1
+09-30-22 15:31:08 INFO   PUSM status: 9
+09-30-22 15:31:11 INFO   Trying alignment with snapshot BX=2
+09-30-22 15:31:13 INFO   ASIC
+09-30-22 15:31:13 INFO   eRx 00:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 01:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 02:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 03:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 04:  status 6 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 05:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 06:  status 2 / select 160 / snapshot 6656666666566666665666666656666666566666664e6666
+09-30-22 15:31:13 INFO   eRx 07:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 08:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 09:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 10:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   eRx 11:  status 2 / select 160 / snapshot ccacccccccacccccccacccccccacccccccaccccccc9ccccc
+09-30-22 15:31:13 INFO   Trying alignment with snapshot BX=3
+09-30-22 15:31:15 INFO   ASIC
+09-30-22 15:31:15 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 06:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+09-30-22 15:31:15 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   Good ASIC alignment
+09-30-22 15:31:15 INFO   Trying alignment with delay=4
+09-30-22 15:31:15 INFO   ASIC
+09-30-22 15:31:15 INFO   eRx 00:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 01:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 02:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 03:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 04:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 05:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 06:  status 3 / select 055 / snapshot 66566666665666666656666666566666664e666666566666
+09-30-22 15:31:15 INFO   eRx 07:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 08:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 09:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 10:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   eRx 11:  status 3 / select 056 / snapshot ccacccccccacccccccacccccccaccccccc9cccccccaccccc
+09-30-22 15:31:15 INFO   Emulator
+09-30-22 15:31:15 INFO   eRx 00:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 01:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 02:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 03:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 04:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 05:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 06:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 07:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 08:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 09:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 10:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   eRx 11:  status 2 / select 032 / snapshot acccccccacccccccacccccccacccccccaccccccc9ccccccc
+09-30-22 15:31:15 INFO   Good ASIC alignment
+09-30-22 15:31:15 INFO   Good emulator alignment
+09-30-22 15:31:15 INFO   Good input word alignment, snapshotBX 3 and delay 4
+09-30-22 15:31:17 INFO   Good hdr_mm_counters, not increasing: [55 62 55 55 55 55 54 55 55 55 55 55]
+09-30-22 15:31:20 DEBUG  Aligning ASIC: Setting phase of enable to 0
+09-30-22 15:31:21 DEBUG  Links from-IO are aligned
+09-30-22 15:31:21 DEBUG  P-side delay setting: {0: 285, 1: 295, 2: 312, 3: 290, 4: 342, 5: 312, 6: 130, 7: 326, 8: 362, 9: 281, 10: 320, 11: 307, 12: 293}, Eye width: {0: 144, 1: 152, 2: 152, 3: 160, 4: 152, 5: 152, 6: 152, 7: 152, 8: 152, 9: 152, 10: 152, 11: 152, 12: 152}
+09-30-22 15:31:22 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-30-22 15:31:22 DEBUG  lc-ASIC link 0: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 1: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 2: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 3: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 4: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 5: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 6: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 7: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 8: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 9: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 10: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 11: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 DEBUG  lc-ASIC link 12: aligned(1), delayready(1), waiting(0), writing(0), aligned_c(128), error_c(0)
+09-30-22 15:31:22 INFO   Links lc-ASIC are aligned
+09-30-22 15:31:27 DEBUG  Scan latency values for lc-ASIC with nlinks 13, starting value 0 and reference BX0 position None
+09-30-22 15:31:27 DEBUG  Written latencies in lc-ASIC: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-30-22 15:31:27 DEBUG  Set acquire to 1 for ['lc-ASIC']
+09-30-22 15:31:29 DEBUG  Found alignment word for lc-ASIC in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-30-22 15:31:29 DEBUG  Compare BX0
+09-30-22 15:31:29 DEBUG  Reference position is same as target 103
+09-30-22 15:31:29 DEBUG  All links found BX0 in the same position as reference position 103
+09-30-22 15:31:29 DEBUG  Found latency for ASIC [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-30-22 15:31:29 INFO   Found BX0 word for ASIC 103
+09-30-22 15:31:29 DEBUG  Scan latency values for lc-emulator with nlinks 13, starting value 0 and reference BX0 position 103
+09-30-22 15:31:29 DEBUG  Written latencies in lc-emulator: [0 0 0 0 0 0 0 0 0 0 0 0 0]
+09-30-22 15:31:29 DEBUG  Set acquire to 1 for ['lc-emulator']
+09-30-22 15:31:31 DEBUG  Found alignment word for lc-emulator in BX0_rows: [103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, 103, -1, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667, 3667]
+09-30-22 15:31:31 DEBUG  Compare BX0
+09-30-22 15:31:31 DEBUG  Reference position is 103
+09-30-22 15:31:31 DEBUG  All links found BX0 in the same position as reference position 103
+09-30-22 15:31:31 DEBUG  Found latency for emulator [0 0 0 0 0 0 0 0 0 0 0 0 0] 
+09-30-22 15:31:31 INFO   Found BX0 word for emulator 103 
+09-30-22 15:31:32 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator']
+09-30-22 15:31:32 INFO   Word count 409194, error count 0
+09-30-22 15:31:32 INFO   Links are aligned between ASIC and emulator
+09-30-22 15:31:35 DEBUG  Stop continous acquire for lc-ASIC
+09-30-22 15:31:35 DEBUG  Stop continous acquire for lc-emulator
+09-30-22 15:31:35 DEBUG  Stop continous acquire for lc-input
+09-30-22 15:31:35 INFO   l1a counter 139
+09-30-22 15:31:35 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+09-30-22 15:31:35 DEBUG  L1A counter 140
+09-30-22 15:31:35 INFO   l1a counter 140
+09-30-22 15:31:36 INFO   Printing lc-ASIC
+09-30-22 15:31:36 INFO   1499ffff,ffffffff,6ecb66b6,ecb66b6e,cb66b6ec,b66b6ecb,66b6ecb6,6b6ecb66,b6ecb66b,6ecb66b6,ecb66b6e,cb66b6ec,b66b1122
+09-30-22 15:31:36 INFO   1c99ffff,ffffffff,b579bf1b,579bf1b5,79bf1b57,9bf1b579,bf1b579b,f1b579bf,1b579bf1,b579bf1b,579bf1b5,79bf1b57,9bf11922
+09-30-22 15:31:36 INFO   249faaaa,aaaaaaaa,59e967a5,9e967a59,e967a59e,967a59e9,67a59e96,7a002122,21222122,21222122,21222122,21222122,21222122
+09-30-22 15:31:36 INFO   2c773333,33333333,893a24e8,93a24e89,3a24e893,a24e893a,24e893a2,4e002922,29222922,29222922,29222922,29222922,29222922
+09-30-22 15:31:36 INFO   3491ffff,ffffffff,4da5add4,da5add4d,a5add4da,5add4da5,add4da5a,dd4da5ad,d4da5add,4da5add4,da5add4d,a5add4da,5add3122
+09-30-22 15:31:36 INFO   3c99ffff,ffffffff,deccc6ad,eccc6ade,ccc6adec,cc6adecc,c6adeccc,6adeccc6,adeccc6a,deccc6ad,eccc6ade,ccc6adec,cc6a3922
+09-30-22 15:31:36 INFO   44a7ffff,ffffffff,a97ff70a,97ff70a9,7ff70a97,ff70a97f,f70a97ff,70a97ff7,0a97ff70,a97ff70a,97ff70a9,7ff70a97,ff704122
+09-30-22 15:31:36 INFO   4c6d5555,55555555,90b242c9,0b242c90,b242c90b,242c90b2,42c90b24,2c004922,49224922,49224922,49224922,49224922,49224922
+09-30-22 15:31:36 INFO   549f4444,44444444,f5ebd7af,5ebd7af5,ebd7a000,51225122,51225122,51225122,51225122,51225122,51225122,51225122,51225122
+09-30-22 15:31:36 INFO   5c707777,77777777,89053448,29a2414d,120a6890,5344829a,2414d120,a6890534,4829a241,4d120a60,59225922,59225922,59225922
+09-30-22 15:31:36 INFO   Printing lc-emulator
+09-30-22 15:31:36 INFO   1499ffff,ffffffff,6ecb66b6,ecb66b6e,cb66b6ec,b66b6ecb,66b6ecb6,6b6ecb66,b6ecb66b,6ecb66b6,ecb66b6e,cb66b6ec,b66b1122
+09-30-22 15:31:36 INFO   1c99ffff,ffffffff,b579bf1b,579bf1b5,79bf1b57,9bf1b579,bf1b579b,f1b579bf,1b579bf1,b579bf1b,579bf1b5,79bf1b57,9bf11922
+09-30-22 15:31:36 INFO   249faaaa,aaaaaaaa,59e967a5,9e967a59,e967a59e,967a59e9,67a59e96,7a002122,21222122,21222122,21222122,21222122,21222122
+09-30-22 15:31:36 INFO   2c773333,33333333,893a24e8,93a24e89,3a24e893,a24e893a,24e893a2,4e002922,29222922,29222922,29222922,29222922,29222922
+09-30-22 15:31:36 INFO   3491ffff,ffffffff,4da5add4,da5add4d,a5add4da,5add4da5,add4da5a,dd4da5ad,d4da5add,4da5add4,da5add4d,a5add4da,5add3122
+09-30-22 15:31:36 INFO   3c99ffff,ffffffff,deccc6ad,eccc6ade,ccc6adec,cc6adecc,c6adeccc,6adeccc6,adeccc6a,deccc6ad,eccc6ade,ccc6adec,cc6a3922
+09-30-22 15:31:36 INFO   44a7ffff,ffffffff,a97ff70a,97ff70a9,7ff70a97,ff70a97f,f70a97ff,70a97ff7,0a97ff70,a97ff70a,97ff70a9,7ff70a97,ff704122
+09-30-22 15:31:36 INFO   4c6d5555,55555555,90b242c9,0b242c90,b242c90b,242c90b2,42c90b24,2c004922,49224922,49224922,49224922,49224922,49224922
+09-30-22 15:31:36 INFO   549f4444,44444444,f5ebd7af,5ebd7af5,ebd7a000,51225122,51225122,51225122,51225122,51225122,51225122,51225122,51225122
+09-30-22 15:31:36 INFO   5c707777,77777777,89053448,29a2414d,120a6890,5344829a,2414d120,a6890534,4829a241,4d120a60,59225922,59225922,59225922
+09-30-22 15:31:36 INFO   Printing lc-input
+09-30-22 15:31:36 INFO   a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7,a65155e7
+09-30-22 15:31:36 INFO   afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e,afc5009e
+09-30-22 15:31:36 INFO   a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9,a03440b9
+09-30-22 15:31:36 INFO   a8395097,a8395097,a8395097,a8395097,a8395097,a8395097,a8395097,a8395097,a8395097,a8395097,a8395097,a8395097
+09-30-22 15:31:36 INFO   ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2,ae3704b2
+09-30-22 15:31:36 INFO   a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e,a1bac59e
+09-30-22 15:31:36 INFO   a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9,a9d474f9
+09-30-22 15:31:36 INFO   a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7,a3a169c7
+09-30-22 15:31:36 INFO   a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6,a74933b6
+09-30-22 15:31:36 INFO   aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b,aa9b7f5b
+09-30-22 15:31:36 INFO   Configuring stream compare
+09-30-22 15:31:37 DEBUG  Stop continous acquire for lc-input
+09-30-22 15:31:37 DEBUG  Stop continous acquire for lc-ASIC
+09-30-22 15:31:37 DEBUG  Stop continous acquire for lc-emulator
+09-30-22 15:31:37 DEBUG  Configure continous acquire
+09-30-22 15:31:37 INFO   Starting stream compare (CTRL-C to stop and do capture and I2C compare)
+09-30-22 15:31:41 ERROR  Unable to reconnect to GPIB
+09-30-22 15:31:41 INFO   Power: On, Voltage: -1.0000 V, Current: -1.000000 A, Temp: -22.2396 C, Res.: 914.38 Ohms
+09-30-22 15:31:41 INFO   Word count 126341670, error count 0
+09-30-22 15:31:42 ERROR  RO Mismatches: {'ASIC': {'CH_ERR_12_ALL': {'error_data': (84, 86), 'error_data_err_dat': (20, 22)}}}
+09-30-22 15:31:42 DEBUG  RO Mismatches: {'ASIC': {}}
+09-30-22 15:31:42 INFO   RW Matches
+09-30-22 15:31:42 INFO   Word count 163600425, error count 0
+09-30-22 15:31:43 DEBUG  Stop continous acquire for lc-ASIC
+09-30-22 15:31:43 DEBUG  Stop continous acquire for lc-emulator
+09-30-22 15:31:43 DEBUG  Stop continous acquire for lc-input
+09-30-22 15:31:43 INFO   l1a counter 140
+09-30-22 15:31:43 DEBUG  Set acquire to 1 for ['lc-ASIC', 'lc-emulator', 'lc-input']
+09-30-22 15:31:43 DEBUG  L1A counter 141
+09-30-22 15:31:43 INFO   l1a counter 141
+09-30-22 15:31:44 INFO   Printing lc-ASIC
+09-30-22 15:31:44 INFO   1493eeee,eeeeeeee,638f4b1c,7a58e3d2,c71e9638,f4b1c7a5,8e3d2c71,e9638f4b,1c7a58e3,d2c71e90,11221122,11221122,11221122
+09-30-22 15:31:44 INFO   1c81dddd,dddddddd,3b6db1db,6d8edb6c,76db63b6,db1db6d8,edb6c76d,b63b6db1,db6d8edb,6c76db60,19221922,19221922,19221922
+09-30-22 15:31:44 INFO   24a1ffff,ffffffff,b5b7bdbb,5b7bdbb5,b7bdbb5b,7bdbb5b7,bdbb5b7b,dbb5b7bd,bb5b7bdb,b5b7bdbb,5b7bdbb5,b7bdbb5b,7bdb2122
+09-30-22 15:31:44 INFO   2c717777,77777777,6d296b69,4b5b4a5a,da52d6d2,96b694b5,b4a5ada5,2d6d296b,694b5b4a,5ada52d0,29222922,29222922,29222922
+09-30-22 15:31:44 INFO   3498ffff,ffffffff,deecc66d,eecc66de,ecc66dee,cc66deec,c66deecc,66deecc6,6deecc66,deecc66d,eecc66de,ecc66dee,cc663122
+09-30-22 15:31:44 INFO   3cabffff,ffffffff,a957f7fa,957f7fa9,57f7fa95,7f7fa957,f7fa957f,7fa957f7,fa957f7f,a957f7fa,957f7fa9,57f7fa95,7f7f3922
+09-30-22 15:31:44 INFO   446d7777,77777777,81050408,28204141,020a0810,50408282,04141020,a0810504,08282041,41020a00,41224122,41224122,41224122
+09-30-22 15:31:44 INFO   4c98eeee,eeeeeeee,c3c28e1e,1470f0a3,87851c3c,28e1e147,0f0a3878,51c3c28e,1e1470f0,a3878510,49224922,49224922,49224922
+09-30-22 15:31:44 INFO   549effff,ffffffff,f3322aaf,3322aaf3,322aaf33,22aaf332,2aaf3322,aaf3322a,af3322aa,f3322aaf,3322aaf3,322aaf33,22aa5122
+09-30-22 15:31:44 INFO   5ca5eeee,eeeeeeee,cffea67f,f533ffa9,9ffd4cff,ea67ff53,3ffa99ff,d4cffea6,7ff533ff,a99ffd40,59225922,59225922,59225922
+09-30-22 15:31:44 INFO   Printing lc-emulator
+09-30-22 15:31:44 INFO   1493eeee,eeeeeeee,638f4b1c,7a58e3d2,c71e9638,f4b1c7a5,8e3d2c71,e9638f4b,1c7a58e3,d2c71e90,11221122,11221122,11221122
+09-30-22 15:31:44 INFO   1c81dddd,dddddddd,3b6db1db,6d8edb6c,76db63b6,db1db6d8,edb6c76d,b63b6db1,db6d8edb,6c76db60,19221922,19221922,19221922
+09-30-22 15:31:44 INFO   24a1ffff,ffffffff,b5b7bdbb,5b7bdbb5,b7bdbb5b,7bdbb5b7,bdbb5b7b,dbb5b7bd,bb5b7bdb,b5b7bdbb,5b7bdbb5,b7bdbb5b,7bdb2122
+09-30-22 15:31:44 INFO   2c717777,77777777,6d296b69,4b5b4a5a,da52d6d2,96b694b5,b4a5ada5,2d6d296b,694b5b4a,5ada52d0,29222922,29222922,29222922
+09-30-22 15:31:44 INFO   3498ffff,ffffffff,deecc66d,eecc66de,ecc66dee,cc66deec,c66deecc,66deecc6,6deecc66,deecc66d,eecc66de,ecc66dee,cc663122
+09-30-22 15:31:44 INFO   3cabffff,ffffffff,a957f7fa,957f7fa9,57f7fa95,7f7fa957,f7fa957f,7fa957f7,fa957f7f,a957f7fa,957f7fa9,57f7fa95,7f7f3922
+09-30-22 15:31:44 INFO   446d7777,77777777,81050408,28204141,020a0810,50408282,04141020,a0810504,08282041,41020a00,41224122,41224122,41224122
+09-30-22 15:31:44 INFO   4c98eeee,eeeeeeee,c3c28e1e,1470f0a3,87851c3c,28e1e147,0f0a3878,51c3c28e,1e1470f0,a3878510,49224922,49224922,49224922
+09-30-22 15:31:44 INFO   549effff,ffffffff,f3322aaf,3322aaf3,322aaf33,22aaf332,2aaf3322,aaf3322a,af3322aa,f3322aaf,3322aaf3,322aaf33,22aa5122
+09-30-22 15:31:44 INFO   5ca5eeee,eeeeeeee,cffea67f,f533ffa9,9ffd4cff,ea67ff53,3ffa99ff,d4cffea6,7ff533ff,a99ffd40,59225922,59225922,59225922
+09-30-22 15:31:44 INFO   Printing lc-input
+09-30-22 15:31:44 INFO   a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090,a7c7d090
+09-30-22 15:31:44 INFO   ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4,ae3624b4
+09-30-22 15:31:44 INFO   adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99,adbbad99
+09-30-22 15:31:44 INFO   aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff,aed546ff
+09-30-22 15:31:44 INFO   a9601740,a9601740,a9601740,a9601740,a9601740,a9601740,a9601740,a9601740,a9601740,a9601740,a9601740,a9601740
+09-30-22 15:31:44 INFO   a7381290,a7381290,a7381290,a7381290,a7381290,a7381290,a7381290,a7381290,a7381290,a7381290,a7381290,a7381290
+09-30-22 15:31:44 INFO   a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634,a6f61634
+09-30-22 15:31:44 INFO   a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9,a74b93b9
+09-30-22 15:31:44 INFO   a6997757,a6997757,a6997757,a6997757,a6997757,a6997757,a6997757,a6997757,a6997757,a6997757,a6997757,a6997757
+09-30-22 15:31:44 INFO   a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82,a33f2a82
+09-30-22 15:31:44 DEBUG  Stop continous acquire for lc-input
+09-30-22 15:31:44 DEBUG  Stop continous acquire for lc-ASIC
+09-30-22 15:31:44 DEBUG  Stop continous acquire for lc-emulator
+09-30-22 15:31:44 DEBUG  Configure continous acquire
+09-30-22 15:31:44 INFO   Word count 23622, error count 0
+09-30-22 15:31:45 INFO   Starting Power Scans ( timestamp 30Sep_153144 )
+09-30-22 15:31:45 DEBUG  Sending 32 bit PRBS w no header mask
+09-30-22 15:31:45 INFO   Setting to 1.2 V
+09-30-22 15:31:48 ERROR  Stopping because of exception
+Traceback (most recent call last):
+  File "XrayTID_Testing.py", line 535, in <module>
+    _v=SetVoltage(1.2,maxTries=25)
+  File "XrayTID_Testing.py", line 123, in SetVoltage
+    ps.reconnect()
+  File "gpib/TestStand_Controls.py", line 19, in reconnect
+    self.gpib.reconnect()
+  File "gpib/plx_gpib_ethernet.py", line 28, in reconnect
+    self.socket.connect((self.host, self.PORT))
+OSError: [Errno 113] No route to host
+09-30-22 15:31:50 INFO   Word count 258806225, error count 0
